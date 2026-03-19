@@ -8,11 +8,15 @@ frontend-ready JSON for the UI to consume.
 
 ```bash
 python3 analytics/generate_analytics.py
+python3 analytics/generate_weather_averages.py
 ```
 
 ## Output
 
-The generator writes analytics JSON to `data/analytics.json`.
+The generators write analytics JSON to:
+
+- `data/analytics.json`
+- `data/weather_averages.json`
 
 ## What it does
 
@@ -26,3 +30,6 @@ The generator writes analytics JSON to `data/analytics.json`.
 
 Add new helper functions in `generate_analytics.py` and append new cards or series to the
 payload once you know which additional DuckDB columns should power them.
+
+`generate_weather_averages.py` is a dedicated weather summary export. It reads
+`raw.gamedayweather` and writes all-days and month-by-month averages for frontend use.
