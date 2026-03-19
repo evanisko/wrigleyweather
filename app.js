@@ -12,6 +12,9 @@ const elements = {
   currentRainChance: document.getElementById("current-rain-chance"),
   currentComfort: document.getElementById("current-comfort"),
   forecastList: document.getElementById("forecast-list"),
+  analyticsAvgTemp: document.getElementById("analytics-avg-temp"),
+  analyticsAvgWindSpeed: document.getElementById("analytics-avg-wind-speed"),
+  analyticsPrecipDays: document.getElementById("analytics-precip-days"),
 };
 
 function formatTimestamp(value) {
@@ -34,6 +37,18 @@ function formatTimestamp(value) {
 
 function formatDegrees(value) {
   return value == null ? "--" : `${value}`;
+}
+
+function formatCardValue(value, unit) {
+  if (value == null) {
+    return "--";
+  }
+
+  return unit ? `${value} ${unit}` : `${value}`;
+}
+
+function getAnalyticsCardValue(cards, cardId) {
+  return cards.find((card) => card.id === cardId)?.value ?? null;
 }
 
 function renderForecast(days) {
@@ -70,6 +85,22 @@ function renderWeather(data) {
   renderForecast(data.forecast || []);
 }
 
+function renderAnalytics(data) {
+  const cards = data.cards || [];
+  elements.analyticsAvgTemp.textContent = formatCardValue(
+    getAnalyticsCardValue(cards, "avg_temp"),
+    "F"
+  );
+  elements.analyticsAvgWindSpeed.textContent = formatCardValue(
+    getAnalyticsCardValue(cards, "avg_wind_speed"),
+    "mph"
+  );
+  elements.analyticsPrecipDays.textContent = formatCardValue(
+    getAnalyticsCardValue(cards, "precip_days"),
+    "days"
+  );
+}
+
 function renderError(message) {
   elements.serviceStatus.textContent = message;
   elements.serviceStatus.classList.add("is-error");
@@ -94,6 +125,12 @@ function renderError(message) {
   `;
 }
 
+function renderAnalyticsError() {
+  elements.analyticsAvgTemp.textContent = "--";
+  elements.analyticsAvgWindSpeed.textContent = "--";
+  elements.analyticsPrecipDays.textContent = "--";
+}
+
 async function loadWeather() {
   try {
     const response = await fetch("./data/weather.json", {
@@ -115,4 +152,26 @@ async function loadWeather() {
   }
 }
 
+async function loadAnalytics() {
+  try {
+    const response = await fetch("./data/analytics.json", {
+      headers: {
+        Accept: "application/json",
+      },
+      cache: "no-store",
+    });
+
+    if (!response.ok) {
+      throw new Error(`Analytics request failed with ${response.status}`);
+    }
+
+    const payload = await response.json();
+    renderAnalytics(payload);
+  } catch (error) {
+    renderAnalyticsError();
+    console.error(error);
+  }
+}
+
 loadWeather();
+loadAnalytics();
