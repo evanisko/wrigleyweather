@@ -10,20 +10,24 @@ const elements = {
   currentHumidity: document.getElementById("current-humidity"),
   currentRainChance: document.getElementById("current-rain-chance"),
   forecastList: document.getElementById("forecast-list"),
-  analyticsAvgTemp: document.getElementById("analytics-avg-temp"),
-  analyticsAvgTempDescription: document.getElementById("analytics-avg-temp-description"),
-  analyticsAvgWindSpeed: document.getElementById("analytics-avg-wind-speed"),
-  analyticsAvgWindDescription: document.getElementById("analytics-avg-wind-description"),
-  analyticsPrecipDays: document.getElementById("analytics-precip-days"),
+  analyticsAvgRuns: document.getElementById("analytics-avg-runs"),
+  analyticsAvgRunsDescription: document.getElementById("analytics-avg-runs-description"),
+  analyticsAvgHomeRuns: document.getElementById("analytics-avg-home-runs"),
+  analyticsAvgHomeRunsDescription: document.getElementById("analytics-avg-home-runs-description"),
+  analyticsAvgGameDuration: document.getElementById("analytics-avg-game-duration"),
+  analyticsAvgGameDurationDescription: document.getElementById(
+    "analytics-avg-game-duration-description"
+  ),
 };
 
 const WEATHER_DATA_URLS = ["/data/weather.json", "./data/weather.json"];
-const ANALYTICS_DATA_URLS = ["/data/analytics.json", "./data/analytics.json"];
 const WEATHER_AVERAGES_URLS = ["/data/weather_averages.json", "./data/weather_averages.json"];
+const BALL_AVERAGES_URLS = ["/data/ball_averages.json", "./data/ball_averages.json"];
 
 const appState = {
   weather: null,
   weatherAverages: null,
+  ballAverages: null,
 };
 
 function formatTimestamp(value) {
@@ -58,11 +62,6 @@ function formatCardValue(value, unit) {
   }
 
   return unit ? `${value} ${unit}` : `${value}`;
-}
-
-function getAnalyticsCardValue(cards, cardId) {
-  const match = cards.find((card) => card.id === cardId);
-  return match && match.value != null ? match.value : null;
 }
 
 async function fetchJson(urls) {
@@ -130,6 +129,15 @@ function getAnalyticsMonthAverage() {
   return getCurrentMonthAverage(monthlyAverages, comparisonDate);
 }
 
+function getBaseballMonthAverage() {
+  const comparisonDate =
+    appState.weather?.current?.updatedAt ||
+    appState.weather?.generatedAt ||
+    new Date().toISOString();
+  const monthlyAverages = appState.ballAverages?.metrics?.by_month || [];
+  return getCurrentMonthAverage(monthlyAverages, comparisonDate);
+}
+
 function renderTemperatureComparison() {
   const current = appState.weather?.current || null;
   const currentMonthAverage = getAnalyticsMonthAverage();
@@ -169,30 +177,27 @@ function renderWeather(data) {
   renderForecast(data.forecast || []);
   appState.weather = data;
   renderTemperatureComparison();
-  renderMonthlyAnalytics();
+  renderBallparkAnalytics();
 }
 
-function renderAnalytics(data) {
-  const cards = data.cards || [];
-  elements.analyticsPrecipDays.textContent = formatCardValue(
-    getAnalyticsCardValue(cards, "precip_days"),
-    "days"
-  );
-}
-
-function renderMonthlyAnalytics() {
-  const currentMonthAverage = getAnalyticsMonthAverage();
+function renderBallparkAnalytics() {
+  const currentMonthAverage = getBaseballMonthAverage();
   const monthLabel = currentMonthAverage?.month;
-  const temperature = currentMonthAverage?.averages?.temperature;
-  const windSpeed = currentMonthAverage?.averages?.wind_speed;
+  const runs = currentMonthAverage?.averages?.runs;
+  const homeRuns = currentMonthAverage?.averages?.home_runs;
+  const gameDuration = currentMonthAverage?.averages?.game_time_minutes;
 
-  elements.analyticsAvgTemp.textContent = formatCardValue(temperature, "F");
-  elements.analyticsAvgWindSpeed.textContent = formatCardValue(windSpeed, "mph");
+  elements.analyticsAvgRuns.textContent = formatCardValue(runs, null);
+  elements.analyticsAvgHomeRuns.textContent = formatCardValue(homeRuns, null);
+  elements.analyticsAvgGameDuration.textContent = formatCardValue(gameDuration, "min");
 
-  elements.analyticsAvgTempDescription.textContent = monthLabel
+  elements.analyticsAvgRunsDescription.textContent = monthLabel
     ? `${monthLabel} historical average`
     : "Historical average for this month";
-  elements.analyticsAvgWindDescription.textContent = monthLabel
+  elements.analyticsAvgHomeRunsDescription.textContent = monthLabel
+    ? `${monthLabel} historical average`
+    : "Historical average for this month";
+  elements.analyticsAvgGameDurationDescription.textContent = monthLabel
     ? `${monthLabel} historical average`
     : "Historical average for this month";
 }
@@ -221,12 +226,14 @@ function renderError(message) {
   `;
 }
 
-function renderAnalyticsError() {
-  elements.analyticsAvgTemp.textContent = "--";
-  elements.analyticsAvgWindSpeed.textContent = "--";
-  elements.analyticsPrecipDays.textContent = "--";
-  elements.analyticsAvgTempDescription.textContent = "Historical average for this month";
-  elements.analyticsAvgWindDescription.textContent = "Historical average for this month";
+function renderBallparkAnalyticsError() {
+  elements.analyticsAvgRuns.textContent = "--";
+  elements.analyticsAvgHomeRuns.textContent = "--";
+  elements.analyticsAvgGameDuration.textContent = "--";
+  elements.analyticsAvgRunsDescription.textContent = "Historical average for this month";
+  elements.analyticsAvgHomeRunsDescription.textContent = "Historical average for this month";
+  elements.analyticsAvgGameDurationDescription.textContent =
+    "Historical average for this month";
 }
 
 async function loadWeather() {
@@ -244,26 +251,28 @@ async function loadWeatherAverages() {
     const payload = await fetchJson(WEATHER_AVERAGES_URLS);
     appState.weatherAverages = payload;
     renderTemperatureComparison();
-    renderMonthlyAnalytics();
+    renderBallparkAnalytics();
   } catch (error) {
     appState.weatherAverages = null;
     renderTemperatureComparison();
-    renderMonthlyAnalytics();
+    renderBallparkAnalytics();
     console.error(error);
   }
 }
 
-async function loadAnalytics() {
+async function loadBallAverages() {
   try {
-    const payload = await fetchJson(ANALYTICS_DATA_URLS);
-    renderAnalytics(payload);
+    const payload = await fetchJson(BALL_AVERAGES_URLS);
+    appState.ballAverages = payload;
+    renderBallparkAnalytics();
   } catch (error) {
-    renderAnalyticsError();
+    appState.ballAverages = null;
+    renderBallparkAnalyticsError();
     console.error(error);
   }
 }
 
 loadWeather();
 loadWeatherAverages();
-loadAnalytics();
-renderMonthlyAnalytics();
+loadBallAverages();
+renderBallparkAnalytics();

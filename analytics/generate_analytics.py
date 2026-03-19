@@ -9,7 +9,7 @@ import duckdb
 
 
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
-DATABASE_PATH = PROJECT_ROOT / "analytics.duckdb"
+DATABASE_PATH = PROJECT_ROOT / ".local.nosync" / "analytics.duckdb"
 OUTPUT_PATH = PROJECT_ROOT / "data" / "analytics.json"
 DATE_COLUMN_CANDIDATES = (
     "date",

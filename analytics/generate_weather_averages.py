@@ -9,7 +9,7 @@ import duckdb
 
 
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
-DATABASE_PATH = PROJECT_ROOT / "analytics.duckdb"
+DATABASE_PATH = PROJECT_ROOT / ".local.nosync" / "analytics.duckdb"
 OUTPUT_PATH = PROJECT_ROOT / "data" / "weather_averages.json"
 SOURCE_SCHEMA = "raw"
 SOURCE_TABLE = "gamedayweather"
@@ -166,7 +166,7 @@ def build_payload() -> dict[str, Any]:
                 },
                 "notes": [
                     "Monthly averages are grouped across all years in the weather table.",
-                    "Humidity is null when no humidity column exists in analytics.duckdb.",
+                    "Humidity is null when no humidity column exists in the local DuckDB file.",
                 ],
             },
         }
