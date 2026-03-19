@@ -1,21 +1,20 @@
 const elements = {
-  updatedAt: document.getElementById("updated-at"),
   serviceStatus: document.getElementById("service-status"),
   sourceLabel: document.getElementById("source-label"),
   currentStatus: document.getElementById("current-status"),
   currentTemperature: document.getElementById("current-temperature"),
   currentFeelsLike: document.getElementById("current-feels-like"),
-  currentHeatIndex: document.getElementById("current-heat-index"),
-  currentWindChill: document.getElementById("current-wind-chill"),
   currentWind: document.getElementById("current-wind"),
   currentHumidity: document.getElementById("current-humidity"),
   currentRainChance: document.getElementById("current-rain-chance"),
-  currentComfort: document.getElementById("current-comfort"),
   forecastList: document.getElementById("forecast-list"),
   analyticsAvgTemp: document.getElementById("analytics-avg-temp"),
   analyticsAvgWindSpeed: document.getElementById("analytics-avg-wind-speed"),
   analyticsPrecipDays: document.getElementById("analytics-precip-days"),
 };
+
+const WEATHER_DATA_URLS = ["/data/weather.json", "./data/weather.json"];
+const ANALYTICS_DATA_URLS = ["/data/analytics.json", "./data/analytics.json"];
 
 function formatTimestamp(value) {
   if (!value) {
@@ -48,7 +47,33 @@ function formatCardValue(value, unit) {
 }
 
 function getAnalyticsCardValue(cards, cardId) {
-  return cards.find((card) => card.id === cardId)?.value ?? null;
+  const match = cards.find((card) => card.id === cardId);
+  return match && match.value != null ? match.value : null;
+}
+
+async function fetchJson(urls) {
+  let lastError = null;
+
+  for (const url of urls) {
+    try {
+      const response = await fetch(url, {
+        headers: {
+          Accept: "application/json",
+        },
+        cache: "no-store",
+      });
+
+      if (!response.ok) {
+        throw new Error(`Request failed with ${response.status} for ${url}`);
+      }
+
+      return await response.json();
+    } catch (error) {
+      lastError = error;
+    }
+  }
+
+  throw lastError || new Error("Unable to fetch JSON");
 }
 
 function renderForecast(days) {
@@ -69,19 +94,19 @@ function renderForecast(days) {
 }
 
 function renderWeather(data) {
-  elements.updatedAt.textContent = formatTimestamp(data.current.updatedAt);
+  const current = data.current || {};
+  const wind = current.wind || {};
+  const source = data.source || {};
+
   elements.serviceStatus.textContent = `Weather generated ${formatTimestamp(data.generatedAt)}`;
   elements.serviceStatus.classList.remove("is-error");
-  elements.sourceLabel.textContent = data.source.name;
-  elements.currentStatus.textContent = data.current.summary || "Unavailable";
-  elements.currentTemperature.innerHTML = `${formatDegrees(data.current.temperatureF)}&deg;`;
-  elements.currentFeelsLike.innerHTML = `Feels like ${formatDegrees(data.current.feelsLikeF)}&deg;`;
-  elements.currentHeatIndex.innerHTML = `${formatDegrees(data.current.heatIndexF)}&deg;`;
-  elements.currentWindChill.innerHTML = `${formatDegrees(data.current.windChillF)}&deg;`;
-  elements.currentWind.textContent = data.current.wind.label || "--";
-  elements.currentHumidity.textContent = `${formatDegrees(data.current.humidityPercent)}%`;
-  elements.currentRainChance.textContent = `${formatDegrees(data.current.rainChancePercent)}%`;
-  elements.currentComfort.textContent = data.current.comfort || "--";
+  elements.sourceLabel.textContent = source.name || "Weather Source";
+  elements.currentStatus.textContent = current.summary || "Unavailable";
+  elements.currentTemperature.innerHTML = `${formatDegrees(current.temperatureF)}&deg;`;
+  elements.currentFeelsLike.innerHTML = `Feels like ${formatDegrees(current.feelsLikeF)}&deg;`;
+  elements.currentWind.textContent = wind.label || "--";
+  elements.currentHumidity.textContent = `${formatDegrees(current.humidityPercent)}%`;
+  elements.currentRainChance.textContent = `${formatDegrees(current.rainChancePercent)}%`;
   renderForecast(data.forecast || []);
 }
 
@@ -104,16 +129,12 @@ function renderAnalytics(data) {
 function renderError(message) {
   elements.serviceStatus.textContent = message;
   elements.serviceStatus.classList.add("is-error");
-  elements.updatedAt.textContent = "Unavailable";
   elements.currentStatus.textContent = "Offline";
   elements.currentTemperature.innerHTML = "--&deg;";
   elements.currentFeelsLike.innerHTML = "Feels like --&deg;";
-  elements.currentHeatIndex.innerHTML = "--&deg;";
-  elements.currentWindChill.innerHTML = "--&deg;";
   elements.currentWind.textContent = "--";
   elements.currentHumidity.textContent = "--";
   elements.currentRainChance.textContent = "--";
-  elements.currentComfort.textContent = "--";
   elements.forecastList.innerHTML = `
     <div class="forecast-item forecast-empty">
       <div>
@@ -133,18 +154,7 @@ function renderAnalyticsError() {
 
 async function loadWeather() {
   try {
-    const response = await fetch("./data/weather.json", {
-      headers: {
-        Accept: "application/json",
-      },
-      cache: "no-store",
-    });
-
-    if (!response.ok) {
-      throw new Error(`Weather request failed with ${response.status}`);
-    }
-
-    const payload = await response.json();
+    const payload = await fetchJson(WEATHER_DATA_URLS);
     renderWeather(payload);
   } catch (error) {
     renderError("Unable to load generated weather data");
@@ -154,18 +164,7 @@ async function loadWeather() {
 
 async function loadAnalytics() {
   try {
-    const response = await fetch("./data/analytics.json", {
-      headers: {
-        Accept: "application/json",
-      },
-      cache: "no-store",
-    });
-
-    if (!response.ok) {
-      throw new Error(`Analytics request failed with ${response.status}`);
-    }
-
-    const payload = await response.json();
+    const payload = await fetchJson(ANALYTICS_DATA_URLS);
     renderAnalytics(payload);
   } catch (error) {
     renderAnalyticsError();

@@ -1,16 +1,16 @@
 :root {
-  --bg-top: #d7ebff;
-  --bg-bottom: #f3f7ed;
-  --navy: #0f2f4d;
-  --navy-soft: rgba(15, 47, 77, 0.72);
-  --ivy: #2c5c43;
-  --ivy-soft: rgba(44, 92, 67, 0.16);
-  --sand: #f5efe2;
+  --bg-top: #e4ebdc;
+  --bg-bottom: #fffced;
+  --navy: #374c2e;
+  --navy-soft: rgba(55, 76, 46, 0.72);
+  --ivy: #374c2e;
+  --ivy-soft: rgba(55, 76, 46, 0.14);
+  --sand: #fffced;
   --sun: #ffd46b;
-  --panel: rgba(255, 255, 255, 0.76);
-  --panel-strong: rgba(255, 255, 255, 0.9);
-  --stroke: rgba(15, 47, 77, 0.12);
-  --shadow: 0 24px 60px rgba(20, 47, 75, 0.16);
+  --panel: rgba(252, 253, 250, 0.8);
+  --panel-strong: rgba(255, 255, 255, 0.94);
+  --stroke: rgba(55, 76, 46, 0.14);
+  --shadow: 0 24px 60px rgba(55, 76, 46, 0.14);
 }
 
 * {
@@ -27,7 +27,7 @@ body {
   font-family: "Barlow Condensed", "Arial Narrow", sans-serif;
   color: var(--navy);
   background:
-    linear-gradient(180deg, rgba(255, 212, 107, 0.35), rgba(255, 212, 107, 0) 30%),
+    linear-gradient(180deg, rgba(255, 255, 237, 0.46), rgba(255, 255, 237, 0) 30%),
     linear-gradient(180deg, var(--bg-top), var(--bg-bottom));
 }
 
@@ -48,8 +48,8 @@ body::after {
   position: fixed;
   inset: 0;
   background:
-    radial-gradient(circle at top right, rgba(255, 255, 255, 0.5), transparent 28%),
-    linear-gradient(90deg, rgba(243, 247, 237, 0.8), rgba(243, 247, 237, 0.4));
+    radial-gradient(circle at top right, rgba(255, 255, 237, 0.72), transparent 28%),
+    linear-gradient(90deg, rgba(255, 255, 237, 0.88), rgba(255, 255, 237, 0.5));
   pointer-events: none;
 }
 
@@ -89,13 +89,11 @@ body::after {
 }
 
 h1,
-h2,
 p {
   margin: 0;
 }
 
-h1,
-h2 {
+h1 {
   font-family: "Fraunces", "Georgia", serif;
   line-height: 0.96;
 }
@@ -104,72 +102,17 @@ h1 {
   font-size: clamp(2.6rem, 3vw, 3.8rem);
 }
 
-h2 {
-  font-size: clamp(2.8rem, 5vw, 5.3rem);
-  max-width: 11ch;
-  margin-bottom: 18px;
-}
-
-.header-copy {
-  max-width: 290px;
-  font-size: 1.15rem;
-  line-height: 1.4;
-  color: var(--navy-soft);
-  padding-top: 8px;
-}
-
-.hero-layout {
+.dashboard-layout {
   flex: 1;
   display: grid;
-  grid-template-columns: minmax(320px, 1.15fr) minmax(360px, 0.95fr);
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
   gap: 34px;
-  align-items: stretch;
-}
-
-.hero-copy {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  padding: 20px 0 14px;
-}
-
-.lead {
-  max-width: 31rem;
-  font-size: 1.35rem;
-  line-height: 1.45;
-  color: var(--navy-soft);
-}
-
-.meta-row {
-  display: flex;
-  gap: 14px;
-  margin-top: 28px;
-  flex-wrap: wrap;
-}
-
-.meta-pill {
-  min-width: 170px;
-  padding: 14px 18px;
-  border: 1px solid rgba(44, 92, 67, 0.14);
-  border-radius: 16px;
-  background: rgba(255, 255, 255, 0.55);
-  backdrop-filter: blur(8px);
-}
-
-.meta-pill strong {
-  display: block;
-  font-size: 1.25rem;
-  margin-top: 4px;
-}
-
-.meta-label {
-  display: block;
-  font-size: 0.82rem;
-  color: var(--navy-soft);
+  align-items: start;
 }
 
 .service-status {
-  margin-top: 18px;
+  margin-top: 6px;
+  padding-left: 2px;
   font-size: 0.8rem;
   color: var(--ivy);
 }
@@ -178,11 +121,18 @@ h2 {
   color: #8a2d1d;
 }
 
-.weather-panel {
+.column-panel {
   display: grid;
-  grid-template-rows: 1fr auto;
   gap: 18px;
-  align-self: center;
+  align-content: start;
+}
+
+.weather-panel {
+  grid-template-rows: auto auto auto;
+}
+
+.analytics-panel {
+  grid-template-rows: auto auto;
 }
 
 .weather-card {
@@ -195,6 +145,7 @@ h2 {
 
 .current-weather {
   padding: 24px 24px 22px;
+  min-height: 430px;
 }
 
 .forecast-card {
@@ -203,6 +154,14 @@ h2 {
 
 .analytics-card {
   padding: 18px 22px 20px;
+}
+
+.primary-analytics-card {
+  min-height: 430px;
+}
+
+.analytics-placeholder-card {
+  min-height: 260px;
 }
 
 .card-heading {
@@ -226,9 +185,9 @@ h2 {
 
 .current-grid {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: minmax(0, 1.15fr) minmax(220px, 0.85fr);
   gap: 18px;
-  align-items: end;
+  align-items: center;
 }
 
 .status {
@@ -240,6 +199,7 @@ h2 {
 .current-summary {
   display: flex;
   flex-direction: column;
+  justify-content: center;
 }
 
 .temperature {
@@ -253,23 +213,16 @@ h2 {
   margin-top: 8px;
 }
 
-.stat-grid {
+.current-side-stats {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr;
   gap: 12px;
-}
-
-.secondary-feels-grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 12px;
-  margin-top: 18px;
 }
 
 .stat {
   padding: 14px;
   border-radius: 18px;
-  background: var(--ivy-soft);
+  background: rgba(248, 250, 246, 0.9);
 }
 
 .stat span,
@@ -294,7 +247,7 @@ h2 {
   justify-content: space-between;
   align-items: center;
   padding: 10px 0;
-  border-top: 1px solid rgba(15, 47, 77, 0.08);
+  border-top: 1px solid rgba(55, 76, 46, 0.1);
 }
 
 .forecast-item:first-child {
@@ -320,8 +273,8 @@ h2 {
 .analytics-stat {
   padding: 16px;
   border-radius: 18px;
-  background: linear-gradient(180deg, rgba(255, 212, 107, 0.2), rgba(44, 92, 67, 0.08));
-  border: 1px solid rgba(15, 47, 77, 0.08);
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.9), rgba(244, 247, 242, 0.96));
+  border: 1px solid rgba(55, 76, 46, 0.1);
 }
 
 .analytics-stat span {
@@ -344,22 +297,27 @@ h2 {
   line-height: 1.3;
 }
 
+.analytics-placeholder {
+  min-height: 180px;
+  border-radius: 18px;
+  border: 1px dashed rgba(55, 76, 46, 0.22);
+  background:
+    linear-gradient(180deg, rgba(255, 255, 255, 0.46), rgba(248, 250, 246, 0.7));
+}
+
 @media (max-width: 1100px) {
   .page-shell {
     padding: 24px;
   }
 
-  .hero-layout {
+  .dashboard-layout {
     grid-template-columns: 1fr;
     gap: 24px;
   }
 
-  .hero-copy {
-    justify-content: flex-start;
-  }
-
-  h2 {
-    max-width: 13ch;
+  .current-weather,
+  .primary-analytics-card {
+    min-height: 0;
   }
 }
 
@@ -369,30 +327,13 @@ h2 {
     padding: 20px 16px 24px;
   }
 
-  .site-header,
-  .current-grid {
-    grid-template-columns: 1fr;
-  }
-
   .site-header {
     display: grid;
   }
 
-  .header-copy {
-    max-width: none;
-  }
-
   .current-grid,
-  .stat-grid,
+  .current-side-stats,
   .analytics-grid {
     grid-template-columns: 1fr;
-  }
-
-  h2 {
-    font-size: clamp(2.4rem, 10vw, 3.8rem);
-  }
-
-  .lead {
-    font-size: 1.1rem;
   }
 }

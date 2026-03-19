@@ -11,7 +11,8 @@ from urllib.request import Request, urlopen
 WRIGLEY_LAT = 41.9484
 WRIGLEY_LON = -87.6553
 USER_AGENT = "WrigleyWeather/1.0 (static-site generator)"
-DATA_PATH = Path(__file__).resolve().parent / "data" / "weather.json"
+PROJECT_ROOT = Path(__file__).resolve().parent.parent
+DATA_PATH = PROJECT_ROOT / "data" / "weather.json"
 
 
 def fetch_json(url: str) -> dict:
