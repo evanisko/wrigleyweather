@@ -15,9 +15,14 @@
   <body>
     <div class="page-shell">
       <header class="site-header">
-        <div>
-          <p class="eyebrow">Wrigleyville Forecast</p>
-          <h1>Wrigley Weather</h1>
+        <div class="site-brand" aria-label="Wrigley Weather">
+          <img
+            class="site-logo"
+            src="./WrigleyWeatherLogo.png"
+            alt=""
+            aria-hidden="true"
+          />
+          <h1 class="site-title">Wrigley Weather</h1>
         </div>
       </header>
 
@@ -26,7 +31,6 @@
           <article class="weather-card current-weather">
             <div class="card-heading">
               <p>Current Weather</p>
-              <span id="source-label">National Weather Service</span>
             </div>
 
             <div class="current-grid">
@@ -37,6 +41,18 @@
               </div>
 
               <div class="current-side-stats">
+                <div
+                  class="stat stat-comparison"
+                  id="current-temp-comparison"
+                  aria-live="polite"
+                  hidden
+                >
+                  <span>Vs. Monthly Avg</span>
+                  <div class="comparison-row">
+                    <strong id="current-temp-comparison-delta">--&deg;</strong>
+                    <p id="current-temp-comparison-text">--</p>
+                  </div>
+                </div>
                 <div class="stat">
                   <span>Wind</span>
                   <strong id="current-wind">--</strong>
@@ -86,12 +102,12 @@
               <div class="analytics-stat">
                 <span>Average Temperature</span>
                 <strong id="analytics-avg-temp">--</strong>
-                <p>Placeholder average temperature metric</p>
+                <p id="analytics-avg-temp-description">Historical average for this month</p>
               </div>
               <div class="analytics-stat">
                 <span>Average Wind Speed</span>
                 <strong id="analytics-avg-wind-speed">--</strong>
-                <p>Placeholder average wind speed metric</p>
+                <p id="analytics-avg-wind-description">Historical average for this month</p>
               </div>
               <div class="analytics-stat">
                 <span>Precipitation Days</span>

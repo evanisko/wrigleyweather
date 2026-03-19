@@ -70,6 +70,34 @@ body::after {
   margin-bottom: 28px;
 }
 
+.site-brand {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  min-height: 112px;
+  width: min(100%, calc((100% - 34px) / 2));
+}
+
+.site-logo {
+  display: block;
+  width: auto;
+  height: clamp(80px, 8vw, 100px);
+  object-fit: contain;
+  flex: 0 0 auto;
+}
+
+.site-title {
+  font-family: "Fraunces", "Georgia", serif;
+  font-size: clamp(2.2rem, 3.1vw, 3.15rem);
+  line-height: 0.98;
+  color: var(--ivy);
+  white-space: nowrap;
+  max-width: 100%;
+  text-align: right;
+  margin-left: auto;
+}
+
 .eyebrow,
 .kicker,
 .card-heading p,
@@ -145,7 +173,7 @@ h1 {
 
 .current-weather {
   padding: 24px 24px 22px;
-  min-height: 430px;
+  min-height: 300px;
 }
 
 .forecast-card {
@@ -157,7 +185,7 @@ h1 {
 }
 
 .primary-analytics-card {
-  min-height: 430px;
+  min-height: 300px;
 }
 
 .analytics-placeholder-card {
@@ -185,7 +213,7 @@ h1 {
 
 .current-grid {
   display: grid;
-  grid-template-columns: minmax(0, 1.15fr) minmax(220px, 0.85fr);
+  grid-template-columns: minmax(240px, 1.2fr) auto;
   gap: 18px;
   align-items: center;
 }
@@ -215,14 +243,21 @@ h1 {
 
 .current-side-stats {
   display: grid;
-  grid-template-columns: 1fr;
+  grid-template-columns: repeat(3, 88px);
   gap: 12px;
+  align-items: stretch;
+  justify-content: start;
+  max-width: 100%;
 }
 
 .stat {
-  padding: 14px;
+  min-height: 88px;
+  padding: 12px;
   border-radius: 18px;
   background: rgba(248, 250, 246, 0.9);
+  display: grid;
+  align-content: space-between;
+  aspect-ratio: 1 / 1;
 }
 
 .stat span,
@@ -234,7 +269,45 @@ h1 {
 .stat strong {
   display: block;
   margin-top: 5px;
-  font-size: 1.22rem;
+  font-size: 1.14rem;
+  line-height: 1.05;
+}
+
+.stat-comparison {
+  grid-column: 1 / -1;
+  min-height: 0;
+  aspect-ratio: auto;
+  align-content: start;
+  gap: 8px;
+}
+
+.stat-comparison[data-trend="above"] {
+  background: rgba(255, 212, 107, 0.2);
+}
+
+.stat-comparison[data-trend="below"] {
+  background: rgba(55, 76, 46, 0.12);
+}
+
+.stat-comparison p {
+  margin: 0;
+  font-size: 0.98rem;
+  line-height: 1.2;
+  color: var(--navy-soft);
+}
+
+.comparison-row {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.stat-comparison strong {
+  margin-top: 0;
+  font-size: 2rem;
+  line-height: 0.95;
+  letter-spacing: -0.04em;
+  flex: 0 0 auto;
 }
 
 .forecast-list {

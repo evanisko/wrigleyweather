@@ -1,0 +1,108 @@
+{
+  "generated_at": "2026-03-19T19:09:35.475463+00:00",
+  "source": {
+    "database_path": "analytics.duckdb",
+    "table": "raw.gamedayweather"
+  },
+  "metrics": {
+    "all_days": {
+      "temperature": 64.74,
+      "wind_speed": 14.58,
+      "humidity": null
+    },
+    "by_month": [
+      {
+        "month_number": 3,
+        "month": "March",
+        "averages": {
+          "temperature": 36.7,
+          "wind_speed": 21.9,
+          "humidity": null
+        },
+        "record_count": 1
+      },
+      {
+        "month_number": 4,
+        "month": "April",
+        "averages": {
+          "temperature": 46.71,
+          "wind_speed": 16.58,
+          "humidity": null
+        },
+        "record_count": 67
+      },
+      {
+        "month_number": 5,
+        "month": "May",
+        "averages": {
+          "temperature": 58.05,
+          "wind_speed": 15.27,
+          "humidity": null
+        },
+        "record_count": 72
+      },
+      {
+        "month_number": 6,
+        "month": "June",
+        "averages": {
+          "temperature": 69.91,
+          "wind_speed": 14.79,
+          "humidity": null
+        },
+        "record_count": 59
+      },
+      {
+        "month_number": 7,
+        "month": "July",
+        "averages": {
+          "temperature": 73.43,
+          "wind_speed": 12.67,
+          "humidity": null
+        },
+        "record_count": 65
+      },
+      {
+        "month_number": 8,
+        "month": "August",
+        "averages": {
+          "temperature": 72.62,
+          "wind_speed": 13.49,
+          "humidity": null
+        },
+        "record_count": 84
+      },
+      {
+        "month_number": 9,
+        "month": "September",
+        "averages": {
+          "temperature": 67.0,
+          "wind_speed": 14.69,
+          "humidity": null
+        },
+        "record_count": 86
+      },
+      {
+        "month_number": 10,
+        "month": "October",
+        "averages": {
+          "temperature": 59.4,
+          "wind_speed": 15.45,
+          "humidity": null
+        },
+        "record_count": 2
+      }
+    ]
+  },
+  "metadata": {
+    "columns": {
+      "date": "date",
+      "temperature": "temperature_2m_mean_fahrenheit",
+      "wind_speed": "windspeed_10m_max_mph",
+      "humidity": null
+    },
+    "notes": [
+      "Monthly averages are grouped across all years in the weather table.",
+      "Humidity is null when no humidity column exists in analytics.duckdb."
+    ]
+  }
+}
