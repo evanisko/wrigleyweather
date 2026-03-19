@@ -10,6 +10,7 @@ frontend-ready JSON for the UI to consume.
 python3 analytics/generate_analytics.py
 python3 analytics/generate_weather_averages.py
 python3 analytics/generate_baseball_averages.py
+python3 analytics/generate_forecast_similarity.py
 ```
 
 ## Output
@@ -19,6 +20,8 @@ The generators write analytics JSON to:
 - `data/analytics.json`
 - `data/weather_averages.json`
 - `data/ball_averages.json`
+- `data/today_forecast.json`
+- `data/forecast_similarity.json`
 
 ## What it does
 
@@ -42,3 +45,7 @@ JSON payload.
 
 The DuckDB file now lives in `.local.nosync/analytics.duckdb` to avoid macOS
 `fileproviderd` locking issues in synced `Documents` folders.
+
+`generate_forecast_similarity.py` reads `data/today_forecast.json`, compares today's
+forecast against the joined historical weather/baseball data, and exports matched-game
+averages for frontend use.

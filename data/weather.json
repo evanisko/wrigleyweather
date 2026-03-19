@@ -31,10 +31,10 @@
   },
   "forecast": [
     {
-      "date": "2026-03-19T15:00:00-05:00",
+      "date": "2026-03-19T16:00:00-05:00",
       "label": "Thu",
-      "summary": "Mostly Sunny",
-      "highF": 48,
+      "summary": "Sunny",
+      "highF": 51,
       "lowF": 40
     },
     {
@@ -48,7 +48,7 @@
       "date": "2026-03-21T06:00:00-05:00",
       "label": "Sat",
       "summary": "Mostly Sunny",
-      "highF": 58,
+      "highF": 61,
       "lowF": 47
     }
   ]

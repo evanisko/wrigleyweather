@@ -10,6 +10,16 @@ const elements = {
   currentHumidity: document.getElementById("current-humidity"),
   currentRainChance: document.getElementById("current-rain-chance"),
   forecastList: document.getElementById("forecast-list"),
+  analyticsSimilarRuns: document.getElementById("analytics-similar-runs"),
+  analyticsSimilarRunsDescription: document.getElementById("analytics-similar-runs-description"),
+  analyticsSimilarHomeRuns: document.getElementById("analytics-similar-home-runs"),
+  analyticsSimilarHomeRunsDescription: document.getElementById(
+    "analytics-similar-home-runs-description"
+  ),
+  analyticsSimilarGameDuration: document.getElementById("analytics-similar-game-duration"),
+  analyticsSimilarGameDurationDescription: document.getElementById(
+    "analytics-similar-game-duration-description"
+  ),
   analyticsAvgRuns: document.getElementById("analytics-avg-runs"),
   analyticsAvgRunsDescription: document.getElementById("analytics-avg-runs-description"),
   analyticsAvgHomeRuns: document.getElementById("analytics-avg-home-runs"),
@@ -23,11 +33,16 @@ const elements = {
 const WEATHER_DATA_URLS = ["/data/weather.json", "./data/weather.json"];
 const WEATHER_AVERAGES_URLS = ["/data/weather_averages.json", "./data/weather_averages.json"];
 const BALL_AVERAGES_URLS = ["/data/ball_averages.json", "./data/ball_averages.json"];
+const FORECAST_SIMILARITY_URLS = [
+  "/data/forecast_similarity.json",
+  "./data/forecast_similarity.json",
+];
 
 const appState = {
   weather: null,
   weatherAverages: null,
   ballAverages: null,
+  forecastSimilarity: null,
 };
 
 function formatTimestamp(value) {
@@ -62,6 +77,16 @@ function formatCardValue(value, unit) {
   }
 
   return unit ? `${value} ${unit}` : `${value}`;
+}
+
+function formatDifference(value, unit) {
+  if (value == null) {
+    return "--";
+  }
+
+  const rounded = Number(value.toFixed(1));
+  const absolute = Math.abs(rounded);
+  return unit ? `${absolute} ${unit}` : `${absolute}`;
 }
 
 async function fetchJson(urls) {
@@ -138,6 +163,16 @@ function getBaseballMonthAverage() {
   return getCurrentMonthAverage(monthlyAverages, comparisonDate);
 }
 
+function buildComparisonLabel(similarValue, monthlyValue, monthLabel, unit) {
+  if (similarValue == null || monthlyValue == null || !monthLabel) {
+    return "Compared with this month's average";
+  }
+
+  const difference = similarValue - monthlyValue;
+  const direction = difference >= 0 ? "above" : "below";
+  return `${formatDifference(difference, unit)} ${direction} ${monthLabel} average`;
+}
+
 function renderTemperatureComparison() {
   const current = appState.weather?.current || null;
   const currentMonthAverage = getAnalyticsMonthAverage();
@@ -186,6 +221,28 @@ function renderBallparkAnalytics() {
   const runs = currentMonthAverage?.averages?.runs;
   const homeRuns = currentMonthAverage?.averages?.home_runs;
   const gameDuration = currentMonthAverage?.averages?.game_time_minutes;
+  const similarResults = appState.forecastSimilarity?.results || null;
+  const similarRuns = similarResults?.averages?.runs;
+  const similarHomeRuns = similarResults?.averages?.home_runs;
+  const similarGameDuration = similarResults?.averages?.game_time_minutes;
+  const matchedGameCount = similarResults?.matched_game_count;
+
+  elements.analyticsSimilarRuns.textContent = formatCardValue(similarRuns, null);
+  elements.analyticsSimilarHomeRuns.textContent = formatCardValue(similarHomeRuns, null);
+  elements.analyticsSimilarGameDuration.textContent = formatCardValue(similarGameDuration, "min");
+
+  elements.analyticsSimilarRunsDescription.textContent =
+    matchedGameCount > 0
+      ? `${buildComparisonLabel(similarRuns, runs, monthLabel, null)} from ${matchedGameCount} similar games`
+      : "No similar games found";
+  elements.analyticsSimilarHomeRunsDescription.textContent =
+    matchedGameCount > 0
+      ? `${buildComparisonLabel(similarHomeRuns, homeRuns, monthLabel, null)} from ${matchedGameCount} similar games`
+      : "No similar games found";
+  elements.analyticsSimilarGameDurationDescription.textContent =
+    matchedGameCount > 0
+      ? `${buildComparisonLabel(similarGameDuration, gameDuration, monthLabel, "min")} from ${matchedGameCount} similar games`
+      : "No similar games found";
 
   elements.analyticsAvgRuns.textContent = formatCardValue(runs, null);
   elements.analyticsAvgHomeRuns.textContent = formatCardValue(homeRuns, null);
@@ -227,9 +284,17 @@ function renderError(message) {
 }
 
 function renderBallparkAnalyticsError() {
+  elements.analyticsSimilarRuns.textContent = "--";
+  elements.analyticsSimilarHomeRuns.textContent = "--";
+  elements.analyticsSimilarGameDuration.textContent = "--";
   elements.analyticsAvgRuns.textContent = "--";
   elements.analyticsAvgHomeRuns.textContent = "--";
   elements.analyticsAvgGameDuration.textContent = "--";
+  elements.analyticsSimilarRunsDescription.textContent = "Compared with this month's average";
+  elements.analyticsSimilarHomeRunsDescription.textContent =
+    "Compared with this month's average";
+  elements.analyticsSimilarGameDurationDescription.textContent =
+    "Compared with this month's average";
   elements.analyticsAvgRunsDescription.textContent = "Historical average for this month";
   elements.analyticsAvgHomeRunsDescription.textContent = "Historical average for this month";
   elements.analyticsAvgGameDurationDescription.textContent =
@@ -272,7 +337,20 @@ async function loadBallAverages() {
   }
 }
 
+async function loadForecastSimilarity() {
+  try {
+    const payload = await fetchJson(FORECAST_SIMILARITY_URLS);
+    appState.forecastSimilarity = payload;
+    renderBallparkAnalytics();
+  } catch (error) {
+    appState.forecastSimilarity = null;
+    renderBallparkAnalytics();
+    console.error(error);
+  }
+}
+
 loadWeather();
 loadWeatherAverages();
 loadBallAverages();
+loadForecastSimilarity();
 renderBallparkAnalytics();
