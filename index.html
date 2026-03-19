@@ -21,31 +21,8 @@
         </div>
       </header>
 
-      <main class="hero-layout">
-        <section class="hero-copy">
-          <h2>Real-time ballpark conditions at the Friendly Confines.</h2>
-          <p class="lead">
-            Live conditions for Wrigley Field, pulled from the National Weather
-            Service and refreshed on demand.
-          </p>
-
-          <div class="meta-row" aria-label="Weather metadata">
-            <div class="meta-pill">
-              <span class="meta-label">Ballpark</span>
-              <strong>Wrigley Field</strong>
-            </div>
-            <div class="meta-pill">
-              <span class="meta-label">Updated</span>
-              <strong id="updated-at">Loading...</strong>
-            </div>
-          </div>
-
-          <p class="service-status" id="service-status" role="status">
-            Fetching live weather...
-          </p>
-        </section>
-
-        <section class="weather-panel" aria-label="Weather summary">
+      <main class="dashboard-layout">
+        <section class="column-panel weather-panel" aria-label="Weather summary">
           <article class="weather-card current-weather">
             <div class="card-heading">
               <p>Current Weather</p>
@@ -57,35 +34,20 @@
                 <p class="status" id="current-status">Loading</p>
                 <p class="temperature" id="current-temperature">--&deg;</p>
                 <p class="feels-like" id="current-feels-like">Feels like --&deg;</p>
-
-                <div class="secondary-feels-grid">
-                  <div class="stat">
-                    <span>Feels Like (Sun)</span>
-                    <strong id="current-heat-index">--&deg;</strong>
-                  </div>
-                  <div class="stat">
-                    <span>Feels Like (Shade)</span>
-                    <strong id="current-wind-chill">--&deg;</strong>
-                  </div>
-                </div>
               </div>
 
-              <div class="stat-grid">
+              <div class="current-side-stats">
                 <div class="stat">
                   <span>Wind</span>
                   <strong id="current-wind">--</strong>
-                </div>
-                <div class="stat">
-                  <span>Humidity</span>
-                  <strong id="current-humidity">--</strong>
                 </div>
                 <div class="stat">
                   <span>Rain Chance</span>
                   <strong id="current-rain-chance">--</strong>
                 </div>
                 <div class="stat">
-                  <span>Game Comfort</span>
-                  <strong id="current-comfort">--</strong>
+                  <span>Humidity</span>
+                  <strong id="current-humidity">--</strong>
                 </div>
               </div>
             </div>
@@ -107,8 +69,14 @@
               </div>
             </div>
           </article>
+          
+          <p class="service-status" id="service-status" role="status">
+            Fetching live weather...
+          </p>
+        </section>
 
-          <article class="weather-card analytics-card" aria-label="Ballpark analytics">
+        <section class="column-panel analytics-panel" aria-label="Ballpark analytics">
+          <article class="weather-card analytics-card primary-analytics-card" aria-label="Ballpark analytics">
             <div class="card-heading">
               <p>Ballpark Analytics</p>
               <span>Historical Snapshot</span>
@@ -131,6 +99,15 @@
                 <p>Placeholder count of days with precipitation</p>
               </div>
             </div>
+          </article>
+
+          <article class="weather-card analytics-card analytics-placeholder-card" aria-label="Placeholder analytics">
+            <div class="card-heading">
+              <p>Additional Analytics</p>
+              <span>Coming Soon</span>
+            </div>
+
+            <div class="analytics-placeholder"></div>
           </article>
         </section>
       </main>
