@@ -405,8 +405,40 @@ h1 {
   }
 
   .current-grid,
-  .current-side-stats,
   .analytics-grid {
     grid-template-columns: 1fr;
+  }
+
+  .current-side-stats {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 8px;
+  }
+
+  .stat:not(.stat-comparison) {
+    min-height: 0;
+    padding: 10px 10px 9px;
+    aspect-ratio: auto;
+    gap: 6px;
+  }
+
+  .stat:not(.stat-comparison) span {
+    font-size: 0.72rem;
+  }
+
+  .stat:not(.stat-comparison) strong {
+    margin-top: 0;
+    font-size: 1rem;
+  }
+
+  .stat-comparison {
+    margin-bottom: 2px;
+  }
+
+  .comparison-row {
+    gap: 10px;
+  }
+
+  .stat-comparison p {
+    font-size: 0.88rem;
   }
 }

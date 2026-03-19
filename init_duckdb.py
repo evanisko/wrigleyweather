@@ -7,7 +7,8 @@ import duckdb
 
 
 PROJECT_ROOT = Path(__file__).resolve().parent
-DATABASE_PATH = PROJECT_ROOT / "analytics.duckdb"
+DATABASE_DIR = PROJECT_ROOT / ".local.nosync"
+DATABASE_PATH = DATABASE_DIR / "analytics.duckdb"
 CSV_CONFIG = {
     "gamedayweather": "gamedayweather.csv",
     "gamestats": "gamestats.csv",
@@ -15,6 +16,7 @@ CSV_CONFIG = {
 
 
 def create_connection() -> duckdb.DuckDBPyConnection:
+    DATABASE_DIR.mkdir(parents=True, exist_ok=True)
     return duckdb.connect(str(DATABASE_PATH))
 
 
