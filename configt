@@ -1,0 +1,7 @@
+Host github.com
+  HostName github.com
+  User git
+  IdentityFile ~/.ssh/SSHKey
+  AddKeysToAgent yes
+  UseKeychain yes
+
