@@ -2,9 +2,11 @@ from __future__ import annotations
 
 import json
 import os
+import re
 import tempfile
 from datetime import datetime, timezone
 from pathlib import Path
+from zoneinfo import ZoneInfo
 from urllib.request import Request, urlopen
 
 
@@ -13,6 +15,8 @@ WRIGLEY_LON = -87.6553
 USER_AGENT = "WrigleyWeather/1.0 (static-site generator)"
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
 DATA_PATH = PROJECT_ROOT / "data" / "weather.json"
+TODAY_FORECAST_PATH = PROJECT_ROOT / "data" / "today_forecast.json"
+LOCAL_TIMEZONE = ZoneInfo("America/Chicago")
 
 
 def fetch_json(url: str) -> dict:
@@ -45,6 +49,41 @@ def direction_to_cardinal(degrees: float | None) -> str:
     directions = ["N", "NE", "E", "SE", "S", "SW", "W", "NW"]
     index = round(degrees / 45) % len(directions)
     return directions[index]
+
+
+def cardinal_to_degrees(value: str | None) -> int | None:
+    if not value:
+        return None
+
+    lookup = {
+        "N": 0,
+        "NNE": 22,
+        "NE": 45,
+        "ENE": 68,
+        "E": 90,
+        "ESE": 112,
+        "SE": 135,
+        "SSE": 158,
+        "S": 180,
+        "SSW": 202,
+        "SW": 225,
+        "WSW": 248,
+        "W": 270,
+        "WNW": 292,
+        "NW": 315,
+        "NNW": 338,
+    }
+    return lookup.get(value.strip().upper())
+
+
+def parse_wind_speed_mph(value: str | None) -> int | None:
+    if not value:
+        return None
+
+    numbers = [int(match) for match in re.findall(r"\d+", value)]
+    if not numbers:
+        return None
+    return round(sum(numbers) / len(numbers))
 
 
 def safe_round(value: float | None, fallback: int | None = None) -> int | None:
@@ -113,6 +152,43 @@ def build_forecast(periods: list[dict]) -> list[dict]:
             break
 
     return forecast_days
+
+
+def build_today_forecast(periods: list[dict]) -> dict:
+    local_today = datetime.now(LOCAL_TIMEZONE).date()
+    selected_period: dict | None = None
+
+    for period in periods:
+        if not period.get("isDaytime"):
+            continue
+
+        start_time = period.get("startTime")
+        if not start_time:
+            continue
+
+        try:
+            period_date = datetime.fromisoformat(start_time).astimezone(LOCAL_TIMEZONE).date()
+        except ValueError:
+            continue
+
+        if period_date == local_today:
+            selected_period = period
+            break
+
+    if selected_period is None:
+        selected_period = next((period for period in periods if period.get("isDaytime")), {})
+
+    wind_direction = selected_period.get("windDirection")
+    return {
+        "generatedAt": datetime.now(timezone.utc).isoformat(),
+        "forecastDate": selected_period.get("startTime"),
+        "periodName": selected_period.get("name"),
+        "summary": selected_period.get("shortForecast"),
+        "highTemperatureF": selected_period.get("temperature"),
+        "windSpeedMph": parse_wind_speed_mph(selected_period.get("windSpeed")),
+        "windDirectionCardinal": wind_direction,
+        "windDirectionDegrees": cardinal_to_degrees(wind_direction),
+    }
 
 
 def build_weather_document() -> dict:
@@ -187,6 +263,28 @@ def build_weather_document() -> dict:
     }
 
 
+def build_today_forecast_document() -> dict:
+    points = fetch_json(f"https://api.weather.gov/points/{WRIGLEY_LAT},{WRIGLEY_LON}")
+    point_props = points["properties"]
+    forecast = fetch_json(point_props["forecast"])
+
+    return {
+        "schemaVersion": 1,
+        "location": {
+            "name": "Wrigley Field",
+            "city": "Chicago, IL",
+            "timezone": "America/Chicago",
+            "latitude": WRIGLEY_LAT,
+            "longitude": WRIGLEY_LON,
+        },
+        "source": {
+            "name": "National Weather Service",
+            "providerUrl": "https://api.weather.gov",
+        },
+        "todayForecast": build_today_forecast(forecast["properties"]["periods"]),
+    }
+
+
 def write_weather_json(document: dict, output_path: Path = DATA_PATH) -> Path:
     output_path.parent.mkdir(parents=True, exist_ok=True)
 
@@ -206,3 +304,7 @@ def write_weather_json(document: dict, output_path: Path = DATA_PATH) -> Path:
 
     os.replace(temp_path, output_path)
     return output_path
+
+
+def write_today_forecast_json(document: dict, output_path: Path = TODAY_FORECAST_PATH) -> Path:
+    return write_weather_json(document, output_path)

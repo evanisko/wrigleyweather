@@ -2,7 +2,7 @@ name: Update Weather
 
 on:
   schedule:
-    - cron: "0 * * * *"
+    - cron: "0 8 * * *"
   workflow_dispatch:
 
 permissions:
@@ -23,18 +23,29 @@ jobs:
         with:
           python-version: "3.12"
 
+      - name: Install DuckDB
+        run: python3 -m pip install duckdb
+
+      - name: Prepare local DuckDB copy
+        run: |
+          mkdir -p .local.nosync
+          cp analytics.duckdb .local.nosync/analytics.duckdb
+
       - name: Update weather data
         run: python3 Python/update_weather.py
 
-      - name: Commit weather data if changed
+      - name: Generate forecast similarity
+        run: python3 analytics/generate_forecast_similarity.py
+
+      - name: Commit generated data if changed
         run: |
-          if git diff --quiet -- data/weather.json; then
-            echo "No weather changes to commit."
+          if git diff --quiet -- data/weather.json data/today_forecast.json data/forecast_similarity.json; then
+            echo "No generated data changes to commit."
             exit 0
           fi
 
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/weather.json
-          git commit -m "Update weather data"
+          git add data/weather.json data/today_forecast.json data/forecast_similarity.json
+          git commit -m "Update weather forecast data"
           git push
