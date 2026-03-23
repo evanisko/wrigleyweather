@@ -12,8 +12,8 @@
     "providerUrl": "https://api.weather.gov"
   },
   "todayForecast": {
-    "generatedAt": "2026-03-23T17:47:26.496101+00:00",
-    "forecastDate": "2026-03-23T12:00:00-05:00",
+    "generatedAt": "2026-03-23T18:44:38.444200+00:00",
+    "forecastDate": "2026-03-23T13:00:00-05:00",
     "periodName": "This Afternoon",
     "summary": "Sunny",
     "highTemperatureF": 38,
