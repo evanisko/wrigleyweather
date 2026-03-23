@@ -140,7 +140,8 @@ h1 {
 
 .service-status {
   margin-top: 6px;
-  padding-left: 2px;
+  justify-self: end;
+  text-align: right;
   font-size: 0.8rem;
   color: var(--ivy);
 }
@@ -209,6 +210,29 @@ h1 {
 .forecast-item span,
 .feels-like {
   color: var(--navy-soft);
+}
+
+.mobile-card-toggle {
+  width: 100%;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  color: inherit;
+  font: inherit;
+  text-align: left;
+  cursor: default;
+}
+
+.mobile-card-toggle .card-heading {
+  margin-bottom: 0;
+}
+
+.mobile-card-content {
+  margin-top: 18px;
+}
+
+.mobile-card-indicator {
+  display: none;
 }
 
 .current-grid {
@@ -374,14 +398,6 @@ h1 {
   line-height: 1.3;
 }
 
-.analytics-placeholder {
-  min-height: 180px;
-  border-radius: 18px;
-  border: 1px dashed rgba(55, 76, 46, 0.22);
-  background:
-    linear-gradient(180deg, rgba(255, 255, 255, 0.46), rgba(248, 250, 246, 0.7));
-}
-
 @media (max-width: 1100px) {
   .page-shell {
     padding: 24px;
@@ -408,9 +424,59 @@ h1 {
     display: grid;
   }
 
+  .site-brand {
+    width: 100%;
+    min-height: 0;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 10px;
+  }
+
+  .site-title {
+    white-space: normal;
+    text-align: left;
+    margin-left: 0;
+  }
+
+  .mobile-collapsible-card {
+    padding-top: 16px;
+    padding-bottom: 16px;
+  }
+
+  .mobile-card-toggle {
+    display: grid;
+    gap: 10px;
+    cursor: pointer;
+  }
+
+  .mobile-card-toggle .card-heading {
+    align-items: center;
+  }
+
+  .mobile-card-indicator {
+    display: block;
+    font-size: 0.74rem;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    color: var(--navy-soft);
+  }
+
+  .mobile-card-content {
+    margin-top: 14px;
+  }
+
+  .mobile-card-content[hidden] {
+    display: none;
+  }
+
   .current-grid,
   .analytics-grid {
     grid-template-columns: 1fr;
+  }
+
+  .service-status {
+    justify-self: end;
   }
 
   .current-side-stats {

@@ -69,33 +69,40 @@
             </div>
           </article>
 
-          <article class="weather-card forecast-card">
-            <div class="card-heading">
-              <p>Next 3 Days</p>
-              <span>Outlook</span>
-            </div>
+          <article class="weather-card forecast-card mobile-collapsible-card" data-mobile-collapsible>
+            <button
+              class="mobile-card-toggle"
+              id="forecast-card-toggle"
+              type="button"
+              aria-expanded="true"
+              aria-controls="forecast-card-content"
+            >
+              <div class="card-heading">
+                <p>Next 3 Days</p>
+                <span>Outlook</span>
+              </div>
+              <span class="mobile-card-indicator" aria-hidden="true">Open</span>
+            </button>
 
-            <div class="forecast-list" id="forecast-list" aria-live="polite">
-              <div class="forecast-item forecast-empty">
-                <div>
-                  <strong>Loading</strong>
-                  <span>Pulling forecast data</span>
+            <div class="mobile-card-content" id="forecast-card-content">
+              <div class="forecast-list" id="forecast-list" aria-live="polite">
+                <div class="forecast-item forecast-empty">
+                  <div>
+                    <strong>Loading</strong>
+                    <span>Pulling forecast data</span>
+                  </div>
+                  <p>--&deg; / --&deg;</p>
                 </div>
-                <p>--&deg; / --&deg;</p>
               </div>
             </div>
           </article>
-          
-          <p class="service-status" id="service-status" role="status">
-            Fetching live weather...
-          </p>
         </section>
 
-        <section class="column-panel analytics-panel" aria-label="Ballpark analytics">
-          <article class="weather-card analytics-card primary-analytics-card" aria-label="Ballpark analytics">
+        <section class="column-panel analytics-panel" aria-label="Game impact analytics">
+          <article class="weather-card analytics-card primary-analytics-card" aria-label="Game impact analytics">
             <div class="card-heading">
-              <p>Ballpark Analytics</p>
-              <span>Historical Snapshot</span>
+              <p>Game Impact</p>
+              <span>Historical averages from games with similar weather</span>
             </div>
 
             <div class="analytics-grid" id="analytics-grid" aria-live="polite">
@@ -114,32 +121,51 @@
                 <strong id="analytics-similar-game-duration">--</strong>
                 <p id="analytics-similar-game-duration-description">Compared with this month's average</p>
               </div>
-              <div class="analytics-stat analytics-stat-baseline">
-                <span>Average Runs</span>
-                <strong id="analytics-avg-runs">--</strong>
-                <p id="analytics-avg-runs-description">Historical average for this month</p>
+            </div>
+          </article>
+
+          <article
+            class="weather-card analytics-card analytics-placeholder-card mobile-collapsible-card"
+            aria-label="Historical averages"
+            data-mobile-collapsible
+          >
+            <button
+              class="mobile-card-toggle"
+              id="historical-averages-toggle"
+              type="button"
+              aria-expanded="true"
+              aria-controls="historical-averages-content"
+            >
+              <div class="card-heading">
+                <p>Historical Averages</p>
               </div>
-              <div class="analytics-stat analytics-stat-baseline">
-                <span>Average Home Runs</span>
-                <strong id="analytics-avg-home-runs">--</strong>
-                <p id="analytics-avg-home-runs-description">Historical average for this month</p>
-              </div>
-              <div class="analytics-stat analytics-stat-baseline">
-                <span>Average Game Duration</span>
-                <strong id="analytics-avg-game-duration">--</strong>
-                <p id="analytics-avg-game-duration-description">Historical average for this month</p>
+              <span class="mobile-card-indicator" aria-hidden="true">Open</span>
+            </button>
+
+            <div class="mobile-card-content" id="historical-averages-content">
+              <div class="analytics-grid" aria-live="polite">
+                <div class="analytics-stat analytics-stat-baseline">
+                  <span>Average Runs</span>
+                  <strong id="analytics-avg-runs">--</strong>
+                  <p id="analytics-avg-runs-description">Historical average for this month</p>
+                </div>
+                <div class="analytics-stat analytics-stat-baseline">
+                  <span>Average Home Runs</span>
+                  <strong id="analytics-avg-home-runs">--</strong>
+                  <p id="analytics-avg-home-runs-description">Historical average for this month</p>
+                </div>
+                <div class="analytics-stat analytics-stat-baseline">
+                  <span>Average Game Duration</span>
+                  <strong id="analytics-avg-game-duration">--</strong>
+                  <p id="analytics-avg-game-duration-description">Historical average for this month</p>
+                </div>
               </div>
             </div>
           </article>
 
-          <article class="weather-card analytics-card analytics-placeholder-card" aria-label="Placeholder analytics">
-            <div class="card-heading">
-              <p>Additional Analytics</p>
-              <span>Coming Soon</span>
-            </div>
-
-            <div class="analytics-placeholder"></div>
-          </article>
+          <p class="service-status" id="service-status" role="status">
+            Fetching live weather...
+          </p>
         </section>
       </main>
     </div>

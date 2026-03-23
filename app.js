@@ -45,6 +45,17 @@ const appState = {
   forecastSimilarity: null,
 };
 
+const mobileCollapsibleMedia = window.matchMedia("(max-width: 720px)");
+const mobileCollapsibleCards = Array.from(
+  document.querySelectorAll("[data-mobile-collapsible]")
+).map((card) => ({
+  card,
+  toggle: card.querySelector(".mobile-card-toggle"),
+  content: card.querySelector(".mobile-card-content"),
+  indicator: card.querySelector(".mobile-card-indicator"),
+  mobileExpanded: false,
+}));
+
 function formatTimestamp(value) {
   if (!value) {
     return "Unavailable";
@@ -87,6 +98,52 @@ function formatDifference(value, unit) {
   const rounded = Number(value.toFixed(1));
   const absolute = Math.abs(rounded);
   return unit ? `${absolute} ${unit}` : `${absolute}`;
+}
+
+function setMobileCollapsibleState(entry, expanded) {
+  if (!entry.toggle || !entry.content) {
+    return;
+  }
+
+  entry.toggle.setAttribute("aria-expanded", expanded ? "true" : "false");
+  entry.content.hidden = !expanded;
+
+  if (entry.indicator) {
+    entry.indicator.textContent = expanded ? "Close" : "Open";
+  }
+}
+
+function syncMobileCollapsibles() {
+  const isMobile = mobileCollapsibleMedia.matches;
+
+  mobileCollapsibleCards.forEach((entry) => {
+    setMobileCollapsibleState(entry, isMobile ? entry.mobileExpanded : true);
+  });
+}
+
+function initializeMobileCollapsibles() {
+  mobileCollapsibleCards.forEach((entry) => {
+    if (!entry.toggle) {
+      return;
+    }
+
+    entry.toggle.addEventListener("click", () => {
+      if (!mobileCollapsibleMedia.matches) {
+        return;
+      }
+
+      entry.mobileExpanded = !entry.mobileExpanded;
+      setMobileCollapsibleState(entry, entry.mobileExpanded);
+    });
+  });
+
+  if (typeof mobileCollapsibleMedia.addEventListener === "function") {
+    mobileCollapsibleMedia.addEventListener("change", syncMobileCollapsibles);
+  } else if (typeof mobileCollapsibleMedia.addListener === "function") {
+    mobileCollapsibleMedia.addListener(syncMobileCollapsibles);
+  }
+
+  syncMobileCollapsibles();
 }
 
 async function fetchJson(urls) {
@@ -354,3 +411,4 @@ loadWeatherAverages();
 loadBallAverages();
 loadForecastSimilarity();
 renderBallparkAnalytics();
+initializeMobileCollapsibles();
