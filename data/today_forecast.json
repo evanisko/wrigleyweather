@@ -12,13 +12,13 @@
     "providerUrl": "https://api.weather.gov"
   },
   "todayForecast": {
-    "generatedAt": "2026-03-22T08:20:24.967401+00:00",
-    "forecastDate": "2026-03-22T06:00:00-05:00",
-    "periodName": "Sunday",
-    "summary": "Patchy Fog",
-    "highTemperatureF": 43,
-    "windSpeedMph": 20,
-    "windDirectionCardinal": "N",
-    "windDirectionDegrees": 0
+    "generatedAt": "2026-03-23T08:41:26.159623+00:00",
+    "forecastDate": "2026-03-23T06:00:00-05:00",
+    "periodName": "Monday",
+    "summary": "Mostly Sunny",
+    "highTemperatureF": 37,
+    "windSpeedMph": 12,
+    "windDirectionCardinal": "NNE",
+    "windDirectionDegrees": 22
   }
 }
