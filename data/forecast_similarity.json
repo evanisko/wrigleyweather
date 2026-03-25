@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-25T19:42:30.437359+00:00",
+  "generated_at": "2026-03-25T20:33:30.086703+00:00",
   "source": {
     "forecast_path": "data/today_forecast.json",
     "database_path": ".local.nosync/analytics.duckdb",
@@ -9,8 +9,8 @@
     ]
   },
   "forecast_input": {
-    "generatedAt": "2026-03-25T19:42:30.297726+00:00",
-    "forecastDate": "2026-03-25T13:00:00-05:00",
+    "generatedAt": "2026-03-25T20:33:29.946814+00:00",
+    "forecastDate": "2026-03-25T15:00:00-05:00",
     "periodName": "This Afternoon",
     "summary": "Mostly Sunny",
     "highTemperatureF": 70,
