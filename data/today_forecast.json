@@ -12,9 +12,9 @@
     "providerUrl": "https://api.weather.gov"
   },
   "todayForecast": {
-    "generatedAt": "2026-03-25T17:53:49.275237+00:00",
-    "forecastDate": "2026-03-25T11:00:00-05:00",
-    "periodName": "Today",
+    "generatedAt": "2026-03-25T18:49:02.725510+00:00",
+    "forecastDate": "2026-03-25T13:00:00-05:00",
+    "periodName": "This Afternoon",
     "summary": "Mostly Sunny",
     "highTemperatureF": 70,
     "windSpeedMph": 15,
