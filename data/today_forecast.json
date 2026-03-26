@@ -12,10 +12,10 @@
     "providerUrl": "https://api.weather.gov"
   },
   "todayForecast": {
-    "generatedAt": "2026-03-26T01:51:40.490463+00:00",
+    "generatedAt": "2026-03-26T04:29:28.755714+00:00",
     "forecastDate": "2026-03-26T06:00:00-05:00",
     "periodName": "Thursday",
-    "summary": "Partly Sunny then Slight Chance Showers And Thunderstorms",
+    "summary": "Slight Chance Rain Showers then Slight Chance Showers And Thunderstorms",
     "highTemperatureF": 58,
     "windSpeedMph": 12,
     "windDirectionCardinal": "WNW",
