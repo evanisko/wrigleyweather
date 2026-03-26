@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-26T13:00:41.058217+00:00",
+  "generated_at": "2026-03-26T14:58:54.148241+00:00",
   "source": {
     "forecast_path": "data/today_forecast.json",
     "database_path": ".local.nosync/analytics.duckdb",
@@ -9,14 +9,14 @@
     ]
   },
   "forecast_input": {
-    "generatedAt": "2026-03-26T13:00:40.922288+00:00",
-    "forecastDate": "2026-03-26T08:00:00-05:00",
+    "generatedAt": "2026-03-26T14:58:54.006137+00:00",
+    "forecastDate": "2026-03-26T09:00:00-05:00",
     "periodName": "Today",
     "summary": "Mostly Cloudy then Chance Showers And Thunderstorms",
     "highTemperatureF": 66,
     "windSpeedMph": 12,
-    "windDirectionCardinal": "NNW",
-    "windDirectionDegrees": 338
+    "windDirectionCardinal": "NW",
+    "windDirectionDegrees": 315
   },
   "criteria": {
     "temperature_f": {
@@ -28,54 +28,42 @@
       "tolerance": 5
     },
     "wind_direction_degrees": {
-      "target": 338,
+      "target": 315,
       "tolerance": 22
     }
   },
   "results": {
-    "matched_game_count": 3,
+    "matched_game_count": 2,
     "averages": {
-      "runs": 9.67,
-      "home_runs": 2.67,
-      "game_time_minutes": 168.33
+      "runs": 6.5,
+      "home_runs": 3.0,
+      "game_time_minutes": 156.5
     }
   },
   "matches": [
     {
-      "date": "2025-09-25",
-      "historical_temperature_f": 63.1,
-      "historical_wind_speed_mph": 9.6,
-      "historical_wind_direction_degrees": 355,
-      "total_runs": 13,
-      "total_home_runs": 5,
-      "game_time_minutes": 160,
-      "temperature_delta": 2.9,
-      "wind_speed_delta": 2.4,
-      "wind_direction_delta": 17.0
-    },
-    {
-      "date": "2023-09-07",
-      "historical_temperature_f": 67.1,
-      "historical_wind_speed_mph": 14.5,
-      "historical_wind_direction_degrees": 350,
+      "date": "2025-05-30",
+      "historical_temperature_f": 64.2,
+      "historical_wind_speed_mph": 15.5,
+      "historical_wind_direction_degrees": 302,
       "total_runs": 8,
       "total_home_runs": 3,
-      "game_time_minutes": 154,
-      "temperature_delta": 1.1,
-      "wind_speed_delta": 2.5,
-      "wind_direction_delta": 12.0
+      "game_time_minutes": 144,
+      "temperature_delta": 1.8,
+      "wind_speed_delta": 3.5,
+      "wind_direction_delta": 13.0
     },
     {
-      "date": "2022-07-13",
-      "historical_temperature_f": 69.8,
-      "historical_wind_speed_mph": 15.0,
-      "historical_wind_direction_degrees": 349,
-      "total_runs": 8,
-      "total_home_runs": 0,
-      "game_time_minutes": 191,
-      "temperature_delta": 3.8,
-      "wind_speed_delta": 3.0,
-      "wind_direction_delta": 11.0
+      "date": "2021-09-08",
+      "historical_temperature_f": 68.0,
+      "historical_wind_speed_mph": 16.2,
+      "historical_wind_direction_degrees": 297,
+      "total_runs": 5,
+      "total_home_runs": 3,
+      "game_time_minutes": 169,
+      "temperature_delta": 2.0,
+      "wind_speed_delta": 4.2,
+      "wind_direction_delta": 18.0
     }
   ]
 }
