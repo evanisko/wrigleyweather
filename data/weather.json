@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-03-26T16:14:25.342457+00:00",
+  "generatedAt": "2026-03-26T17:57:29.734617+00:00",
   "location": {
     "name": "Wrigley Field",
     "city": "Chicago, IL",
@@ -14,26 +14,26 @@
     "observationStationId": "KMDW"
   },
   "current": {
-    "updatedAt": "2026-03-26T16:00:00+00:00",
-    "summary": "Partly Sunny",
-    "temperatureF": 72,
-    "feelsLikeF": 71,
-    "heatIndexF": 71,
-    "windChillF": 71,
-    "humidityPercent": 57,
-    "rainChancePercent": 9,
+    "updatedAt": "2026-03-26T17:15:00+00:00",
+    "summary": "Mostly Cloudy",
+    "temperatureF": 59,
+    "feelsLikeF": 59,
+    "heatIndexF": 59,
+    "windChillF": 59,
+    "humidityPercent": 59,
+    "rainChancePercent": 18,
     "comfort": "Excellent",
     "wind": {
-      "speedMph": 7,
-      "directionCardinal": "SW",
-      "label": "7 mph SW"
+      "speedMph": null,
+      "directionCardinal": "Variable",
+      "label": "Calm Variable"
     }
   },
   "forecast": [
     {
-      "date": "2026-03-26T11:00:00-05:00",
+      "date": "2026-03-26T12:00:00-05:00",
       "label": "Thu",
-      "summary": "Mostly Cloudy then Slight Chance Showers And Thunderstorms",
+      "summary": "Slight Chance Showers And Thunderstorms",
       "highF": 66,
       "lowF": 32
     },

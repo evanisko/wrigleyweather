@@ -12,13 +12,13 @@
     "providerUrl": "https://api.weather.gov"
   },
   "todayForecast": {
-    "generatedAt": "2026-03-26T16:14:25.438856+00:00",
-    "forecastDate": "2026-03-26T11:00:00-05:00",
-    "periodName": "Today",
-    "summary": "Mostly Cloudy then Slight Chance Showers And Thunderstorms",
+    "generatedAt": "2026-03-26T17:57:29.823664+00:00",
+    "forecastDate": "2026-03-26T12:00:00-05:00",
+    "periodName": "This Afternoon",
+    "summary": "Slight Chance Showers And Thunderstorms",
     "highTemperatureF": 66,
-    "windSpeedMph": 15,
-    "windDirectionCardinal": "NNE",
-    "windDirectionDegrees": 22
+    "windSpeedMph": 18,
+    "windDirectionCardinal": "N",
+    "windDirectionDegrees": 0
   }
 }
