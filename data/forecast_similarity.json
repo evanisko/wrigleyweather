@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-26T11:45:07.940100+00:00",
+  "generated_at": "2026-03-26T13:00:41.058217+00:00",
   "source": {
     "forecast_path": "data/today_forecast.json",
     "database_path": ".local.nosync/analytics.duckdb",
@@ -9,10 +9,10 @@
     ]
   },
   "forecast_input": {
-    "generatedAt": "2026-03-26T11:45:07.794780+00:00",
-    "forecastDate": "2026-03-26T06:00:00-05:00",
-    "periodName": "Thursday",
-    "summary": "Partly Sunny then Chance Showers And Thunderstorms",
+    "generatedAt": "2026-03-26T13:00:40.922288+00:00",
+    "forecastDate": "2026-03-26T08:00:00-05:00",
+    "periodName": "Today",
+    "summary": "Mostly Cloudy then Chance Showers And Thunderstorms",
     "highTemperatureF": 66,
     "windSpeedMph": 12,
     "windDirectionCardinal": "NNW",
