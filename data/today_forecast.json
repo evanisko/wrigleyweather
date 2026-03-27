@@ -12,9 +12,9 @@
     "providerUrl": "https://api.weather.gov"
   },
   "todayForecast": {
-    "generatedAt": "2026-03-27T10:41:57.225305+00:00",
+    "generatedAt": "2026-03-27T11:37:46.287843+00:00",
     "forecastDate": "2026-03-27T06:00:00-05:00",
-    "periodName": "Friday",
+    "periodName": "Today",
     "summary": "Partly Sunny",
     "highTemperatureF": 37,
     "windSpeedMph": 15,
