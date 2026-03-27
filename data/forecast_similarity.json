@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-27T06:09:51.881179+00:00",
+  "generated_at": "2026-03-27T07:57:12.035099+00:00",
   "source": {
     "forecast_path": "data/today_forecast.json",
     "database_path": ".local.nosync/analytics.duckdb",
@@ -9,18 +9,18 @@
     ]
   },
   "forecast_input": {
-    "generatedAt": "2026-03-27T06:09:51.735048+00:00",
+    "generatedAt": "2026-03-27T07:57:11.891057+00:00",
     "forecastDate": "2026-03-27T06:00:00-05:00",
     "periodName": "Friday",
     "summary": "Partly Sunny",
-    "highTemperatureF": 38,
+    "highTemperatureF": 37,
     "windSpeedMph": 15,
     "windDirectionCardinal": "N",
     "windDirectionDegrees": 0
   },
   "criteria": {
     "temperature_f": {
-      "target": 38,
+      "target": 37,
       "tolerance": 5
     },
     "wind_speed_mph": {
@@ -49,7 +49,7 @@
       "total_runs": 7,
       "total_home_runs": 0,
       "game_time_minutes": 133,
-      "temperature_delta": 1.7,
+      "temperature_delta": 0.7,
       "wind_speed_delta": 4.3,
       "wind_direction_delta": 4.0
     },
@@ -61,7 +61,7 @@
       "total_runs": 16,
       "total_home_runs": 3,
       "game_time_minutes": 177,
-      "temperature_delta": 1.2,
+      "temperature_delta": 2.2,
       "wind_speed_delta": 4.0,
       "wind_direction_delta": 7.0
     },
@@ -73,7 +73,7 @@
       "total_runs": 4,
       "total_home_runs": 1,
       "game_time_minutes": 212,
-      "temperature_delta": 0.4,
+      "temperature_delta": 0.6,
       "wind_speed_delta": 1.9,
       "wind_direction_delta": 22.0
     },
@@ -85,7 +85,7 @@
       "total_runs": 17,
       "total_home_runs": 6,
       "game_time_minutes": 203,
-      "temperature_delta": 3.9,
+      "temperature_delta": 4.9,
       "wind_speed_delta": 3.1,
       "wind_direction_delta": 14.0
     }
