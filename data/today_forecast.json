@@ -12,8 +12,8 @@
     "providerUrl": "https://api.weather.gov"
   },
   "todayForecast": {
-    "generatedAt": "2026-03-28T11:24:00.664949+00:00",
-    "forecastDate": "2026-03-28T06:00:00-05:00",
+    "generatedAt": "2026-03-28T12:41:08.921494+00:00",
+    "forecastDate": "2026-03-28T07:00:00-05:00",
     "periodName": "Today",
     "summary": "Sunny",
     "highTemperatureF": 48,
