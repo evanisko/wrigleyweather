@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-28T12:41:09.058845+00:00",
+  "generated_at": "2026-03-28T13:46:25.418124+00:00",
   "source": {
     "forecast_path": "data/today_forecast.json",
     "database_path": ".local.nosync/analytics.duckdb",
@@ -9,14 +9,14 @@
     ]
   },
   "forecast_input": {
-    "generatedAt": "2026-03-28T12:41:08.921494+00:00",
-    "forecastDate": "2026-03-28T07:00:00-05:00",
+    "generatedAt": "2026-03-28T13:46:25.279004+00:00",
+    "forecastDate": "2026-03-28T08:00:00-05:00",
     "periodName": "Today",
     "summary": "Sunny",
     "highTemperatureF": 48,
     "windSpeedMph": 10,
-    "windDirectionCardinal": "WSW",
-    "windDirectionDegrees": 248
+    "windDirectionCardinal": "SW",
+    "windDirectionDegrees": 225
   },
   "criteria": {
     "temperature_f": {
@@ -28,7 +28,7 @@
       "tolerance": 5
     },
     "wind_direction_degrees": {
-      "target": 248,
+      "target": 225,
       "tolerance": 22
     }
   },
@@ -51,7 +51,7 @@
       "game_time_minutes": 206,
       "temperature_delta": 0.2,
       "wind_speed_delta": 0.7,
-      "wind_direction_delta": 11.0
+      "wind_direction_delta": 12.0
     }
   ]
 }
