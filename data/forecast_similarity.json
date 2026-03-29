@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-29T06:09:16.175962+00:00",
+  "generated_at": "2026-03-29T07:49:52.255950+00:00",
   "source": {
     "forecast_path": "data/today_forecast.json",
     "database_path": ".local.nosync/analytics.duckdb",
@@ -9,18 +9,18 @@
     ]
   },
   "forecast_input": {
-    "generatedAt": "2026-03-29T06:09:16.042711+00:00",
+    "generatedAt": "2026-03-29T07:49:52.109621+00:00",
     "forecastDate": "2026-03-29T06:00:00-05:00",
     "periodName": "Sunday",
     "summary": "Partly Sunny",
-    "highTemperatureF": 60,
+    "highTemperatureF": 62,
     "windSpeedMph": 12,
     "windDirectionCardinal": "SSW",
     "windDirectionDegrees": 202
   },
   "criteria": {
     "temperature_f": {
-      "target": 60,
+      "target": 62,
       "tolerance": 5
     },
     "wind_speed_mph": {
@@ -33,14 +33,26 @@
     }
   },
   "results": {
-    "matched_game_count": 3,
+    "matched_game_count": 4,
     "averages": {
-      "runs": 8.67,
-      "home_runs": 4.33,
-      "game_time_minutes": 163.0
+      "runs": 9.5,
+      "home_runs": 3.75,
+      "game_time_minutes": 155.5
     }
   },
   "matches": [
+    {
+      "date": "2024-08-22",
+      "historical_temperature_f": 66.0,
+      "historical_wind_speed_mph": 7.3,
+      "historical_wind_direction_degrees": 184,
+      "total_runs": 12,
+      "total_home_runs": 2,
+      "game_time_minutes": 133,
+      "temperature_delta": 4.0,
+      "wind_speed_delta": 4.7,
+      "wind_direction_delta": 18.0
+    },
     {
       "date": "2024-05-16",
       "historical_temperature_f": 61.0,
@@ -61,7 +73,7 @@
       "total_runs": 9,
       "total_home_runs": 6,
       "game_time_minutes": 173,
-      "temperature_delta": 1.9,
+      "temperature_delta": 0.1,
       "wind_speed_delta": 2.3,
       "wind_direction_delta": 6.0
     },
@@ -73,7 +85,7 @@
       "total_runs": 8,
       "total_home_runs": 4,
       "game_time_minutes": 169,
-      "temperature_delta": 3.1,
+      "temperature_delta": 1.1,
       "wind_speed_delta": 3.1,
       "wind_direction_delta": 11.0
     }
