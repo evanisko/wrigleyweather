@@ -12,12 +12,12 @@
     "providerUrl": "https://api.weather.gov"
   },
   "todayForecast": {
-    "generatedAt": "2026-03-30T04:45:24.540280+00:00",
+    "generatedAt": "2026-03-30T06:27:31.596018+00:00",
     "forecastDate": "2026-03-30T06:00:00-05:00",
     "periodName": "Monday",
     "summary": "Mostly Sunny",
-    "highTemperatureF": 69,
-    "windSpeedMph": 8,
+    "highTemperatureF": 68,
+    "windSpeedMph": 12,
     "windDirectionCardinal": "SSW",
     "windDirectionDegrees": 202
   }
