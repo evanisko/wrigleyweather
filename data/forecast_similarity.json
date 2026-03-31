@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-31T04:32:40.734138+00:00",
+  "generated_at": "2026-03-31T06:13:40.620879+00:00",
   "source": {
     "forecast_path": "data/today_forecast.json",
     "database_path": ".local.nosync/analytics.duckdb",
@@ -9,7 +9,7 @@
     ]
   },
   "forecast_input": {
-    "generatedAt": "2026-03-31T04:32:40.596291+00:00",
+    "generatedAt": "2026-03-31T06:13:40.484718+00:00",
     "forecastDate": "2026-03-31T06:00:00-05:00",
     "periodName": "Tuesday",
     "summary": "Chance Showers And Thunderstorms",
