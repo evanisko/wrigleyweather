@@ -12,13 +12,13 @@
     "providerUrl": "https://api.weather.gov"
   },
   "todayForecast": {
-    "generatedAt": "2026-03-31T13:03:39.091587+00:00",
-    "forecastDate": "2026-03-31T08:00:00-05:00",
+    "generatedAt": "2026-03-31T14:56:59.690724+00:00",
+    "forecastDate": "2026-03-31T09:00:00-05:00",
     "periodName": "Today",
-    "summary": "Chance Showers And Thunderstorms",
+    "summary": "Showers And Thunderstorms",
     "highTemperatureF": 69,
     "windSpeedMph": 18,
-    "windDirectionCardinal": "WSW",
-    "windDirectionDegrees": 248
+    "windDirectionCardinal": "W",
+    "windDirectionDegrees": 270
   }
 }
