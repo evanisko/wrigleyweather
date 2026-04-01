@@ -12,8 +12,8 @@
     "providerUrl": "https://api.weather.gov"
   },
   "todayForecast": {
-    "generatedAt": "2026-04-01T14:59:28.043175+00:00",
-    "forecastDate": "2026-04-01T09:00:00-05:00",
+    "generatedAt": "2026-04-01T16:09:05.435261+00:00",
+    "forecastDate": "2026-04-01T11:00:00-05:00",
     "periodName": "Today",
     "summary": "Slight Chance Rain",
     "highTemperatureF": 39,
