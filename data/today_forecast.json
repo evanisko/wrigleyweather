@@ -12,7 +12,7 @@
     "providerUrl": "https://api.weather.gov"
   },
   "todayForecast": {
-    "generatedAt": "2026-04-01T08:57:14.718073+00:00",
+    "generatedAt": "2026-04-01T10:06:06.310765+00:00",
     "forecastDate": "2026-04-01T06:00:00-05:00",
     "periodName": "Wednesday",
     "summary": "Chance Rain Showers",
