@@ -12,9 +12,9 @@
     "providerUrl": "https://api.weather.gov"
   },
   "todayForecast": {
-    "generatedAt": "2026-04-01T10:06:06.310765+00:00",
+    "generatedAt": "2026-04-01T11:46:50.055653+00:00",
     "forecastDate": "2026-04-01T06:00:00-05:00",
-    "periodName": "Wednesday",
+    "periodName": "Today",
     "summary": "Chance Rain Showers",
     "highTemperatureF": 41,
     "windSpeedMph": 18,
