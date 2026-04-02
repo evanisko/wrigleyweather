@@ -12,11 +12,11 @@
     "providerUrl": "https://api.weather.gov"
   },
   "todayForecast": {
-    "generatedAt": "2026-04-02T18:49:25.668482+00:00",
-    "forecastDate": "2026-04-02T13:00:00-05:00",
+    "generatedAt": "2026-04-02T19:45:06.980877+00:00",
+    "forecastDate": "2026-04-02T14:00:00-05:00",
     "periodName": "This Afternoon",
-    "summary": "Chance Showers And Thunderstorms",
-    "highTemperatureF": 67,
+    "summary": "Showers And Thunderstorms",
+    "highTemperatureF": 70,
     "windSpeedMph": 22,
     "windDirectionCardinal": "S",
     "windDirectionDegrees": 180
