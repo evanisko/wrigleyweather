@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-03T14:50:46.029901+00:00",
+  "generated_at": "2026-04-03T15:35:11.905611+00:00",
   "source": {
     "forecast_path": "data/today_forecast.json",
     "database_path": ".local.nosync/analytics.duckdb",
@@ -9,14 +9,14 @@
     ]
   },
   "forecast_input": {
-    "generatedAt": "2026-04-03T14:50:45.892079+00:00",
-    "forecastDate": "2026-04-03T09:00:00-05:00",
+    "generatedAt": "2026-04-03T15:35:11.760715+00:00",
+    "forecastDate": "2026-04-03T10:00:00-05:00",
     "periodName": "Today",
     "summary": "Mostly Cloudy",
     "highTemperatureF": 52,
     "windSpeedMph": 10,
-    "windDirectionCardinal": "WNW",
-    "windDirectionDegrees": 292
+    "windDirectionCardinal": "NW",
+    "windDirectionDegrees": 315
   },
   "criteria": {
     "temperature_f": {
@@ -28,7 +28,7 @@
       "tolerance": 5
     },
     "wind_direction_degrees": {
-      "target": 292,
+      "target": 315,
       "tolerance": 22
     }
   },
