@@ -12,13 +12,13 @@
     "providerUrl": "https://api.weather.gov"
   },
   "todayForecast": {
-    "generatedAt": "2026-04-03T13:59:21.865395+00:00",
-    "forecastDate": "2026-04-03T08:00:00-05:00",
+    "generatedAt": "2026-04-03T14:50:45.892079+00:00",
+    "forecastDate": "2026-04-03T09:00:00-05:00",
     "periodName": "Today",
     "summary": "Mostly Cloudy",
-    "highTemperatureF": 50,
+    "highTemperatureF": 52,
     "windSpeedMph": 10,
-    "windDirectionCardinal": "NNW",
-    "windDirectionDegrees": 338
+    "windDirectionCardinal": "WNW",
+    "windDirectionDegrees": 292
   }
 }
