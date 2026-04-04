@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-04T13:49:07.546412+00:00",
+  "generated_at": "2026-04-04T14:28:52.528092+00:00",
   "source": {
     "forecast_path": "data/today_forecast.json",
     "database_path": ".local.nosync/analytics.duckdb",
@@ -9,12 +9,12 @@
     ]
   },
   "forecast_input": {
-    "generatedAt": "2026-04-04T13:49:07.412935+00:00",
-    "forecastDate": "2026-04-04T08:00:00-05:00",
+    "generatedAt": "2026-04-04T14:28:52.389911+00:00",
+    "forecastDate": "2026-04-04T09:00:00-05:00",
     "periodName": "Today",
-    "summary": "Rain Showers Likely",
+    "summary": "Chance Rain Showers",
     "highTemperatureF": 54,
-    "windSpeedMph": 18,
+    "windSpeedMph": 15,
     "windDirectionCardinal": "SW",
     "windDirectionDegrees": 225
   },
@@ -24,7 +24,7 @@
       "tolerance": 5
     },
     "wind_speed_mph": {
-      "target": 18,
+      "target": 15,
       "tolerance": 5
     },
     "wind_direction_degrees": {
@@ -33,26 +33,14 @@
     }
   },
   "results": {
-    "matched_game_count": 3,
+    "matched_game_count": 2,
     "averages": {
-      "runs": 10.67,
+      "runs": 11.5,
       "home_runs": 4.0,
-      "game_time_minutes": 177.0
+      "game_time_minutes": 187.0
     }
   },
   "matches": [
-    {
-      "date": "2024-04-23",
-      "historical_temperature_f": 55.6,
-      "historical_wind_speed_mph": 20.1,
-      "historical_wind_direction_degrees": 229,
-      "total_runs": 9,
-      "total_home_runs": 4,
-      "game_time_minutes": 157,
-      "temperature_delta": 1.6,
-      "wind_speed_delta": 2.1,
-      "wind_direction_delta": 4.0
-    },
     {
       "date": "2021-04-23",
       "historical_temperature_f": 50.7,
@@ -62,7 +50,7 @@
       "total_home_runs": 6,
       "game_time_minutes": 186,
       "temperature_delta": 3.3,
-      "wind_speed_delta": 0.6,
+      "wind_speed_delta": 2.4,
       "wind_direction_delta": 3.0
     },
     {
@@ -74,7 +62,7 @@
       "total_home_runs": 2,
       "game_time_minutes": 188,
       "temperature_delta": 3.5,
-      "wind_speed_delta": 1.8,
+      "wind_speed_delta": 4.8,
       "wind_direction_delta": 1.0
     }
   ]
