@@ -12,8 +12,8 @@
     "providerUrl": "https://api.weather.gov"
   },
   "todayForecast": {
-    "generatedAt": "2026-04-04T15:25:53.221739+00:00",
-    "forecastDate": "2026-04-04T10:00:00-05:00",
+    "generatedAt": "2026-04-04T16:28:21.225733+00:00",
+    "forecastDate": "2026-04-04T11:00:00-05:00",
     "periodName": "Today",
     "summary": "Areas Of Fog",
     "highTemperatureF": 58,
