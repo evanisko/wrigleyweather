@@ -12,11 +12,11 @@
     "providerUrl": "https://api.weather.gov"
   },
   "todayForecast": {
-    "generatedAt": "2026-04-04T16:28:21.225733+00:00",
-    "forecastDate": "2026-04-04T11:00:00-05:00",
-    "periodName": "Today",
-    "summary": "Areas Of Fog",
-    "highTemperatureF": 58,
+    "generatedAt": "2026-04-04T17:24:43.022322+00:00",
+    "forecastDate": "2026-04-04T12:00:00-05:00",
+    "periodName": "This Afternoon",
+    "summary": "Chance Rain Showers",
+    "highTemperatureF": 57,
     "windSpeedMph": 18,
     "windDirectionCardinal": "WSW",
     "windDirectionDegrees": 248
