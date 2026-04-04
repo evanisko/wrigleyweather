@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-04T04:12:08.065822+00:00",
+  "generated_at": "2026-04-04T05:53:04.709103+00:00",
   "source": {
     "forecast_path": "data/today_forecast.json",
     "database_path": ".local.nosync/analytics.duckdb",
@@ -9,7 +9,7 @@
     ]
   },
   "forecast_input": {
-    "generatedAt": "2026-04-04T04:12:07.925266+00:00",
+    "generatedAt": "2026-04-04T05:53:04.576356+00:00",
     "forecastDate": "2026-04-04T06:00:00-05:00",
     "periodName": "Saturday",
     "summary": "Showers And Thunderstorms Likely",
