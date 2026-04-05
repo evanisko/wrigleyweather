@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-05T06:12:07.893293+00:00",
+  "generated_at": "2026-04-05T07:52:19.314974+00:00",
   "source": {
     "forecast_path": "data/today_forecast.json",
     "database_path": ".local.nosync/analytics.duckdb",
@@ -9,18 +9,18 @@
     ]
   },
   "forecast_input": {
-    "generatedAt": "2026-04-05T06:12:07.701644+00:00",
+    "generatedAt": "2026-04-05T07:52:19.172002+00:00",
     "forecastDate": "2026-04-05T06:00:00-05:00",
     "periodName": "Sunday",
-    "summary": "Mostly Sunny",
-    "highTemperatureF": 52,
+    "summary": "Partly Sunny",
+    "highTemperatureF": 51,
     "windSpeedMph": 15,
     "windDirectionCardinal": "WNW",
     "windDirectionDegrees": 292
   },
   "criteria": {
     "temperature_f": {
-      "target": 52,
+      "target": 51,
       "tolerance": 5
     },
     "wind_speed_mph": {
@@ -49,7 +49,7 @@
       "total_runs": 11,
       "total_home_runs": 1,
       "game_time_minutes": 145,
-      "temperature_delta": 3.8,
+      "temperature_delta": 2.8,
       "wind_speed_delta": 4.9,
       "wind_direction_delta": 4.0
     }
