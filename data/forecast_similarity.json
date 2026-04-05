@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-05T17:25:35.108697+00:00",
+  "generated_at": "2026-04-05T18:34:57.774694+00:00",
   "source": {
     "forecast_path": "data/today_forecast.json",
     "database_path": ".local.nosync/analytics.duckdb",
@@ -9,18 +9,18 @@
     ]
   },
   "forecast_input": {
-    "generatedAt": "2026-04-05T17:25:34.977945+00:00",
-    "forecastDate": "2026-04-05T12:00:00-05:00",
+    "generatedAt": "2026-04-05T18:34:57.635748+00:00",
+    "forecastDate": "2026-04-05T13:00:00-05:00",
     "periodName": "This Afternoon",
-    "summary": "Mostly Sunny",
-    "highTemperatureF": 51,
+    "summary": "Sunny",
+    "highTemperatureF": 52,
     "windSpeedMph": 12,
     "windDirectionCardinal": "WNW",
     "windDirectionDegrees": 292
   },
   "criteria": {
     "temperature_f": {
-      "target": 51,
+      "target": 52,
       "tolerance": 5
     },
     "wind_speed_mph": {
