@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-06T19:48:45.600944+00:00",
+  "generated_at": "2026-04-06T20:32:31.272522+00:00",
   "source": {
     "forecast_path": "data/today_forecast.json",
     "database_path": ".local.nosync/analytics.duckdb",
@@ -9,8 +9,8 @@
     ]
   },
   "forecast_input": {
-    "generatedAt": "2026-04-06T19:48:45.458284+00:00",
-    "forecastDate": "2026-04-06T14:00:00-05:00",
+    "generatedAt": "2026-04-06T20:32:31.144821+00:00",
+    "forecastDate": "2026-04-06T15:00:00-05:00",
     "periodName": "This Afternoon",
     "summary": "Partly Sunny",
     "highTemperatureF": 47,
