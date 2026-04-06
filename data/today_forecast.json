@@ -12,8 +12,8 @@
     "providerUrl": "https://api.weather.gov"
   },
   "todayForecast": {
-    "generatedAt": "2026-04-06T14:11:12.541628+00:00",
-    "forecastDate": "2026-04-06T09:00:00-05:00",
+    "generatedAt": "2026-04-06T15:40:30.497290+00:00",
+    "forecastDate": "2026-04-06T07:00:00-05:00",
     "periodName": "Today",
     "summary": "Partly Sunny",
     "highTemperatureF": 48,
