@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-07T06:16:54.275030+00:00",
+  "generated_at": "2026-04-07T10:03:55.155872+00:00",
   "source": {
     "forecast_path": "data/today_forecast.json",
     "database_path": ".local.nosync/analytics.duckdb",
@@ -9,10 +9,10 @@
     ]
   },
   "forecast_input": {
-    "generatedAt": "2026-04-07T06:16:54.136818+00:00",
+    "generatedAt": "2026-04-07T10:03:55.020099+00:00",
     "forecastDate": "2026-04-07T06:00:00-05:00",
     "periodName": "Tuesday",
-    "summary": "Slight Chance Snow Showers then Mostly Sunny",
+    "summary": "Mostly Sunny",
     "highTemperatureF": 36,
     "windSpeedMph": 12,
     "windDirectionCardinal": "NE",
