@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-07T20:40:52.054002+00:00",
+  "generated_at": "2026-04-07T21:37:38.256198+00:00",
   "source": {
     "forecast_path": "data/today_forecast.json",
     "database_path": ".local.nosync/analytics.duckdb",
@@ -9,18 +9,18 @@
     ]
   },
   "forecast_input": {
-    "generatedAt": "2026-04-07T20:40:51.928294+00:00",
-    "forecastDate": "2026-04-07T14:00:00-05:00",
+    "generatedAt": "2026-04-07T21:37:38.129182+00:00",
+    "forecastDate": "2026-04-07T16:00:00-05:00",
     "periodName": "This Afternoon",
     "summary": "Sunny",
-    "highTemperatureF": 34,
+    "highTemperatureF": 35,
     "windSpeedMph": 10,
     "windDirectionCardinal": "ENE",
     "windDirectionDegrees": 68
   },
   "criteria": {
     "temperature_f": {
-      "target": 34,
+      "target": 35,
       "tolerance": 5
     },
     "wind_speed_mph": {
@@ -49,7 +49,7 @@
       "total_runs": 2,
       "total_home_runs": 0,
       "game_time_minutes": 137,
-      "temperature_delta": 4.8,
+      "temperature_delta": 3.8,
       "wind_speed_delta": 1.4,
       "wind_direction_delta": 20.0
     }
