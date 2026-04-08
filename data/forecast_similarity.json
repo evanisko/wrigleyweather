@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-08T08:10:02.906801+00:00",
+  "generated_at": "2026-04-08T10:03:00.402144+00:00",
   "source": {
     "forecast_path": "data/today_forecast.json",
     "database_path": ".local.nosync/analytics.duckdb",
@@ -9,10 +9,10 @@
     ]
   },
   "forecast_input": {
-    "generatedAt": "2026-04-08T08:10:02.780646+00:00",
+    "generatedAt": "2026-04-08T10:03:00.260436+00:00",
     "forecastDate": "2026-04-08T06:00:00-05:00",
     "periodName": "Wednesday",
-    "summary": "Partly Sunny",
+    "summary": "Slight Chance Rain Showers then Partly Sunny",
     "highTemperatureF": 66,
     "windSpeedMph": 20,
     "windDirectionCardinal": "SSE",
