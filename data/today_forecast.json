@@ -12,12 +12,12 @@
     "providerUrl": "https://api.weather.gov"
   },
   "todayForecast": {
-    "generatedAt": "2026-04-09T11:51:01.406637+00:00",
-    "forecastDate": "2026-04-09T06:00:00-05:00",
+    "generatedAt": "2026-04-09T13:12:41.984817+00:00",
+    "forecastDate": "2026-04-09T08:00:00-05:00",
     "periodName": "Today",
-    "summary": "Scattered Rain Showers then Partly Sunny",
+    "summary": "Isolated Rain Showers then Partly Sunny",
     "highTemperatureF": 67,
-    "windSpeedMph": 12,
+    "windSpeedMph": 10,
     "windDirectionCardinal": "S",
     "windDirectionDegrees": 180
   }
