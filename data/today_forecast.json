@@ -12,11 +12,11 @@
     "providerUrl": "https://api.weather.gov"
   },
   "todayForecast": {
-    "generatedAt": "2026-04-09T04:29:47.577141+00:00",
+    "generatedAt": "2026-04-09T08:16:49.368309+00:00",
     "forecastDate": "2026-04-09T06:00:00-05:00",
     "periodName": "Thursday",
-    "summary": "Rain Showers Likely then Partly Sunny",
-    "highTemperatureF": 64,
+    "summary": "Chance Showers And Thunderstorms then Partly Sunny",
+    "highTemperatureF": 67,
     "windSpeedMph": 12,
     "windDirectionCardinal": "S",
     "windDirectionDegrees": 180
