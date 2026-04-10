@@ -12,13 +12,13 @@
     "providerUrl": "https://api.weather.gov"
   },
   "todayForecast": {
-    "generatedAt": "2026-04-10T12:57:41.560736+00:00",
-    "forecastDate": "2026-04-10T07:00:00-05:00",
+    "generatedAt": "2026-04-10T16:43:39.522246+00:00",
+    "forecastDate": "2026-04-10T11:00:00-05:00",
     "periodName": "Today",
-    "summary": "Patchy Drizzle then Mostly Cloudy",
-    "highTemperatureF": 46,
-    "windSpeedMph": 12,
-    "windDirectionCardinal": "N",
-    "windDirectionDegrees": 0
+    "summary": "Partly Sunny",
+    "highTemperatureF": 50,
+    "windSpeedMph": 10,
+    "windDirectionCardinal": "NNE",
+    "windDirectionDegrees": 22
   }
 }
