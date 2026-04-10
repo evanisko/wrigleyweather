@@ -12,10 +12,10 @@
     "providerUrl": "https://api.weather.gov"
   },
   "todayForecast": {
-    "generatedAt": "2026-04-10T08:19:09.320367+00:00",
+    "generatedAt": "2026-04-10T10:04:21.949609+00:00",
     "forecastDate": "2026-04-10T06:00:00-05:00",
     "periodName": "Friday",
-    "summary": "Rain Showers Likely then Mostly Cloudy",
+    "summary": "Chance Rain Showers then Mostly Cloudy",
     "highTemperatureF": 46,
     "windSpeedMph": 12,
     "windDirectionCardinal": "N",
