@@ -12,7 +12,7 @@
     "providerUrl": "https://api.weather.gov"
   },
   "todayForecast": {
-    "generatedAt": "2026-04-10T06:51:06.381178+00:00",
+    "generatedAt": "2026-04-10T08:19:09.320367+00:00",
     "forecastDate": "2026-04-10T06:00:00-05:00",
     "periodName": "Friday",
     "summary": "Rain Showers Likely then Mostly Cloudy",
