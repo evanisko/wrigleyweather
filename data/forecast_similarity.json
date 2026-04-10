@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-10T01:58:54.734226+00:00",
+  "generated_at": "2026-04-10T04:50:26.673780+00:00",
   "source": {
     "forecast_path": "data/today_forecast.json",
     "database_path": ".local.nosync/analytics.duckdb",
@@ -9,7 +9,7 @@
     ]
   },
   "forecast_input": {
-    "generatedAt": "2026-04-10T01:58:54.596467+00:00",
+    "generatedAt": "2026-04-10T04:50:26.526255+00:00",
     "forecastDate": "2026-04-10T06:00:00-05:00",
     "periodName": "Friday",
     "summary": "Rain Likely then Chance Rain Showers",
