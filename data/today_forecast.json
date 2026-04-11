@@ -12,9 +12,9 @@
     "providerUrl": "https://api.weather.gov"
   },
   "todayForecast": {
-    "generatedAt": "2026-04-11T16:30:22.253812+00:00",
-    "forecastDate": "2026-04-11T11:00:00-05:00",
-    "periodName": "Today",
+    "generatedAt": "2026-04-11T17:26:30.321696+00:00",
+    "forecastDate": "2026-04-11T12:00:00-05:00",
+    "periodName": "This Afternoon",
     "summary": "Partly Sunny",
     "highTemperatureF": 53,
     "windSpeedMph": 10,
