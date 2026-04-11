@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-11T19:31:06.816171+00:00",
+  "generated_at": "2026-04-11T20:26:09.946894+00:00",
   "source": {
     "forecast_path": "data/today_forecast.json",
     "database_path": ".local.nosync/analytics.duckdb",
@@ -9,7 +9,7 @@
     ]
   },
   "forecast_input": {
-    "generatedAt": "2026-04-11T19:31:06.679557+00:00",
+    "generatedAt": "2026-04-11T20:26:09.811289+00:00",
     "forecastDate": "2026-04-11T14:00:00-05:00",
     "periodName": "This Afternoon",
     "summary": "Mostly Cloudy",
