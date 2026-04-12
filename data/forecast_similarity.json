@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-12T11:29:58.375715+00:00",
+  "generated_at": "2026-04-12T12:49:46.219819+00:00",
   "source": {
     "forecast_path": "data/today_forecast.json",
     "database_path": ".local.nosync/analytics.duckdb",
@@ -9,8 +9,8 @@
     ]
   },
   "forecast_input": {
-    "generatedAt": "2026-04-12T11:29:58.230121+00:00",
-    "forecastDate": "2026-04-12T06:00:00-05:00",
+    "generatedAt": "2026-04-12T12:49:46.080652+00:00",
+    "forecastDate": "2026-04-12T07:00:00-05:00",
     "periodName": "Today",
     "summary": "Mostly Cloudy then Chance Showers And Thunderstorms",
     "highTemperatureF": 78,
