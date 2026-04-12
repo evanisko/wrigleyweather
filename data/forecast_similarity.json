@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-12T09:40:24.621296+00:00",
+  "generated_at": "2026-04-12T10:33:29.223711+00:00",
   "source": {
     "forecast_path": "data/today_forecast.json",
     "database_path": ".local.nosync/analytics.duckdb",
@@ -9,7 +9,7 @@
     ]
   },
   "forecast_input": {
-    "generatedAt": "2026-04-12T09:40:23.912813+00:00",
+    "generatedAt": "2026-04-12T10:33:29.094287+00:00",
     "forecastDate": "2026-04-12T06:00:00-05:00",
     "periodName": "Sunday",
     "summary": "Mostly Cloudy then Chance Showers And Thunderstorms",

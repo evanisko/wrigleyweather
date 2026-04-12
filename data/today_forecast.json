@@ -12,7 +12,7 @@
     "providerUrl": "https://api.weather.gov"
   },
   "todayForecast": {
-    "generatedAt": "2026-04-12T09:40:23.912813+00:00",
+    "generatedAt": "2026-04-12T10:33:29.094287+00:00",
     "forecastDate": "2026-04-12T06:00:00-05:00",
     "periodName": "Sunday",
     "summary": "Mostly Cloudy then Chance Showers And Thunderstorms",
