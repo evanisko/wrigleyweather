@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-12T19:35:36.530255+00:00",
+  "generated_at": "2026-04-12T20:28:50.716070+00:00",
   "source": {
     "forecast_path": "data/today_forecast.json",
     "database_path": ".local.nosync/analytics.duckdb",
@@ -9,8 +9,8 @@
     ]
   },
   "forecast_input": {
-    "generatedAt": "2026-04-12T19:35:36.396975+00:00",
-    "forecastDate": "2026-04-12T13:00:00-05:00",
+    "generatedAt": "2026-04-12T20:28:50.581262+00:00",
+    "forecastDate": "2026-04-12T15:00:00-05:00",
     "periodName": "This Afternoon",
     "summary": "Slight Chance Showers And Thunderstorms",
     "highTemperatureF": 75,
