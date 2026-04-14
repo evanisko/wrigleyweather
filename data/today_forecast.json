@@ -12,10 +12,10 @@
     "providerUrl": "https://api.weather.gov"
   },
   "todayForecast": {
-    "generatedAt": "2026-04-14T16:59:39.847055+00:00",
-    "forecastDate": "2026-04-14T11:00:00-05:00",
-    "periodName": "Today",
-    "summary": "Mostly Sunny then Scattered Showers And Thunderstorms",
+    "generatedAt": "2026-04-14T18:09:36.475162+00:00",
+    "forecastDate": "2026-04-14T13:00:00-05:00",
+    "periodName": "This Afternoon",
+    "summary": "Scattered Showers And Thunderstorms",
     "highTemperatureF": 79,
     "windSpeedMph": 15,
     "windDirectionCardinal": "SSW",
