@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-15T21:56:44.110032+00:00",
+  "generated_at": "2026-04-15T22:39:46.792968+00:00",
   "source": {
     "forecast_path": "data/today_forecast.json",
     "database_path": ".local.nosync/analytics.duckdb",
@@ -9,7 +9,7 @@
     ]
   },
   "forecast_input": {
-    "generatedAt": "2026-04-15T21:56:43.973625+00:00",
+    "generatedAt": "2026-04-15T22:39:46.660427+00:00",
     "forecastDate": "2026-04-15T16:00:00-05:00",
     "periodName": "This Afternoon",
     "summary": "Chance Showers And Thunderstorms",
