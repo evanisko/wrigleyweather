@@ -12,8 +12,8 @@
     "providerUrl": "https://api.weather.gov"
   },
   "todayForecast": {
-    "generatedAt": "2026-04-15T15:02:08.498478+00:00",
-    "forecastDate": "2026-04-15T10:00:00-05:00",
+    "generatedAt": "2026-04-15T16:56:42.484324+00:00",
+    "forecastDate": "2026-04-15T11:00:00-05:00",
     "periodName": "Today",
     "summary": "Showers And Thunderstorms Likely",
     "highTemperatureF": 73,
