@@ -12,13 +12,13 @@
     "providerUrl": "https://api.weather.gov"
   },
   "todayForecast": {
-    "generatedAt": "2026-04-16T11:59:01.550410+00:00",
-    "forecastDate": "2026-04-16T06:00:00-05:00",
+    "generatedAt": "2026-04-16T15:28:24.678700+00:00",
+    "forecastDate": "2026-04-16T10:00:00-05:00",
     "periodName": "Today",
     "summary": "Scattered Showers And Thunderstorms",
     "highTemperatureF": 68,
     "windSpeedMph": 12,
-    "windDirectionCardinal": "W",
-    "windDirectionDegrees": 270
+    "windDirectionCardinal": "NW",
+    "windDirectionDegrees": 315
   }
 }
