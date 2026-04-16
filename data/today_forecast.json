@@ -12,12 +12,12 @@
     "providerUrl": "https://api.weather.gov"
   },
   "todayForecast": {
-    "generatedAt": "2026-04-16T19:04:14.175385+00:00",
-    "forecastDate": "2026-04-16T14:00:00-05:00",
+    "generatedAt": "2026-04-16T20:42:18.940030+00:00",
+    "forecastDate": "2026-04-16T15:00:00-05:00",
     "periodName": "This Afternoon",
-    "summary": "Scattered Showers And Thunderstorms",
+    "summary": "Partly Sunny",
     "highTemperatureF": 67,
-    "windSpeedMph": 12,
+    "windSpeedMph": 10,
     "windDirectionCardinal": "N",
     "windDirectionDegrees": 0
   }
