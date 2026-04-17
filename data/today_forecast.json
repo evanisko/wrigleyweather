@@ -12,7 +12,7 @@
     "providerUrl": "https://api.weather.gov"
   },
   "todayForecast": {
-    "generatedAt": "2026-04-17T10:49:11.543105+00:00",
+    "generatedAt": "2026-04-17T11:45:28.155332+00:00",
     "forecastDate": "2026-04-17T06:00:00-05:00",
     "periodName": "Friday",
     "summary": "Widespread Fog then Partly Sunny",
