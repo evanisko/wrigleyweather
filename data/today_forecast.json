@@ -12,12 +12,12 @@
     "providerUrl": "https://api.weather.gov"
   },
   "todayForecast": {
-    "generatedAt": "2026-04-17T05:22:49.781800+00:00",
+    "generatedAt": "2026-04-17T07:23:56.504029+00:00",
     "forecastDate": "2026-04-17T06:00:00-05:00",
     "periodName": "Friday",
     "summary": "Widespread Fog then Partly Sunny",
-    "highTemperatureF": 80,
-    "windSpeedMph": 10,
+    "highTemperatureF": 75,
+    "windSpeedMph": 12,
     "windDirectionCardinal": "SSE",
     "windDirectionDegrees": 158
   }
