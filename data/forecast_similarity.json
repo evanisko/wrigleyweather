@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-16T23:35:32.869804+00:00",
+  "generated_at": "2026-04-17T02:01:31.041866+00:00",
   "source": {
     "forecast_path": "data/today_forecast.json",
     "database_path": ".local.nosync/analytics.duckdb",
@@ -9,10 +9,10 @@
     ]
   },
   "forecast_input": {
-    "generatedAt": "2026-04-16T23:35:32.739040+00:00",
+    "generatedAt": "2026-04-17T02:01:30.908099+00:00",
     "forecastDate": "2026-04-17T06:00:00-05:00",
     "periodName": "Friday",
-    "summary": "Areas Of Fog then Partly Sunny",
+    "summary": "Widespread Fog then Partly Sunny",
     "highTemperatureF": 80,
     "windSpeedMph": 10,
     "windDirectionCardinal": "SSE",
