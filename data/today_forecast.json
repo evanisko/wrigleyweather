@@ -12,7 +12,7 @@
     "providerUrl": "https://api.weather.gov"
   },
   "todayForecast": {
-    "generatedAt": "2026-04-18T08:49:07.984109+00:00",
+    "generatedAt": "2026-04-18T09:41:44.915859+00:00",
     "forecastDate": "2026-04-18T06:00:00-05:00",
     "periodName": "Saturday",
     "summary": "Chance Rain Showers then Partly Sunny",
