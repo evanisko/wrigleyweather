@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-18T10:34:43.889773+00:00",
+  "generated_at": "2026-04-18T11:30:16.724207+00:00",
   "source": {
     "forecast_path": "data/today_forecast.json",
     "database_path": ".local.nosync/analytics.duckdb",
@@ -9,9 +9,9 @@
     ]
   },
   "forecast_input": {
-    "generatedAt": "2026-04-18T10:34:43.749042+00:00",
+    "generatedAt": "2026-04-18T11:30:16.591853+00:00",
     "forecastDate": "2026-04-18T06:00:00-05:00",
-    "periodName": "Saturday",
+    "periodName": "Today",
     "summary": "Chance Rain Showers then Partly Sunny",
     "highTemperatureF": 52,
     "windSpeedMph": 18,
