@@ -12,13 +12,13 @@
     "providerUrl": "https://api.weather.gov"
   },
   "todayForecast": {
-    "generatedAt": "2026-04-18T17:32:02.734534+00:00",
-    "forecastDate": "2026-04-18T12:00:00-05:00",
+    "generatedAt": "2026-04-18T18:38:58.480274+00:00",
+    "forecastDate": "2026-04-18T13:00:00-05:00",
     "periodName": "This Afternoon",
-    "summary": "Partly Sunny",
+    "summary": "Mostly Sunny",
     "highTemperatureF": 52,
     "windSpeedMph": 20,
-    "windDirectionCardinal": "WNW",
-    "windDirectionDegrees": 292
+    "windDirectionCardinal": "W",
+    "windDirectionDegrees": 270
   }
 }
