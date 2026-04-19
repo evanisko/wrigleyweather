@@ -12,13 +12,13 @@
     "providerUrl": "https://api.weather.gov"
   },
   "todayForecast": {
-    "generatedAt": "2026-04-19T20:30:30.654855+00:00",
-    "forecastDate": "2026-04-19T15:00:00-05:00",
+    "generatedAt": "2026-04-19T21:29:33.018973+00:00",
+    "forecastDate": "2026-04-19T16:00:00-05:00",
     "periodName": "This Afternoon",
-    "summary": "Slight Chance T-storms",
-    "highTemperatureF": 51,
+    "summary": "Isolated Rain Showers",
+    "highTemperatureF": 47,
     "windSpeedMph": 15,
-    "windDirectionCardinal": "NW",
-    "windDirectionDegrees": 315
+    "windDirectionCardinal": "NNW",
+    "windDirectionDegrees": 338
   }
 }
