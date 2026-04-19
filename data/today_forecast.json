@@ -12,13 +12,13 @@
     "providerUrl": "https://api.weather.gov"
   },
   "todayForecast": {
-    "generatedAt": "2026-04-19T11:30:46.400047+00:00",
-    "forecastDate": "2026-04-19T06:00:00-05:00",
+    "generatedAt": "2026-04-19T13:56:52.472662+00:00",
+    "forecastDate": "2026-04-19T08:00:00-05:00",
     "periodName": "Today",
     "summary": "Partly Sunny then Chance Rain Showers",
     "highTemperatureF": 48,
     "windSpeedMph": 12,
-    "windDirectionCardinal": "W",
-    "windDirectionDegrees": 270
+    "windDirectionCardinal": "WNW",
+    "windDirectionDegrees": 292
   }
 }
