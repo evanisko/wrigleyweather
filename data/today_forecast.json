@@ -12,8 +12,8 @@
     "providerUrl": "https://api.weather.gov"
   },
   "todayForecast": {
-    "generatedAt": "2026-04-19T13:56:52.472662+00:00",
-    "forecastDate": "2026-04-19T08:00:00-05:00",
+    "generatedAt": "2026-04-19T14:38:58.924914+00:00",
+    "forecastDate": "2026-04-19T09:00:00-05:00",
     "periodName": "Today",
     "summary": "Partly Sunny then Chance Rain Showers",
     "highTemperatureF": 48,
