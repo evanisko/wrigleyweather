@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-19T15:32:44.494740+00:00",
+  "generated_at": "2026-04-19T16:33:01.606169+00:00",
   "source": {
     "forecast_path": "data/today_forecast.json",
     "database_path": ".local.nosync/analytics.duckdb",
@@ -9,22 +9,22 @@
     ]
   },
   "forecast_input": {
-    "generatedAt": "2026-04-19T15:32:44.349248+00:00",
-    "forecastDate": "2026-04-19T09:00:00-05:00",
+    "generatedAt": "2026-04-19T16:33:01.471492+00:00",
+    "forecastDate": "2026-04-19T11:00:00-05:00",
     "periodName": "Today",
     "summary": "Partly Sunny then Chance Rain Showers",
-    "highTemperatureF": 48,
-    "windSpeedMph": 12,
+    "highTemperatureF": 51,
+    "windSpeedMph": 15,
     "windDirectionCardinal": "WNW",
     "windDirectionDegrees": 292
   },
   "criteria": {
     "temperature_f": {
-      "target": 48,
+      "target": 51,
       "tolerance": 5
     },
     "wind_speed_mph": {
-      "target": 12,
+      "target": 15,
       "tolerance": 5
     },
     "wind_direction_degrees": {
@@ -35,23 +35,23 @@
   "results": {
     "matched_game_count": 1,
     "averages": {
-      "runs": 9.0,
+      "runs": 11.0,
       "home_runs": 1.0,
-      "game_time_minutes": 154.0
+      "game_time_minutes": 145.0
     }
   },
   "matches": [
     {
-      "date": "2024-04-21",
-      "historical_temperature_f": 43.5,
-      "historical_wind_speed_mph": 11.4,
-      "historical_wind_direction_degrees": 277,
-      "total_runs": 9,
+      "date": "2024-04-19",
+      "historical_temperature_f": 48.2,
+      "historical_wind_speed_mph": 19.9,
+      "historical_wind_direction_degrees": 288,
+      "total_runs": 11,
       "total_home_runs": 1,
-      "game_time_minutes": 154,
-      "temperature_delta": 4.5,
-      "wind_speed_delta": 0.6,
-      "wind_direction_delta": 15.0
+      "game_time_minutes": 145,
+      "temperature_delta": 2.8,
+      "wind_speed_delta": 4.9,
+      "wind_direction_delta": 4.0
     }
   ]
 }
