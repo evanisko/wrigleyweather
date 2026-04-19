@@ -12,7 +12,7 @@
     "providerUrl": "https://api.weather.gov"
   },
   "todayForecast": {
-    "generatedAt": "2026-04-19T07:11:11.412936+00:00",
+    "generatedAt": "2026-04-19T08:46:04.378792+00:00",
     "forecastDate": "2026-04-19T06:00:00-05:00",
     "periodName": "Sunday",
     "summary": "Partly Sunny then Chance Rain Showers",
