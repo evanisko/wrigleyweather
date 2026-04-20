@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-20T11:19:48.369446+00:00",
+  "generated_at": "2026-04-20T13:17:52.524224+00:00",
   "source": {
     "forecast_path": "data/today_forecast.json",
     "database_path": ".local.nosync/analytics.duckdb",
@@ -9,10 +9,10 @@
     ]
   },
   "forecast_input": {
-    "generatedAt": "2026-04-20T11:19:48.228877+00:00",
-    "forecastDate": "2026-04-20T06:00:00-05:00",
+    "generatedAt": "2026-04-20T13:17:52.389924+00:00",
+    "forecastDate": "2026-04-20T08:00:00-05:00",
     "periodName": "Today",
-    "summary": "Areas Of Frost then Sunny",
+    "summary": "Sunny",
     "highTemperatureF": 49,
     "windSpeedMph": 8,
     "windDirectionCardinal": "ESE",
