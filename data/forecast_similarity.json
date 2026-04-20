@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-20T02:06:15.818457+00:00",
+  "generated_at": "2026-04-20T05:34:59.072870+00:00",
   "source": {
     "forecast_path": "data/today_forecast.json",
     "database_path": ".local.nosync/analytics.duckdb",
@@ -9,7 +9,7 @@
     ]
   },
   "forecast_input": {
-    "generatedAt": "2026-04-20T02:06:15.683062+00:00",
+    "generatedAt": "2026-04-20T05:34:58.938372+00:00",
     "forecastDate": "2026-04-20T06:00:00-05:00",
     "periodName": "Monday",
     "summary": "Areas Of Frost then Sunny",
