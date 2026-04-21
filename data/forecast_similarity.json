@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-21T07:26:29.519600+00:00",
+  "generated_at": "2026-04-21T09:19:43.798314+00:00",
   "source": {
     "forecast_path": "data/today_forecast.json",
     "database_path": ".local.nosync/analytics.duckdb",
@@ -9,7 +9,7 @@
     ]
   },
   "forecast_input": {
-    "generatedAt": "2026-04-21T07:26:29.382726+00:00",
+    "generatedAt": "2026-04-21T09:19:43.658833+00:00",
     "forecastDate": "2026-04-21T06:00:00-05:00",
     "periodName": "Tuesday",
     "summary": "Partly Sunny then Chance Showers And Thunderstorms",
