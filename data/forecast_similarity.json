@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-21T09:19:43.798314+00:00",
+  "generated_at": "2026-04-21T11:01:14.425790+00:00",
   "source": {
     "forecast_path": "data/today_forecast.json",
     "database_path": ".local.nosync/analytics.duckdb",
@@ -9,10 +9,10 @@
     ]
   },
   "forecast_input": {
-    "generatedAt": "2026-04-21T09:19:43.658833+00:00",
+    "generatedAt": "2026-04-21T11:01:14.290479+00:00",
     "forecastDate": "2026-04-21T06:00:00-05:00",
-    "periodName": "Tuesday",
-    "summary": "Partly Sunny then Chance Showers And Thunderstorms",
+    "periodName": "Today",
+    "summary": "Partly Sunny then Scattered Showers And Thunderstorms",
     "highTemperatureF": 74,
     "windSpeedMph": 18,
     "windDirectionCardinal": "SW",
