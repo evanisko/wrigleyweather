@@ -12,8 +12,8 @@
     "providerUrl": "https://api.weather.gov"
   },
   "todayForecast": {
-    "generatedAt": "2026-04-21T11:01:14.290479+00:00",
-    "forecastDate": "2026-04-21T06:00:00-05:00",
+    "generatedAt": "2026-04-21T15:07:51.089841+00:00",
+    "forecastDate": "2026-04-21T10:00:00-05:00",
     "periodName": "Today",
     "summary": "Partly Sunny then Scattered Showers And Thunderstorms",
     "highTemperatureF": 74,
