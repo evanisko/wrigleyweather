@@ -12,8 +12,8 @@
     "providerUrl": "https://api.weather.gov"
   },
   "todayForecast": {
-    "generatedAt": "2026-04-24T17:45:21.771703+00:00",
-    "forecastDate": "2026-04-24T12:00:00-05:00",
+    "generatedAt": "2026-04-24T18:41:16.688089+00:00",
+    "forecastDate": "2026-04-24T13:00:00-05:00",
     "periodName": "This Afternoon",
     "summary": "Chance Rain Showers",
     "highTemperatureF": 74,
