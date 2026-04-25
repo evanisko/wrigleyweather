@@ -12,13 +12,13 @@
     "providerUrl": "https://api.weather.gov"
   },
   "todayForecast": {
-    "generatedAt": "2026-04-25T04:32:48.739915+00:00",
+    "generatedAt": "2026-04-25T06:18:00.599581+00:00",
     "forecastDate": "2026-04-25T06:00:00-05:00",
     "periodName": "Saturday",
     "summary": "Mostly Sunny",
     "highTemperatureF": 54,
-    "windSpeedMph": 12,
-    "windDirectionCardinal": "N",
-    "windDirectionDegrees": 0
+    "windSpeedMph": 18,
+    "windDirectionCardinal": "NNE",
+    "windDirectionDegrees": 22
   }
 }
