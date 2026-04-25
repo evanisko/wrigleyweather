@@ -12,10 +12,10 @@
     "providerUrl": "https://api.weather.gov"
   },
   "todayForecast": {
-    "generatedAt": "2026-04-25T08:02:20.499406+00:00",
+    "generatedAt": "2026-04-25T09:45:43.852272+00:00",
     "forecastDate": "2026-04-25T06:00:00-05:00",
     "periodName": "Saturday",
-    "summary": "Mostly Sunny",
+    "summary": "Patchy Fog then Mostly Sunny",
     "highTemperatureF": 54,
     "windSpeedMph": 18,
     "windDirectionCardinal": "NNE",
