@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-25T11:34:22.784938+00:00",
+  "generated_at": "2026-04-25T12:51:29.694707+00:00",
   "source": {
     "forecast_path": "data/today_forecast.json",
     "database_path": ".local.nosync/analytics.duckdb",
@@ -9,8 +9,8 @@
     ]
   },
   "forecast_input": {
-    "generatedAt": "2026-04-25T11:34:22.650406+00:00",
-    "forecastDate": "2026-04-25T06:00:00-05:00",
+    "generatedAt": "2026-04-25T12:51:29.556182+00:00",
+    "forecastDate": "2026-04-25T07:00:00-05:00",
     "periodName": "Today",
     "summary": "Areas Of Fog then Mostly Sunny",
     "highTemperatureF": 54,
