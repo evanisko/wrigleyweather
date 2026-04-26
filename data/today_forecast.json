@@ -12,8 +12,8 @@
     "providerUrl": "https://api.weather.gov"
   },
   "todayForecast": {
-    "generatedAt": "2026-04-26T11:35:18.327972+00:00",
-    "forecastDate": "2026-04-26T06:00:00-05:00",
+    "generatedAt": "2026-04-26T12:53:47.872055+00:00",
+    "forecastDate": "2026-04-26T07:00:00-05:00",
     "periodName": "Today",
     "summary": "Patchy Fog",
     "highTemperatureF": 53,
