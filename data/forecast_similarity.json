@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-26T05:33:52.930049+00:00",
+  "generated_at": "2026-04-26T07:20:54.530400+00:00",
   "source": {
     "forecast_path": "data/today_forecast.json",
     "database_path": ".local.nosync/analytics.duckdb",
@@ -9,10 +9,10 @@
     ]
   },
   "forecast_input": {
-    "generatedAt": "2026-04-26T05:33:52.795604+00:00",
+    "generatedAt": "2026-04-26T07:20:54.410757+00:00",
     "forecastDate": "2026-04-26T06:00:00-05:00",
     "periodName": "Sunday",
-    "summary": "Areas Of Fog then Partly Sunny",
+    "summary": "Areas Of Fog",
     "highTemperatureF": 53,
     "windSpeedMph": 10,
     "windDirectionCardinal": "ENE",
