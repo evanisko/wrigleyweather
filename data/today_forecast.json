@@ -12,12 +12,12 @@
     "providerUrl": "https://api.weather.gov"
   },
   "todayForecast": {
-    "generatedAt": "2026-04-26T12:53:47.872055+00:00",
-    "forecastDate": "2026-04-26T07:00:00-05:00",
+    "generatedAt": "2026-04-26T14:02:14.968591+00:00",
+    "forecastDate": "2026-04-26T09:00:00-05:00",
     "periodName": "Today",
     "summary": "Patchy Fog",
     "highTemperatureF": 53,
-    "windSpeedMph": 8,
+    "windSpeedMph": 10,
     "windDirectionCardinal": "ENE",
     "windDirectionDegrees": 68
   }
