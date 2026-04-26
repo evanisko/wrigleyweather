@@ -12,7 +12,7 @@
     "providerUrl": "https://api.weather.gov"
   },
   "todayForecast": {
-    "generatedAt": "2026-04-26T08:53:48.995779+00:00",
+    "generatedAt": "2026-04-26T09:48:43.842802+00:00",
     "forecastDate": "2026-04-26T06:00:00-05:00",
     "periodName": "Sunday",
     "summary": "Patchy Fog",
