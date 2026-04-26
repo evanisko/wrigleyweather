@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-26T16:36:14.298109+00:00",
+  "generated_at": "2026-04-26T17:34:10.895014+00:00",
   "source": {
     "forecast_path": "data/today_forecast.json",
     "database_path": ".local.nosync/analytics.duckdb",
@@ -9,9 +9,9 @@
     ]
   },
   "forecast_input": {
-    "generatedAt": "2026-04-26T16:36:14.161460+00:00",
-    "forecastDate": "2026-04-26T11:00:00-05:00",
-    "periodName": "Today",
+    "generatedAt": "2026-04-26T17:34:10.763308+00:00",
+    "forecastDate": "2026-04-26T12:00:00-05:00",
+    "periodName": "This Afternoon",
     "summary": "Mostly Cloudy",
     "highTemperatureF": 51,
     "windSpeedMph": 10,
