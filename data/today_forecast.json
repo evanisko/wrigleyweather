@@ -12,13 +12,13 @@
     "providerUrl": "https://api.weather.gov"
   },
   "todayForecast": {
-    "generatedAt": "2026-04-27T22:43:54.842832+00:00",
-    "forecastDate": "2026-04-27T17:00:00-05:00",
-    "periodName": "This Afternoon",
-    "summary": "Isolated Showers And Thunderstorms",
-    "highTemperatureF": 63,
-    "windSpeedMph": 20,
-    "windDirectionCardinal": "S",
-    "windDirectionDegrees": 180
+    "generatedAt": "2026-04-27T23:46:27.216675+00:00",
+    "forecastDate": "2026-04-28T06:00:00-05:00",
+    "periodName": "Tuesday",
+    "summary": "Partly Sunny",
+    "highTemperatureF": 62,
+    "windSpeedMph": 12,
+    "windDirectionCardinal": "WNW",
+    "windDirectionDegrees": 292
   }
 }
