@@ -12,7 +12,7 @@
     "providerUrl": "https://api.weather.gov"
   },
   "todayForecast": {
-    "generatedAt": "2026-04-29T08:06:41.703036+00:00",
+    "generatedAt": "2026-04-29T10:49:42.993120+00:00",
     "forecastDate": "2026-04-29T06:00:00-05:00",
     "periodName": "Wednesday",
     "summary": "Isolated Rain Showers",
