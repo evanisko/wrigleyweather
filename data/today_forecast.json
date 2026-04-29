@@ -12,8 +12,8 @@
     "providerUrl": "https://api.weather.gov"
   },
   "todayForecast": {
-    "generatedAt": "2026-04-29T19:16:00.030084+00:00",
-    "forecastDate": "2026-04-29T14:00:00-05:00",
+    "generatedAt": "2026-04-29T20:57:25.054757+00:00",
+    "forecastDate": "2026-04-29T15:00:00-05:00",
     "periodName": "This Afternoon",
     "summary": "Chance Rain Showers",
     "highTemperatureF": 51,
