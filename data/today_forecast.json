@@ -12,8 +12,8 @@
     "providerUrl": "https://api.weather.gov"
   },
   "todayForecast": {
-    "generatedAt": "2026-04-30T19:11:15.683988+00:00",
-    "forecastDate": "2026-04-30T14:00:00-05:00",
+    "generatedAt": "2026-04-30T20:54:29.775095+00:00",
+    "forecastDate": "2026-04-30T15:00:00-05:00",
     "periodName": "This Afternoon",
     "summary": "Scattered Rain Showers",
     "highTemperatureF": 50,
