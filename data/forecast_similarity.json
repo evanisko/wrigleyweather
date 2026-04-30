@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-30T21:52:37.564277+00:00",
+  "generated_at": "2026-04-30T22:46:54.790571+00:00",
   "source": {
     "forecast_path": "data/today_forecast.json",
     "database_path": ".local.nosync/analytics.duckdb",
@@ -9,8 +9,8 @@
     ]
   },
   "forecast_input": {
-    "generatedAt": "2026-04-30T21:52:37.416595+00:00",
-    "forecastDate": "2026-04-30T15:00:00-05:00",
+    "generatedAt": "2026-04-30T22:46:54.669033+00:00",
+    "forecastDate": "2026-04-30T17:00:00-05:00",
     "periodName": "This Afternoon",
     "summary": "Scattered Rain Showers",
     "highTemperatureF": 50,
