@@ -12,10 +12,10 @@
     "providerUrl": "https://api.weather.gov"
   },
   "todayForecast": {
-    "generatedAt": "2026-04-29T23:58:41.764707+00:00",
+    "generatedAt": "2026-04-30T03:33:48.162871+00:00",
     "forecastDate": "2026-04-30T06:00:00-05:00",
     "periodName": "Thursday",
-    "summary": "Mostly Sunny",
+    "summary": "Mostly Sunny then Chance Rain Showers",
     "highTemperatureF": 49,
     "windSpeedMph": 8,
     "windDirectionCardinal": "N",
