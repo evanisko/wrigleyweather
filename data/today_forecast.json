@@ -12,13 +12,13 @@
     "providerUrl": "https://api.weather.gov"
   },
   "todayForecast": {
-    "generatedAt": "2026-04-30T13:28:43.975901+00:00",
-    "forecastDate": "2026-04-30T08:00:00-05:00",
+    "generatedAt": "2026-04-30T15:44:28.279618+00:00",
+    "forecastDate": "2026-04-30T10:00:00-05:00",
     "periodName": "Today",
-    "summary": "Partly Sunny then Scattered Rain Showers",
-    "highTemperatureF": 46,
+    "summary": "Mostly Cloudy then Chance Rain Showers",
+    "highTemperatureF": 50,
     "windSpeedMph": 8,
-    "windDirectionCardinal": "NNE",
-    "windDirectionDegrees": 22
+    "windDirectionCardinal": "NE",
+    "windDirectionDegrees": 45
   }
 }
