@@ -12,10 +12,10 @@
     "providerUrl": "https://api.weather.gov"
   },
   "todayForecast": {
-    "generatedAt": "2026-05-01T11:54:34.910073+00:00",
-    "forecastDate": "2026-05-01T06:00:00-05:00",
+    "generatedAt": "2026-05-01T13:06:44.708926+00:00",
+    "forecastDate": "2026-05-01T08:00:00-05:00",
     "periodName": "Today",
-    "summary": "Slight Chance Rain Showers",
+    "summary": "Partly Sunny then Slight Chance Rain Showers",
     "highTemperatureF": 45,
     "windSpeedMph": 12,
     "windDirectionCardinal": "N",
