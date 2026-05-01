@@ -12,7 +12,7 @@
     "providerUrl": "https://api.weather.gov"
   },
   "todayForecast": {
-    "generatedAt": "2026-05-01T08:56:03.744919+00:00",
+    "generatedAt": "2026-05-01T10:20:42.736410+00:00",
     "forecastDate": "2026-05-01T06:00:00-05:00",
     "periodName": "Friday",
     "summary": "Slight Chance Rain Showers",
