@@ -12,13 +12,13 @@
     "providerUrl": "https://api.weather.gov"
   },
   "todayForecast": {
-    "generatedAt": "2026-05-01T17:54:05.245295+00:00",
-    "forecastDate": "2026-05-01T12:00:00-05:00",
+    "generatedAt": "2026-05-01T19:03:14.899506+00:00",
+    "forecastDate": "2026-05-01T14:00:00-05:00",
     "periodName": "This Afternoon",
     "summary": "Slight Chance Rain Showers",
     "highTemperatureF": 45,
     "windSpeedMph": 10,
-    "windDirectionCardinal": "NNE",
-    "windDirectionDegrees": 22
+    "windDirectionCardinal": "NE",
+    "windDirectionDegrees": 45
   }
 }
