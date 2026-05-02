@@ -12,11 +12,11 @@
     "providerUrl": "https://api.weather.gov"
   },
   "todayForecast": {
-    "generatedAt": "2026-05-02T12:56:31.829016+00:00",
-    "forecastDate": "2026-05-02T07:00:00-05:00",
+    "generatedAt": "2026-05-02T14:09:27.181452+00:00",
+    "forecastDate": "2026-05-02T09:00:00-05:00",
     "periodName": "Today",
-    "summary": "Patchy Frost then Mostly Sunny",
-    "highTemperatureF": 50,
+    "summary": "Mostly Sunny",
+    "highTemperatureF": 53,
     "windSpeedMph": 8,
     "windDirectionCardinal": "NE",
     "windDirectionDegrees": 45
