@@ -12,7 +12,7 @@
     "providerUrl": "https://api.weather.gov"
   },
   "todayForecast": {
-    "generatedAt": "2026-05-02T07:24:03.790425+00:00",
+    "generatedAt": "2026-05-02T09:00:10.015806+00:00",
     "forecastDate": "2026-05-02T06:00:00-05:00",
     "periodName": "Saturday",
     "summary": "Areas Of Frost then Mostly Sunny",
