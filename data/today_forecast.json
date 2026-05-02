@@ -12,9 +12,9 @@
     "providerUrl": "https://api.weather.gov"
   },
   "todayForecast": {
-    "generatedAt": "2026-05-02T10:04:23.514033+00:00",
+    "generatedAt": "2026-05-02T11:40:07.092920+00:00",
     "forecastDate": "2026-05-02T06:00:00-05:00",
-    "periodName": "Saturday",
+    "periodName": "Today",
     "summary": "Areas Of Frost then Mostly Sunny",
     "highTemperatureF": 50,
     "windSpeedMph": 8,
