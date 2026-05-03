@@ -12,8 +12,8 @@
     "providerUrl": "https://api.weather.gov"
   },
   "todayForecast": {
-    "generatedAt": "2026-05-03T12:56:33.269276+00:00",
-    "forecastDate": "2026-05-03T07:00:00-05:00",
+    "generatedAt": "2026-05-03T14:09:45.193265+00:00",
+    "forecastDate": "2026-05-03T09:00:00-05:00",
     "periodName": "Today",
     "summary": "Scattered Rain Showers",
     "highTemperatureF": 66,
