@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-03T17:41:35.590262+00:00",
+  "generated_at": "2026-05-03T18:50:50.479077+00:00",
   "source": {
     "forecast_path": "data/today_forecast.json",
     "database_path": ".local.nosync/analytics.duckdb",
@@ -9,10 +9,10 @@
     ]
   },
   "forecast_input": {
-    "generatedAt": "2026-05-03T17:41:35.458832+00:00",
-    "forecastDate": "2026-05-03T12:00:00-05:00",
+    "generatedAt": "2026-05-03T18:50:50.341603+00:00",
+    "forecastDate": "2026-05-03T13:00:00-05:00",
     "periodName": "This Afternoon",
-    "summary": "Chance Rain Showers",
+    "summary": "Isolated Rain Showers",
     "highTemperatureF": 66,
     "windSpeedMph": 20,
     "windDirectionCardinal": "SW",
