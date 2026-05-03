@@ -12,12 +12,12 @@
     "providerUrl": "https://api.weather.gov"
   },
   "todayForecast": {
-    "generatedAt": "2026-05-03T14:09:45.193265+00:00",
-    "forecastDate": "2026-05-03T09:00:00-05:00",
+    "generatedAt": "2026-05-03T15:40:58.440963+00:00",
+    "forecastDate": "2026-05-03T10:00:00-05:00",
     "periodName": "Today",
     "summary": "Scattered Rain Showers",
     "highTemperatureF": 66,
-    "windSpeedMph": 18,
+    "windSpeedMph": 20,
     "windDirectionCardinal": "SW",
     "windDirectionDegrees": 225
   }
