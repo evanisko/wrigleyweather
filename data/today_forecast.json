@@ -12,7 +12,7 @@
     "providerUrl": "https://api.weather.gov"
   },
   "todayForecast": {
-    "generatedAt": "2026-05-03T07:53:38.430835+00:00",
+    "generatedAt": "2026-05-03T09:17:34.718285+00:00",
     "forecastDate": "2026-05-03T06:00:00-05:00",
     "periodName": "Sunday",
     "summary": "Scattered Rain Showers",

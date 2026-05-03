@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-03T07:53:38.577110+00:00",
+  "generated_at": "2026-05-03T09:17:34.854387+00:00",
   "source": {
     "forecast_path": "data/today_forecast.json",
     "database_path": ".local.nosync/analytics.duckdb",
@@ -9,7 +9,7 @@
     ]
   },
   "forecast_input": {
-    "generatedAt": "2026-05-03T07:53:38.430835+00:00",
+    "generatedAt": "2026-05-03T09:17:34.718285+00:00",
     "forecastDate": "2026-05-03T06:00:00-05:00",
     "periodName": "Sunday",
     "summary": "Scattered Rain Showers",
