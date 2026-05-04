@@ -12,12 +12,12 @@
     "providerUrl": "https://api.weather.gov"
   },
   "todayForecast": {
-    "generatedAt": "2026-05-04T13:29:51.737470+00:00",
-    "forecastDate": "2026-05-04T08:00:00-05:00",
+    "generatedAt": "2026-05-04T15:56:27.927294+00:00",
+    "forecastDate": "2026-05-04T10:00:00-05:00",
     "periodName": "Today",
     "summary": "Sunny",
-    "highTemperatureF": 78,
-    "windSpeedMph": 15,
+    "highTemperatureF": 79,
+    "windSpeedMph": 18,
     "windDirectionCardinal": "SW",
     "windDirectionDegrees": 225
   }
