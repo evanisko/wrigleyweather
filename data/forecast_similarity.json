@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-05T19:10:16.306863+00:00",
+  "generated_at": "2026-05-05T20:57:19.966328+00:00",
   "source": {
     "forecast_path": "data/today_forecast.json",
     "database_path": ".local.nosync/analytics.duckdb",
@@ -9,8 +9,8 @@
     ]
   },
   "forecast_input": {
-    "generatedAt": "2026-05-05T19:10:16.171390+00:00",
-    "forecastDate": "2026-05-05T14:00:00-05:00",
+    "generatedAt": "2026-05-05T20:57:19.828169+00:00",
+    "forecastDate": "2026-05-05T15:00:00-05:00",
     "periodName": "This Afternoon",
     "summary": "Slight Chance Rain Showers",
     "highTemperatureF": 57,
