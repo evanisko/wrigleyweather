@@ -12,13 +12,13 @@
     "providerUrl": "https://api.weather.gov"
   },
   "todayForecast": {
-    "generatedAt": "2026-05-05T02:11:40.007171+00:00",
+    "generatedAt": "2026-05-05T05:37:12.232891+00:00",
     "forecastDate": "2026-05-05T06:00:00-05:00",
     "periodName": "Tuesday",
     "summary": "Slight Chance Rain Showers then Mostly Cloudy",
-    "highTemperatureF": 50,
-    "windSpeedMph": 10,
-    "windDirectionCardinal": "NE",
-    "windDirectionDegrees": 45
+    "highTemperatureF": 57,
+    "windSpeedMph": 8,
+    "windDirectionCardinal": "W",
+    "windDirectionDegrees": 270
   }
 }
