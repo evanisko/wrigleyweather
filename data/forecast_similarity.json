@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-05T05:37:12.368820+00:00",
+  "generated_at": "2026-05-05T08:00:33.659134+00:00",
   "source": {
     "forecast_path": "data/today_forecast.json",
     "database_path": ".local.nosync/analytics.duckdb",
@@ -9,12 +9,12 @@
     ]
   },
   "forecast_input": {
-    "generatedAt": "2026-05-05T05:37:12.232891+00:00",
+    "generatedAt": "2026-05-05T08:00:33.528014+00:00",
     "forecastDate": "2026-05-05T06:00:00-05:00",
     "periodName": "Tuesday",
-    "summary": "Slight Chance Rain Showers then Mostly Cloudy",
+    "summary": "Scattered Rain Showers then Mostly Cloudy",
     "highTemperatureF": 57,
-    "windSpeedMph": 8,
+    "windSpeedMph": 5,
     "windDirectionCardinal": "W",
     "windDirectionDegrees": 270
   },
@@ -24,7 +24,7 @@
       "tolerance": 5
     },
     "wind_speed_mph": {
-      "target": 8,
+      "target": 5,
       "tolerance": 5
     },
     "wind_direction_degrees": {
@@ -33,37 +33,12 @@
     }
   },
   "results": {
-    "matched_game_count": 2,
+    "matched_game_count": 0,
     "averages": {
-      "runs": 3.0,
-      "home_runs": 0.5,
-      "game_time_minutes": 140.5
+      "runs": null,
+      "home_runs": null,
+      "game_time_minutes": null
     }
   },
-  "matches": [
-    {
-      "date": "2025-09-06",
-      "historical_temperature_f": 58.1,
-      "historical_wind_speed_mph": 12.2,
-      "historical_wind_direction_degrees": 272,
-      "total_runs": 3,
-      "total_home_runs": 1,
-      "game_time_minutes": 143,
-      "temperature_delta": 1.1,
-      "wind_speed_delta": 4.2,
-      "wind_direction_delta": 2.0
-    },
-    {
-      "date": "2024-09-08",
-      "historical_temperature_f": 61.2,
-      "historical_wind_speed_mph": 10.5,
-      "historical_wind_direction_degrees": 258,
-      "total_runs": 3,
-      "total_home_runs": 0,
-      "game_time_minutes": 138,
-      "temperature_delta": 4.2,
-      "wind_speed_delta": 2.5,
-      "wind_direction_delta": 12.0
-    }
-  ]
+  "matches": []
 }
