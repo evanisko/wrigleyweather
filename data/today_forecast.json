@@ -12,7 +12,7 @@
     "providerUrl": "https://api.weather.gov"
   },
   "todayForecast": {
-    "generatedAt": "2026-05-04T23:48:06.495726+00:00",
+    "generatedAt": "2026-05-05T02:11:40.007171+00:00",
     "forecastDate": "2026-05-05T06:00:00-05:00",
     "periodName": "Tuesday",
     "summary": "Slight Chance Rain Showers then Mostly Cloudy",
