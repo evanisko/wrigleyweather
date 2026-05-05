@@ -12,13 +12,13 @@
     "providerUrl": "https://api.weather.gov"
   },
   "todayForecast": {
-    "generatedAt": "2026-05-05T11:56:01.893931+00:00",
-    "forecastDate": "2026-05-05T06:00:00-05:00",
+    "generatedAt": "2026-05-05T15:48:58.487778+00:00",
+    "forecastDate": "2026-05-05T10:00:00-05:00",
     "periodName": "Today",
-    "summary": "Scattered Rain Showers then Mostly Cloudy",
+    "summary": "Mostly Cloudy",
     "highTemperatureF": 57,
-    "windSpeedMph": 5,
-    "windDirectionCardinal": "W",
-    "windDirectionDegrees": 270
+    "windSpeedMph": 10,
+    "windDirectionCardinal": "NNE",
+    "windDirectionDegrees": 22
   }
 }
