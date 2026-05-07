@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-07T11:04:20.582229+00:00",
+  "generated_at": "2026-05-07T13:51:41.875416+00:00",
   "source": {
     "forecast_path": "data/today_forecast.json",
     "database_path": ".local.nosync/analytics.duckdb",
@@ -9,10 +9,10 @@
     ]
   },
   "forecast_input": {
-    "generatedAt": "2026-05-07T11:04:20.455908+00:00",
-    "forecastDate": "2026-05-07T06:00:00-05:00",
+    "generatedAt": "2026-05-07T13:51:41.735921+00:00",
+    "forecastDate": "2026-05-07T07:00:00-05:00",
     "periodName": "Today",
-    "summary": "Mostly Sunny then Scattered Showers And Thunderstorms",
+    "summary": "Partly Sunny then Scattered Showers And Thunderstorms",
     "highTemperatureF": 60,
     "windSpeedMph": 10,
     "windDirectionCardinal": "SW",
