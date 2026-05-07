@@ -12,13 +12,13 @@
     "providerUrl": "https://api.weather.gov"
   },
   "todayForecast": {
-    "generatedAt": "2026-05-07T18:19:24.352556+00:00",
-    "forecastDate": "2026-05-07T12:00:00-05:00",
+    "generatedAt": "2026-05-07T20:09:46.523283+00:00",
+    "forecastDate": "2026-05-07T14:00:00-05:00",
     "periodName": "This Afternoon",
-    "summary": "Isolated Rain Showers",
+    "summary": "Scattered Rain Showers",
     "highTemperatureF": 59,
     "windSpeedMph": 15,
-    "windDirectionCardinal": "SW",
-    "windDirectionDegrees": 225
+    "windDirectionCardinal": "SE",
+    "windDirectionDegrees": 135
   }
 }
