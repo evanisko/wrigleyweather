@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-05-11T20:29:12.899764+00:00",
+  "generatedAt": "2026-05-11T22:01:07.710276+00:00",
   "location": {
     "name": "Wrigley Field",
     "city": "Chicago, IL",
@@ -14,7 +14,7 @@
     "observationStationId": "KMDW"
   },
   "current": {
-    "updatedAt": "2026-05-11T20:05:00+00:00",
+    "updatedAt": "2026-05-11T21:40:00+00:00",
     "summary": "Mostly Clear",
     "temperatureF": 54,
     "feelsLikeF": 54,
@@ -31,7 +31,7 @@
   },
   "forecast": [
     {
-      "date": "2026-05-11T15:00:00-05:00",
+      "date": "2026-05-11T17:00:00-05:00",
       "label": "Mon",
       "summary": "Sunny",
       "highF": 52,
