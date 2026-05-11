@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-11T10:32:24.781431+00:00",
+  "generated_at": "2026-05-11T13:42:13.897011+00:00",
   "source": {
     "forecast_path": "data/today_forecast.json",
     "database_path": ".local.nosync/analytics.duckdb",
@@ -9,9 +9,9 @@
     ]
   },
   "forecast_input": {
-    "generatedAt": "2026-05-11T10:32:24.629734+00:00",
-    "forecastDate": "2026-05-11T06:00:00-05:00",
-    "periodName": "Monday",
+    "generatedAt": "2026-05-11T13:42:13.590088+00:00",
+    "forecastDate": "2026-05-11T08:00:00-05:00",
+    "periodName": "Today",
     "summary": "Sunny",
     "highTemperatureF": 52,
     "windSpeedMph": 12,
