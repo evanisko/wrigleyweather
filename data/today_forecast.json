@@ -12,11 +12,11 @@
     "providerUrl": "https://api.weather.gov"
   },
   "todayForecast": {
-    "generatedAt": "2026-05-12T06:08:52.764551+00:00",
+    "generatedAt": "2026-05-12T09:31:25.879380+00:00",
     "forecastDate": "2026-05-12T06:00:00-05:00",
     "periodName": "Tuesday",
-    "summary": "Mostly Cloudy then Rain Likely",
-    "highTemperatureF": 75,
+    "summary": "Mostly Cloudy then Scattered Showers And Thunderstorms",
+    "highTemperatureF": 76,
     "windSpeedMph": 15,
     "windDirectionCardinal": "SSW",
     "windDirectionDegrees": 202
