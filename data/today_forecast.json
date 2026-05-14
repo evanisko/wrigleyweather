@@ -12,7 +12,7 @@
     "providerUrl": "https://api.weather.gov"
   },
   "todayForecast": {
-    "generatedAt": "2026-05-14T02:37:00.321884+00:00",
+    "generatedAt": "2026-05-14T06:19:10.397669+00:00",
     "forecastDate": "2026-05-14T06:00:00-05:00",
     "periodName": "Thursday",
     "summary": "Sunny",
