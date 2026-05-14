@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-14T11:46:34.902844+00:00",
+  "generated_at": "2026-05-14T13:55:17.695188+00:00",
   "source": {
     "forecast_path": "data/today_forecast.json",
     "database_path": ".local.nosync/analytics.duckdb",
@@ -9,7 +9,7 @@
     ]
   },
   "forecast_input": {
-    "generatedAt": "2026-05-14T11:46:34.754104+00:00",
+    "generatedAt": "2026-05-14T13:55:17.533655+00:00",
     "forecastDate": "2026-05-14T06:00:00-05:00",
     "periodName": "Today",
     "summary": "Sunny",
