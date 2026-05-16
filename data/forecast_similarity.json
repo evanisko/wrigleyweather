@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-16T10:57:42.944830+00:00",
+  "generated_at": "2026-05-16T11:51:25.955528+00:00",
   "source": {
     "forecast_path": "data/today_forecast.json",
     "database_path": ".local.nosync/analytics.duckdb",
@@ -9,9 +9,9 @@
     ]
   },
   "forecast_input": {
-    "generatedAt": "2026-05-16T10:57:42.829286+00:00",
+    "generatedAt": "2026-05-16T11:51:25.817024+00:00",
     "forecastDate": "2026-05-16T06:00:00-05:00",
-    "periodName": "Saturday",
+    "periodName": "Today",
     "summary": "Chance Showers And Thunderstorms then Slight Chance Showers And Thunderstorms",
     "highTemperatureF": 80,
     "windSpeedMph": 10,
