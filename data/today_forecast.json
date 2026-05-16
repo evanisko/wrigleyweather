@@ -12,13 +12,13 @@
     "providerUrl": "https://api.weather.gov"
   },
   "todayForecast": {
-    "generatedAt": "2026-05-16T22:39:22.311155+00:00",
-    "forecastDate": "2026-05-16T17:00:00-05:00",
-    "periodName": "This Afternoon",
-    "summary": "Mostly Sunny",
-    "highTemperatureF": 82,
-    "windSpeedMph": 10,
-    "windDirectionCardinal": "SW",
-    "windDirectionDegrees": 225
+    "generatedAt": "2026-05-16T23:45:08.714505+00:00",
+    "forecastDate": "2026-05-17T06:00:00-05:00",
+    "periodName": "Sunday",
+    "summary": "Chance Showers And Thunderstorms then Mostly Cloudy",
+    "highTemperatureF": 79,
+    "windSpeedMph": 12,
+    "windDirectionCardinal": "SE",
+    "windDirectionDegrees": 135
   }
 }
