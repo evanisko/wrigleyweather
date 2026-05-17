@@ -12,10 +12,10 @@
     "providerUrl": "https://api.weather.gov"
   },
   "todayForecast": {
-    "generatedAt": "2026-05-17T17:53:39.622847+00:00",
-    "forecastDate": "2026-05-17T12:00:00-05:00",
+    "generatedAt": "2026-05-17T18:59:28.341076+00:00",
+    "forecastDate": "2026-05-17T13:00:00-05:00",
     "periodName": "This Afternoon",
-    "summary": "Isolated Rain Showers",
+    "summary": "Partly Sunny",
     "highTemperatureF": 82,
     "windSpeedMph": 18,
     "windDirectionCardinal": "SSE",
