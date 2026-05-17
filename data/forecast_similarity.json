@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-17T16:51:31.714064+00:00",
+  "generated_at": "2026-05-17T17:53:39.739056+00:00",
   "source": {
     "forecast_path": "data/today_forecast.json",
     "database_path": ".local.nosync/analytics.duckdb",
@@ -9,14 +9,14 @@
     ]
   },
   "forecast_input": {
-    "generatedAt": "2026-05-17T16:51:31.576477+00:00",
-    "forecastDate": "2026-05-17T11:00:00-05:00",
-    "periodName": "Today",
+    "generatedAt": "2026-05-17T17:53:39.622847+00:00",
+    "forecastDate": "2026-05-17T12:00:00-05:00",
+    "periodName": "This Afternoon",
     "summary": "Isolated Rain Showers",
     "highTemperatureF": 82,
-    "windSpeedMph": 15,
-    "windDirectionCardinal": "SE",
-    "windDirectionDegrees": 135
+    "windSpeedMph": 18,
+    "windDirectionCardinal": "SSE",
+    "windDirectionDegrees": 158
   },
   "criteria": {
     "temperature_f": {
@@ -24,34 +24,21 @@
       "tolerance": 5
     },
     "wind_speed_mph": {
-      "target": 15,
+      "target": 18,
       "tolerance": 5
     },
     "wind_direction_degrees": {
-      "target": 135,
+      "target": 158,
       "tolerance": 22
     }
   },
   "results": {
-    "matched_game_count": 1,
+    "matched_game_count": 0,
     "averages": {
-      "runs": 8.0,
-      "home_runs": 3.0,
-      "game_time_minutes": 150.0
+      "runs": null,
+      "home_runs": null,
+      "game_time_minutes": null
     }
   },
-  "matches": [
-    {
-      "date": "2024-08-04",
-      "historical_temperature_f": 77.0,
-      "historical_wind_speed_mph": 10.8,
-      "historical_wind_direction_degrees": 140,
-      "total_runs": 8,
-      "total_home_runs": 3,
-      "game_time_minutes": 150,
-      "temperature_delta": 5.0,
-      "wind_speed_delta": 4.2,
-      "wind_direction_delta": 5.0
-    }
-  ]
+  "matches": []
 }
