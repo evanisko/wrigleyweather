@@ -12,10 +12,10 @@
     "providerUrl": "https://api.weather.gov"
   },
   "todayForecast": {
-    "generatedAt": "2026-05-16T23:45:08.714505+00:00",
+    "generatedAt": "2026-05-17T02:34:22.850448+00:00",
     "forecastDate": "2026-05-17T06:00:00-05:00",
     "periodName": "Sunday",
-    "summary": "Chance Showers And Thunderstorms then Mostly Cloudy",
+    "summary": "Chance Showers And Thunderstorms",
     "highTemperatureF": 79,
     "windSpeedMph": 12,
     "windDirectionCardinal": "SE",
