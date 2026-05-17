@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-17T11:57:26.930842+00:00",
+  "generated_at": "2026-05-17T13:20:43.930966+00:00",
   "source": {
     "forecast_path": "data/today_forecast.json",
     "database_path": ".local.nosync/analytics.duckdb",
@@ -9,7 +9,7 @@
     ]
   },
   "forecast_input": {
-    "generatedAt": "2026-05-17T11:57:26.817618+00:00",
+    "generatedAt": "2026-05-17T13:20:43.795339+00:00",
     "forecastDate": "2026-05-17T06:00:00-05:00",
     "periodName": "Today",
     "summary": "Chance Showers And Thunderstorms then Mostly Cloudy",
