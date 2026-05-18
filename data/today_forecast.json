@@ -12,8 +12,8 @@
     "providerUrl": "https://api.weather.gov"
   },
   "todayForecast": {
-    "generatedAt": "2026-05-18T19:29:33.183571+00:00",
-    "forecastDate": "2026-05-18T14:00:00-05:00",
+    "generatedAt": "2026-05-18T21:05:45.136837+00:00",
+    "forecastDate": "2026-05-18T16:00:00-05:00",
     "periodName": "This Afternoon",
     "summary": "Cloudy",
     "highTemperatureF": 76,
