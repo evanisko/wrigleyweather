@@ -12,10 +12,10 @@
     "providerUrl": "https://api.weather.gov"
   },
   "todayForecast": {
-    "generatedAt": "2026-05-18T02:44:30.901816+00:00",
+    "generatedAt": "2026-05-18T06:51:35.099261+00:00",
     "forecastDate": "2026-05-18T06:00:00-05:00",
     "periodName": "Monday",
-    "summary": "Showers And Thunderstorms Likely",
+    "summary": "Chance Showers And Thunderstorms then Showers And Thunderstorms Likely",
     "highTemperatureF": 80,
     "windSpeedMph": 18,
     "windDirectionCardinal": "SSW",
