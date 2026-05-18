@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-17T23:52:47.101091+00:00",
+  "generated_at": "2026-05-18T02:44:31.025396+00:00",
   "source": {
     "forecast_path": "data/today_forecast.json",
     "database_path": ".local.nosync/analytics.duckdb",
@@ -9,7 +9,7 @@
     ]
   },
   "forecast_input": {
-    "generatedAt": "2026-05-17T23:52:46.961333+00:00",
+    "generatedAt": "2026-05-18T02:44:30.901816+00:00",
     "forecastDate": "2026-05-18T06:00:00-05:00",
     "periodName": "Monday",
     "summary": "Showers And Thunderstorms Likely",
