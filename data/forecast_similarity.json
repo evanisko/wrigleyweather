@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-20T20:06:02.024437+00:00",
+  "generated_at": "2026-05-20T22:21:10.310204+00:00",
   "source": {
     "forecast_path": "data/today_forecast.json",
     "database_path": ".local.nosync/analytics.duckdb",
@@ -9,8 +9,8 @@
     ]
   },
   "forecast_input": {
-    "generatedAt": "2026-05-20T20:06:01.907414+00:00",
-    "forecastDate": "2026-05-20T15:00:00-05:00",
+    "generatedAt": "2026-05-20T22:21:10.147215+00:00",
+    "forecastDate": "2026-05-20T17:00:00-05:00",
     "periodName": "This Afternoon",
     "summary": "Sunny",
     "highTemperatureF": 56,
