@@ -12,9 +12,9 @@
     "providerUrl": "https://api.weather.gov"
   },
   "todayForecast": {
-    "generatedAt": "2026-05-20T08:29:13.719532+00:00",
+    "generatedAt": "2026-05-20T11:44:57.476699+00:00",
     "forecastDate": "2026-05-20T06:00:00-05:00",
-    "periodName": "Wednesday",
+    "periodName": "Today",
     "summary": "Partly Sunny",
     "highTemperatureF": 53,
     "windSpeedMph": 18,

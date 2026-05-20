@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-20T08:29:13.846206+00:00",
+  "generated_at": "2026-05-20T11:44:57.603108+00:00",
   "source": {
     "forecast_path": "data/today_forecast.json",
     "database_path": ".local.nosync/analytics.duckdb",
@@ -9,9 +9,9 @@
     ]
   },
   "forecast_input": {
-    "generatedAt": "2026-05-20T08:29:13.719532+00:00",
+    "generatedAt": "2026-05-20T11:44:57.476699+00:00",
     "forecastDate": "2026-05-20T06:00:00-05:00",
-    "periodName": "Wednesday",
+    "periodName": "Today",
     "summary": "Partly Sunny",
     "highTemperatureF": 53,
     "windSpeedMph": 18,
