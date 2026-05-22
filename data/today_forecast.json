@@ -12,7 +12,7 @@
     "providerUrl": "https://api.weather.gov"
   },
   "todayForecast": {
-    "generatedAt": "2026-05-22T07:38:13.407274+00:00",
+    "generatedAt": "2026-05-22T10:44:11.986950+00:00",
     "forecastDate": "2026-05-22T06:00:00-05:00",
     "periodName": "Friday",
     "summary": "Mostly Cloudy",
