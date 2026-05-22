@@ -12,10 +12,10 @@
     "providerUrl": "https://api.weather.gov"
   },
   "todayForecast": {
-    "generatedAt": "2026-05-22T20:29:20.005017+00:00",
-    "forecastDate": "2026-05-22T15:00:00-05:00",
+    "generatedAt": "2026-05-22T22:02:50.298349+00:00",
+    "forecastDate": "2026-05-22T17:00:00-05:00",
     "periodName": "This Afternoon",
-    "summary": "Partly Sunny",
+    "summary": "Mostly Cloudy",
     "highTemperatureF": 60,
     "windSpeedMph": 15,
     "windDirectionCardinal": "NE",
