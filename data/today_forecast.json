@@ -12,10 +12,10 @@
     "providerUrl": "https://api.weather.gov"
   },
   "todayForecast": {
-    "generatedAt": "2026-05-23T11:05:52.635643+00:00",
-    "forecastDate": "2026-05-23T06:00:00-05:00",
+    "generatedAt": "2026-05-23T13:11:08.469623+00:00",
+    "forecastDate": "2026-05-23T08:00:00-05:00",
     "periodName": "Today",
-    "summary": "Isolated Rain Showers then Mostly Cloudy",
+    "summary": "Mostly Cloudy",
     "highTemperatureF": 60,
     "windSpeedMph": 8,
     "windDirectionCardinal": "NNE",
