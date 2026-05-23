@@ -12,10 +12,10 @@
     "providerUrl": "https://api.weather.gov"
   },
   "todayForecast": {
-    "generatedAt": "2026-05-23T07:26:56.481373+00:00",
+    "generatedAt": "2026-05-23T09:45:43.821489+00:00",
     "forecastDate": "2026-05-23T06:00:00-05:00",
     "periodName": "Saturday",
-    "summary": "Slight Chance Rain Showers then Mostly Cloudy",
+    "summary": "Isolated Rain Showers then Mostly Cloudy",
     "highTemperatureF": 60,
     "windSpeedMph": 8,
     "windDirectionCardinal": "NNE",
