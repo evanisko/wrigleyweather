@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-23T20:41:31.058164+00:00",
+  "generated_at": "2026-05-23T21:49:01.569165+00:00",
   "source": {
     "forecast_path": "data/today_forecast.json",
     "database_path": ".local.nosync/analytics.duckdb",
@@ -9,10 +9,10 @@
     ]
   },
   "forecast_input": {
-    "generatedAt": "2026-05-23T20:41:30.931166+00:00",
-    "forecastDate": "2026-05-23T15:00:00-05:00",
+    "generatedAt": "2026-05-23T21:49:01.432978+00:00",
+    "forecastDate": "2026-05-23T16:00:00-05:00",
     "periodName": "This Afternoon",
-    "summary": "Partly Sunny",
+    "summary": "Cloudy",
     "highTemperatureF": 60,
     "windSpeedMph": 10,
     "windDirectionCardinal": "NE",
