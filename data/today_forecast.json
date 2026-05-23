@@ -12,10 +12,10 @@
     "providerUrl": "https://api.weather.gov"
   },
   "todayForecast": {
-    "generatedAt": "2026-05-23T13:11:08.469623+00:00",
-    "forecastDate": "2026-05-23T08:00:00-05:00",
+    "generatedAt": "2026-05-23T14:55:46.507249+00:00",
+    "forecastDate": "2026-05-23T09:00:00-05:00",
     "periodName": "Today",
-    "summary": "Mostly Cloudy",
+    "summary": "Areas Of Fog",
     "highTemperatureF": 60,
     "windSpeedMph": 8,
     "windDirectionCardinal": "NNE",
