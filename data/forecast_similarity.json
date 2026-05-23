@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-23T09:45:43.957691+00:00",
+  "generated_at": "2026-05-23T11:05:52.768054+00:00",
   "source": {
     "forecast_path": "data/today_forecast.json",
     "database_path": ".local.nosync/analytics.duckdb",
@@ -9,9 +9,9 @@
     ]
   },
   "forecast_input": {
-    "generatedAt": "2026-05-23T09:45:43.821489+00:00",
+    "generatedAt": "2026-05-23T11:05:52.635643+00:00",
     "forecastDate": "2026-05-23T06:00:00-05:00",
-    "periodName": "Saturday",
+    "periodName": "Today",
     "summary": "Isolated Rain Showers then Mostly Cloudy",
     "highTemperatureF": 60,
     "windSpeedMph": 8,
