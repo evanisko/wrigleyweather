@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-24T20:47:29.987116+00:00",
+  "generated_at": "2026-05-24T21:51:14.873261+00:00",
   "source": {
     "forecast_path": "data/today_forecast.json",
     "database_path": ".local.nosync/analytics.duckdb",
@@ -9,8 +9,8 @@
     ]
   },
   "forecast_input": {
-    "generatedAt": "2026-05-24T20:47:29.846189+00:00",
-    "forecastDate": "2026-05-24T15:00:00-05:00",
+    "generatedAt": "2026-05-24T21:51:14.729680+00:00",
+    "forecastDate": "2026-05-24T14:00:00-05:00",
     "periodName": "This Afternoon",
     "summary": "Patchy Fog",
     "highTemperatureF": 61,
