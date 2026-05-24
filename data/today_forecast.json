@@ -12,10 +12,10 @@
     "providerUrl": "https://api.weather.gov"
   },
   "todayForecast": {
-    "generatedAt": "2026-05-24T06:32:30.989591+00:00",
+    "generatedAt": "2026-05-24T09:17:22.774180+00:00",
     "forecastDate": "2026-05-24T06:00:00-05:00",
     "periodName": "Sunday",
-    "summary": "Showers And Thunderstorms",
+    "summary": "Patchy Fog",
     "highTemperatureF": 66,
     "windSpeedMph": 5,
     "windDirectionCardinal": "NNE",
