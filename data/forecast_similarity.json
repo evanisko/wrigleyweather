@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-24T13:11:33.155087+00:00",
+  "generated_at": "2026-05-24T14:57:49.943031+00:00",
   "source": {
     "forecast_path": "data/today_forecast.json",
     "database_path": ".local.nosync/analytics.duckdb",
@@ -9,10 +9,10 @@
     ]
   },
   "forecast_input": {
-    "generatedAt": "2026-05-24T13:11:33.009850+00:00",
-    "forecastDate": "2026-05-24T08:00:00-05:00",
+    "generatedAt": "2026-05-24T14:57:49.800687+00:00",
+    "forecastDate": "2026-05-24T09:00:00-05:00",
     "periodName": "Today",
-    "summary": "Patchy Fog",
+    "summary": "Chance Rain Showers",
     "highTemperatureF": 66,
     "windSpeedMph": 5,
     "windDirectionCardinal": "NE",
