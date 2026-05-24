@@ -12,12 +12,12 @@
     "providerUrl": "https://api.weather.gov"
   },
   "todayForecast": {
-    "generatedAt": "2026-05-24T02:41:46.055719+00:00",
+    "generatedAt": "2026-05-24T06:32:30.989591+00:00",
     "forecastDate": "2026-05-24T06:00:00-05:00",
     "periodName": "Sunday",
-    "summary": "Showers And Thunderstorms then Partly Sunny",
-    "highTemperatureF": 60,
-    "windSpeedMph": 8,
+    "summary": "Showers And Thunderstorms",
+    "highTemperatureF": 66,
+    "windSpeedMph": 5,
     "windDirectionCardinal": "NNE",
     "windDirectionDegrees": 22
   }
