@@ -12,13 +12,13 @@
     "providerUrl": "https://api.weather.gov"
   },
   "todayForecast": {
-    "generatedAt": "2026-05-25T02:50:35.168617+00:00",
+    "generatedAt": "2026-05-25T07:08:59.755552+00:00",
     "forecastDate": "2026-05-25T06:00:00-05:00",
     "periodName": "Memorial Day",
-    "summary": "Patchy Fog then Sunny",
-    "highTemperatureF": 66,
+    "summary": "Mostly Sunny",
+    "highTemperatureF": 73,
     "windSpeedMph": 8,
-    "windDirectionCardinal": "SSE",
-    "windDirectionDegrees": 158
+    "windDirectionCardinal": "S",
+    "windDirectionDegrees": 180
   }
 }
