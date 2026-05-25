@@ -12,13 +12,13 @@
     "providerUrl": "https://api.weather.gov"
   },
   "todayForecast": {
-    "generatedAt": "2026-05-25T11:48:16.094655+00:00",
-    "forecastDate": "2026-05-25T06:00:00-05:00",
+    "generatedAt": "2026-05-25T17:03:04.694799+00:00",
+    "forecastDate": "2026-05-25T12:00:00-05:00",
     "periodName": "Memorial Day",
     "summary": "Sunny",
-    "highTemperatureF": 73,
-    "windSpeedMph": 8,
-    "windDirectionCardinal": "S",
-    "windDirectionDegrees": 180
+    "highTemperatureF": 76,
+    "windSpeedMph": 12,
+    "windDirectionCardinal": "SSE",
+    "windDirectionDegrees": 158
   }
 }
