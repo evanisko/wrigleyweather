@@ -12,13 +12,13 @@
     "providerUrl": "https://api.weather.gov"
   },
   "todayForecast": {
-    "generatedAt": "2026-05-27T08:35:37.800287+00:00",
-    "forecastDate": "2026-05-27T06:00:00-05:00",
-    "periodName": "Wednesday",
+    "generatedAt": "2026-05-27T12:15:50.022334+00:00",
+    "forecastDate": "2026-05-27T07:00:00-05:00",
+    "periodName": "Today",
     "summary": "Mostly Sunny",
     "highTemperatureF": 71,
-    "windSpeedMph": 5,
-    "windDirectionCardinal": "N",
-    "windDirectionDegrees": 0
+    "windSpeedMph": 8,
+    "windDirectionCardinal": "WNW",
+    "windDirectionDegrees": 292
   }
 }
