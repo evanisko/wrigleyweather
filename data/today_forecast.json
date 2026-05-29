@@ -12,7 +12,7 @@
     "providerUrl": "https://api.weather.gov"
   },
   "todayForecast": {
-    "generatedAt": "2026-05-29T00:06:21.572259+00:00",
+    "generatedAt": "2026-05-29T05:09:39.809050+00:00",
     "forecastDate": "2026-05-29T06:00:00-05:00",
     "periodName": "Friday",
     "summary": "Mostly Sunny",
