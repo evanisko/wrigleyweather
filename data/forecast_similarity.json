@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-30T02:34:23.720972+00:00",
+  "generated_at": "2026-05-30T06:19:34.362792+00:00",
   "source": {
     "forecast_path": "data/today_forecast.json",
     "database_path": ".local.nosync/analytics.duckdb",
@@ -9,7 +9,7 @@
     ]
   },
   "forecast_input": {
-    "generatedAt": "2026-05-30T02:34:23.577459+00:00",
+    "generatedAt": "2026-05-30T06:19:34.218599+00:00",
     "forecastDate": "2026-05-30T06:00:00-05:00",
     "periodName": "Saturday",
     "summary": "Partly Sunny",
