@@ -12,7 +12,7 @@
     "providerUrl": "https://api.weather.gov"
   },
   "todayForecast": {
-    "generatedAt": "2026-05-31T07:40:05.552258+00:00",
+    "generatedAt": "2026-05-31T10:09:46.309889+00:00",
     "forecastDate": "2026-05-31T06:00:00-05:00",
     "periodName": "Sunday",
     "summary": "Partly Sunny",
