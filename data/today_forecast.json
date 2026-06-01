@@ -12,10 +12,10 @@
     "providerUrl": "https://api.weather.gov"
   },
   "todayForecast": {
-    "generatedAt": "2026-06-01T05:56:14.738111+00:00",
+    "generatedAt": "2026-06-01T11:26:22.838585+00:00",
     "forecastDate": "2026-06-01T06:00:00-05:00",
-    "periodName": "Monday",
-    "summary": "Isolated Rain Showers",
+    "periodName": "Today",
+    "summary": "Chance Rain Showers",
     "highTemperatureF": 66,
     "windSpeedMph": 8,
     "windDirectionCardinal": "NNE",
