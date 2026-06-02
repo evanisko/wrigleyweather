@@ -12,11 +12,11 @@
     "providerUrl": "https://api.weather.gov"
   },
   "todayForecast": {
-    "generatedAt": "2026-06-02T02:56:51.389473+00:00",
+    "generatedAt": "2026-06-02T07:23:25.589276+00:00",
     "forecastDate": "2026-06-02T06:00:00-05:00",
     "periodName": "Tuesday",
     "summary": "Sunny",
-    "highTemperatureF": 64,
+    "highTemperatureF": 66,
     "windSpeedMph": 12,
     "windDirectionCardinal": "NE",
     "windDirectionDegrees": 45
