@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-02T11:59:26.255417+00:00",
+  "generated_at": "2026-06-02T16:43:48.055003+00:00",
   "source": {
     "forecast_path": "data/today_forecast.json",
     "database_path": ".local.nosync/analytics.duckdb",
@@ -9,8 +9,8 @@
     ]
   },
   "forecast_input": {
-    "generatedAt": "2026-06-02T11:59:26.085776+00:00",
-    "forecastDate": "2026-06-02T06:00:00-05:00",
+    "generatedAt": "2026-06-02T16:43:47.918301+00:00",
+    "forecastDate": "2026-06-02T11:00:00-05:00",
     "periodName": "Today",
     "summary": "Sunny",
     "highTemperatureF": 66,
