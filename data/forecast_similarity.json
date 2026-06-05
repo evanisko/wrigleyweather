@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-04T23:04:12.428720+00:00",
+  "generated_at": "2026-06-05T02:49:29.935491+00:00",
   "source": {
     "forecast_path": "data/today_forecast.json",
     "database_path": ".local.nosync/analytics.duckdb",
@@ -9,7 +9,7 @@
     ]
   },
   "forecast_input": {
-    "generatedAt": "2026-06-04T23:04:12.285184+00:00",
+    "generatedAt": "2026-06-05T02:49:29.799265+00:00",
     "forecastDate": "2026-06-05T06:00:00-05:00",
     "periodName": "Friday",
     "summary": "Chance Showers And Thunderstorms then Showers And Thunderstorms Likely",
