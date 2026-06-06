@@ -12,11 +12,11 @@
     "providerUrl": "https://api.weather.gov"
   },
   "todayForecast": {
-    "generatedAt": "2026-06-06T06:24:26.016897+00:00",
+    "generatedAt": "2026-06-06T09:21:20.731339+00:00",
     "forecastDate": "2026-06-06T06:00:00-05:00",
     "periodName": "Saturday",
-    "summary": "Chance Showers And Thunderstorms",
-    "highTemperatureF": 74,
+    "summary": "Slight Chance Showers And Thunderstorms",
+    "highTemperatureF": 73,
     "windSpeedMph": 8,
     "windDirectionCardinal": "NE",
     "windDirectionDegrees": 45
