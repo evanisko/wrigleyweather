@@ -12,8 +12,8 @@
     "providerUrl": "https://api.weather.gov"
   },
   "todayForecast": {
-    "generatedAt": "2026-06-06T19:10:51.548600+00:00",
-    "forecastDate": "2026-06-06T14:00:00-05:00",
+    "generatedAt": "2026-06-06T20:57:23.510370+00:00",
+    "forecastDate": "2026-06-06T15:00:00-05:00",
     "periodName": "This Afternoon",
     "summary": "Slight Chance Showers And Thunderstorms",
     "highTemperatureF": 77,
