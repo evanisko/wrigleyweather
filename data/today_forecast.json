@@ -12,11 +12,11 @@
     "providerUrl": "https://api.weather.gov"
   },
   "todayForecast": {
-    "generatedAt": "2026-06-07T13:28:44.598292+00:00",
-    "forecastDate": "2026-06-07T08:00:00-05:00",
+    "generatedAt": "2026-06-07T15:19:32.021408+00:00",
+    "forecastDate": "2026-06-07T10:00:00-05:00",
     "periodName": "Today",
-    "summary": "Partly Sunny",
-    "highTemperatureF": 72,
+    "summary": "Partly Sunny then Slight Chance Showers And Thunderstorms",
+    "highTemperatureF": 73,
     "windSpeedMph": 10,
     "windDirectionCardinal": "ENE",
     "windDirectionDegrees": 68
