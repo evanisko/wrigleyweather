@@ -12,10 +12,10 @@
     "providerUrl": "https://api.weather.gov"
   },
   "todayForecast": {
-    "generatedAt": "2026-06-08T00:11:24.224296+00:00",
+    "generatedAt": "2026-06-08T05:25:57.543694+00:00",
     "forecastDate": "2026-06-08T06:00:00-05:00",
     "periodName": "Monday",
-    "summary": "Slight Chance Showers And Thunderstorms then Showers And Thunderstorms Likely",
+    "summary": "Chance Showers And Thunderstorms",
     "highTemperatureF": 74,
     "windSpeedMph": 12,
     "windDirectionCardinal": "SE",
