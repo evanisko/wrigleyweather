@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-09T08:27:31.206033+00:00",
+  "generated_at": "2026-06-09T11:55:11.851261+00:00",
   "source": {
     "forecast_path": "data/today_forecast.json",
     "database_path": ".local.nosync/analytics.duckdb",
@@ -9,9 +9,9 @@
     ]
   },
   "forecast_input": {
-    "generatedAt": "2026-06-09T08:27:31.051097+00:00",
+    "generatedAt": "2026-06-09T11:55:11.706880+00:00",
     "forecastDate": "2026-06-09T06:00:00-05:00",
-    "periodName": "Tuesday",
+    "periodName": "Today",
     "summary": "Slight Chance Rain Showers then Slight Chance Showers And Thunderstorms",
     "highTemperatureF": 86,
     "windSpeedMph": 10,
