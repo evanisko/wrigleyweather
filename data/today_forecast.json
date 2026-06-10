@@ -12,11 +12,11 @@
     "providerUrl": "https://api.weather.gov"
   },
   "todayForecast": {
-    "generatedAt": "2026-06-10T05:11:15.325683+00:00",
+    "generatedAt": "2026-06-10T09:44:21.429828+00:00",
     "forecastDate": "2026-06-10T06:00:00-05:00",
     "periodName": "Wednesday",
-    "summary": "Showers And Thunderstorms Likely",
-    "highTemperatureF": 90,
+    "summary": "Mostly Sunny then Showers And Thunderstorms Likely",
+    "highTemperatureF": 86,
     "windSpeedMph": 12,
     "windDirectionCardinal": "SSW",
     "windDirectionDegrees": 202
