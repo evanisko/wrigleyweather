@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-11T19:29:58.220426+00:00",
+  "generated_at": "2026-06-11T21:56:02.723304+00:00",
   "source": {
     "forecast_path": "data/today_forecast.json",
     "database_path": ".local.nosync/analytics.duckdb",
@@ -9,18 +9,18 @@
     ]
   },
   "forecast_input": {
-    "generatedAt": "2026-06-11T19:29:58.081244+00:00",
-    "forecastDate": "2026-06-11T14:00:00-05:00",
+    "generatedAt": "2026-06-11T21:56:02.580494+00:00",
+    "forecastDate": "2026-06-11T16:00:00-05:00",
     "periodName": "This Afternoon",
     "summary": "Chance Showers And Thunderstorms",
-    "highTemperatureF": 83,
+    "highTemperatureF": 81,
     "windSpeedMph": 18,
-    "windDirectionCardinal": "SSE",
-    "windDirectionDegrees": 158
+    "windDirectionCardinal": "SE",
+    "windDirectionDegrees": 135
   },
   "criteria": {
     "temperature_f": {
-      "target": 83,
+      "target": 81,
       "tolerance": 5
     },
     "wind_speed_mph": {
@@ -28,7 +28,7 @@
       "tolerance": 5
     },
     "wind_direction_degrees": {
-      "target": 158,
+      "target": 135,
       "tolerance": 22
     }
   },
