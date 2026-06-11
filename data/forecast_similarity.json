@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-10T23:21:11.566514+00:00",
+  "generated_at": "2026-06-11T02:58:40.716584+00:00",
   "source": {
     "forecast_path": "data/today_forecast.json",
     "database_path": ".local.nosync/analytics.duckdb",
@@ -9,7 +9,7 @@
     ]
   },
   "forecast_input": {
-    "generatedAt": "2026-06-10T23:21:11.103499+00:00",
+    "generatedAt": "2026-06-11T02:58:40.579196+00:00",
     "forecastDate": "2026-06-11T06:00:00-05:00",
     "periodName": "Thursday",
     "summary": "Partly Sunny then Slight Chance Showers And Thunderstorms",
