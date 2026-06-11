@@ -12,8 +12,8 @@
     "providerUrl": "https://api.weather.gov"
   },
   "todayForecast": {
-    "generatedAt": "2026-06-11T12:38:48.711747+00:00",
-    "forecastDate": "2026-06-11T07:00:00-05:00",
+    "generatedAt": "2026-06-11T16:47:21.044841+00:00",
+    "forecastDate": "2026-06-11T11:00:00-05:00",
     "periodName": "Today",
     "summary": "Partly Sunny then Showers And Thunderstorms Likely",
     "highTemperatureF": 80,
