@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-12T17:34:11.001447+00:00",
+  "generated_at": "2026-06-12T20:01:57.170502+00:00",
   "source": {
     "forecast_path": "data/today_forecast.json",
     "database_path": ".local.nosync/analytics.duckdb",
@@ -9,18 +9,18 @@
     ]
   },
   "forecast_input": {
-    "generatedAt": "2026-06-12T17:34:10.853582+00:00",
-    "forecastDate": "2026-06-12T12:00:00-05:00",
+    "generatedAt": "2026-06-12T20:01:57.024785+00:00",
+    "forecastDate": "2026-06-12T15:00:00-05:00",
     "periodName": "This Afternoon",
     "summary": "Sunny",
-    "highTemperatureF": 80,
+    "highTemperatureF": 81,
     "windSpeedMph": 15,
     "windDirectionCardinal": "W",
     "windDirectionDegrees": 270
   },
   "criteria": {
     "temperature_f": {
-      "target": 80,
+      "target": 81,
       "tolerance": 5
     },
     "wind_speed_mph": {
@@ -33,11 +33,11 @@
     }
   },
   "results": {
-    "matched_game_count": 2,
+    "matched_game_count": 1,
     "averages": {
       "runs": 11.0,
-      "home_runs": 1.5,
-      "game_time_minutes": 186.0
+      "home_runs": 1.0,
+      "game_time_minutes": 190.0
     }
   },
   "matches": [
@@ -49,21 +49,9 @@
       "total_runs": 11,
       "total_home_runs": 1,
       "game_time_minutes": 190,
-      "temperature_delta": 3.4,
+      "temperature_delta": 4.4,
       "wind_speed_delta": 3.0,
       "wind_direction_delta": 12.0
-    },
-    {
-      "date": "2021-09-12",
-      "historical_temperature_f": 75.4,
-      "historical_wind_speed_mph": 15.9,
-      "historical_wind_direction_degrees": 249,
-      "total_runs": 11,
-      "total_home_runs": 2,
-      "game_time_minutes": 182,
-      "temperature_delta": 4.6,
-      "wind_speed_delta": 0.9,
-      "wind_direction_delta": 21.0
     }
   ]
 }
