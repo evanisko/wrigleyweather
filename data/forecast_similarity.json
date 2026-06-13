@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-13T08:50:29.792536+00:00",
+  "generated_at": "2026-06-13T11:10:10.671652+00:00",
   "source": {
     "forecast_path": "data/today_forecast.json",
     "database_path": ".local.nosync/analytics.duckdb",
@@ -9,10 +9,10 @@
     ]
   },
   "forecast_input": {
-    "generatedAt": "2026-06-13T08:50:29.644698+00:00",
+    "generatedAt": "2026-06-13T11:10:10.537148+00:00",
     "forecastDate": "2026-06-13T06:00:00-05:00",
-    "periodName": "Saturday",
-    "summary": "Sunny",
+    "periodName": "Today",
+    "summary": "Mostly Sunny",
     "highTemperatureF": 87,
     "windSpeedMph": 12,
     "windDirectionCardinal": "SW",
