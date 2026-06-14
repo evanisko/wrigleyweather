@@ -12,13 +12,13 @@
     "providerUrl": "https://api.weather.gov"
   },
   "todayForecast": {
-    "generatedAt": "2026-06-14T00:09:06.769000+00:00",
+    "generatedAt": "2026-06-14T05:26:52.747433+00:00",
     "forecastDate": "2026-06-14T06:00:00-05:00",
     "periodName": "Sunday",
     "summary": "Chance Rain Showers then Mostly Sunny",
-    "highTemperatureF": 70,
-    "windSpeedMph": 15,
-    "windDirectionCardinal": "NNW",
-    "windDirectionDegrees": 338
+    "highTemperatureF": 69,
+    "windSpeedMph": 12,
+    "windDirectionCardinal": "NW",
+    "windDirectionDegrees": 315
   }
 }
