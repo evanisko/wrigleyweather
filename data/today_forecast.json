@@ -12,11 +12,11 @@
     "providerUrl": "https://api.weather.gov"
   },
   "todayForecast": {
-    "generatedAt": "2026-06-14T19:16:38.028406+00:00",
-    "forecastDate": "2026-06-14T14:00:00-05:00",
+    "generatedAt": "2026-06-14T21:03:52.392710+00:00",
+    "forecastDate": "2026-06-14T16:00:00-05:00",
     "periodName": "This Afternoon",
     "summary": "Partly Sunny",
-    "highTemperatureF": 69,
+    "highTemperatureF": 68,
     "windSpeedMph": 15,
     "windDirectionCardinal": "NW",
     "windDirectionDegrees": 315
