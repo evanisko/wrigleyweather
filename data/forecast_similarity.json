@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-14T05:26:52.884954+00:00",
+  "generated_at": "2026-06-14T09:23:20.531099+00:00",
   "source": {
     "forecast_path": "data/today_forecast.json",
     "database_path": ".local.nosync/analytics.duckdb",
@@ -9,10 +9,10 @@
     ]
   },
   "forecast_input": {
-    "generatedAt": "2026-06-14T05:26:52.747433+00:00",
+    "generatedAt": "2026-06-14T09:23:20.395869+00:00",
     "forecastDate": "2026-06-14T06:00:00-05:00",
     "periodName": "Sunday",
-    "summary": "Chance Rain Showers then Mostly Sunny",
+    "summary": "Rain Showers Likely then Partly Sunny",
     "highTemperatureF": 69,
     "windSpeedMph": 12,
     "windDirectionCardinal": "NW",
