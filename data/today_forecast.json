@@ -12,9 +12,9 @@
     "providerUrl": "https://api.weather.gov"
   },
   "todayForecast": {
-    "generatedAt": "2026-06-16T06:28:39.033555+00:00",
-    "forecastDate": "2026-06-16T06:00:00-05:00",
-    "periodName": "Tuesday",
+    "generatedAt": "2026-06-16T12:07:24.993886+00:00",
+    "forecastDate": "2026-06-16T07:00:00-05:00",
+    "periodName": "Today",
     "summary": "Showers And Thunderstorms Likely then Chance Showers And Thunderstorms",
     "highTemperatureF": 73,
     "windSpeedMph": 18,
