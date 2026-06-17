@@ -12,13 +12,13 @@
     "providerUrl": "https://api.weather.gov"
   },
   "todayForecast": {
-    "generatedAt": "2026-06-17T00:12:14.394569+00:00",
+    "generatedAt": "2026-06-17T06:05:06.680752+00:00",
     "forecastDate": "2026-06-17T06:00:00-05:00",
     "periodName": "Wednesday",
     "summary": "Showers And Thunderstorms",
-    "highTemperatureF": 66,
+    "highTemperatureF": 67,
     "windSpeedMph": 15,
-    "windDirectionCardinal": "SSE",
-    "windDirectionDegrees": 158
+    "windDirectionCardinal": "SSW",
+    "windDirectionDegrees": 202
   }
 }
