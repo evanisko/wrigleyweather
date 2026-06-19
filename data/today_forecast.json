@@ -12,8 +12,8 @@
     "providerUrl": "https://api.weather.gov"
   },
   "todayForecast": {
-    "generatedAt": "2026-06-19T11:16:01.219619+00:00",
-    "forecastDate": "2026-06-19T06:00:00-05:00",
+    "generatedAt": "2026-06-19T14:50:31.371510+00:00",
+    "forecastDate": "2026-06-19T09:00:00-05:00",
     "periodName": "Juneteenth",
     "summary": "Sunny",
     "highTemperatureF": 72,
