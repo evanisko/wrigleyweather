@@ -12,13 +12,13 @@
     "providerUrl": "https://api.weather.gov"
   },
   "todayForecast": {
-    "generatedAt": "2026-06-21T03:29:41.624041+00:00",
+    "generatedAt": "2026-06-21T08:23:08.039110+00:00",
     "forecastDate": "2026-06-21T06:00:00-05:00",
     "periodName": "Sunday",
-    "summary": "Mostly Cloudy then Rain Showers",
-    "highTemperatureF": 66,
-    "windSpeedMph": 10,
-    "windDirectionCardinal": "ENE",
-    "windDirectionDegrees": 68
+    "summary": "Rain Showers",
+    "highTemperatureF": 67,
+    "windSpeedMph": 8,
+    "windDirectionCardinal": "ESE",
+    "windDirectionDegrees": 112
   }
 }
