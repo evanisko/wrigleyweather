@@ -12,11 +12,11 @@
     "providerUrl": "https://api.weather.gov"
   },
   "todayForecast": {
-    "generatedAt": "2026-06-22T03:34:22.335792+00:00",
+    "generatedAt": "2026-06-22T09:42:24.453343+00:00",
     "forecastDate": "2026-06-22T06:00:00-05:00",
     "periodName": "Monday",
-    "summary": "Slight Chance Rain Showers then Mostly Sunny",
-    "highTemperatureF": 62,
+    "summary": "Mostly Sunny",
+    "highTemperatureF": 64,
     "windSpeedMph": 15,
     "windDirectionCardinal": "NNE",
     "windDirectionDegrees": 22
