@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-21T23:05:30.414085+00:00",
+  "generated_at": "2026-06-22T03:34:22.481916+00:00",
   "source": {
     "forecast_path": "data/today_forecast.json",
     "database_path": ".local.nosync/analytics.duckdb",
@@ -9,7 +9,7 @@
     ]
   },
   "forecast_input": {
-    "generatedAt": "2026-06-21T23:05:30.272262+00:00",
+    "generatedAt": "2026-06-22T03:34:22.335792+00:00",
     "forecastDate": "2026-06-22T06:00:00-05:00",
     "periodName": "Monday",
     "summary": "Slight Chance Rain Showers then Mostly Sunny",
