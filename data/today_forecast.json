@@ -12,13 +12,13 @@
     "providerUrl": "https://api.weather.gov"
   },
   "todayForecast": {
-    "generatedAt": "2026-06-22T09:42:24.453343+00:00",
-    "forecastDate": "2026-06-22T06:00:00-05:00",
-    "periodName": "Monday",
+    "generatedAt": "2026-06-22T15:17:39.614424+00:00",
+    "forecastDate": "2026-06-22T10:00:00-05:00",
+    "periodName": "Today",
     "summary": "Mostly Sunny",
-    "highTemperatureF": 64,
+    "highTemperatureF": 63,
     "windSpeedMph": 15,
-    "windDirectionCardinal": "NNE",
-    "windDirectionDegrees": 22
+    "windDirectionCardinal": "N",
+    "windDirectionDegrees": 0
   }
 }
