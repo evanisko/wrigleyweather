@@ -12,10 +12,10 @@
     "providerUrl": "https://api.weather.gov"
   },
   "todayForecast": {
-    "generatedAt": "2026-06-23T02:40:30.334864+00:00",
+    "generatedAt": "2026-06-23T06:43:41.078343+00:00",
     "forecastDate": "2026-06-23T06:00:00-05:00",
     "periodName": "Tuesday",
-    "summary": "Sunny",
+    "summary": "Mostly Sunny",
     "highTemperatureF": 70,
     "windSpeedMph": 8,
     "windDirectionCardinal": "NNE",
