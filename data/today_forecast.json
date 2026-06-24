@@ -12,12 +12,12 @@
     "providerUrl": "https://api.weather.gov"
   },
   "todayForecast": {
-    "generatedAt": "2026-06-24T10:16:43.930537+00:00",
-    "forecastDate": "2026-06-24T06:00:00-05:00",
-    "periodName": "Wednesday",
+    "generatedAt": "2026-06-24T13:14:13.664329+00:00",
+    "forecastDate": "2026-06-24T08:00:00-05:00",
+    "periodName": "Today",
     "summary": "Slight Chance Rain Showers then Chance Showers And Thunderstorms",
     "highTemperatureF": 79,
-    "windSpeedMph": 10,
+    "windSpeedMph": 12,
     "windDirectionCardinal": "SSW",
     "windDirectionDegrees": 202
   }
