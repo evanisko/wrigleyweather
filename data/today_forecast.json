@@ -12,9 +12,9 @@
     "providerUrl": "https://api.weather.gov"
   },
   "todayForecast": {
-    "generatedAt": "2026-06-25T08:25:06.979449+00:00",
+    "generatedAt": "2026-06-25T11:35:13.078851+00:00",
     "forecastDate": "2026-06-25T06:00:00-05:00",
-    "periodName": "Thursday",
+    "periodName": "Today",
     "summary": "Patchy Fog then Mostly Sunny",
     "highTemperatureF": 74,
     "windSpeedMph": 8,
