@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-26T20:29:19.396294+00:00",
+  "generated_at": "2026-06-26T22:06:35.031359+00:00",
   "source": {
     "forecast_path": "data/today_forecast.json",
     "database_path": ".local.nosync/analytics.duckdb",
@@ -9,8 +9,8 @@
     ]
   },
   "forecast_input": {
-    "generatedAt": "2026-06-26T20:29:19.256216+00:00",
-    "forecastDate": "2026-06-26T15:00:00-05:00",
+    "generatedAt": "2026-06-26T22:06:34.889068+00:00",
+    "forecastDate": "2026-06-26T13:00:00-05:00",
     "periodName": "This Afternoon",
     "summary": "Intermittent Rain Showers",
     "highTemperatureF": 65,

@@ -12,8 +12,8 @@
     "providerUrl": "https://api.weather.gov"
   },
   "todayForecast": {
-    "generatedAt": "2026-06-26T20:29:19.256216+00:00",
-    "forecastDate": "2026-06-26T15:00:00-05:00",
+    "generatedAt": "2026-06-26T22:06:34.889068+00:00",
+    "forecastDate": "2026-06-26T13:00:00-05:00",
     "periodName": "This Afternoon",
     "summary": "Intermittent Rain Showers",
     "highTemperatureF": 65,
