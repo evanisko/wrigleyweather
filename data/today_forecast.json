@@ -12,9 +12,9 @@
     "providerUrl": "https://api.weather.gov"
   },
   "todayForecast": {
-    "generatedAt": "2026-06-26T10:18:11.559872+00:00",
-    "forecastDate": "2026-06-26T06:00:00-05:00",
-    "periodName": "Friday",
+    "generatedAt": "2026-06-26T13:06:07.720235+00:00",
+    "forecastDate": "2026-06-26T07:00:00-05:00",
+    "periodName": "Today",
     "summary": "Mostly Cloudy",
     "highTemperatureF": 66,
     "windSpeedMph": 10,
