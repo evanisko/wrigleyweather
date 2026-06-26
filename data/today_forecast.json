@@ -12,11 +12,11 @@
     "providerUrl": "https://api.weather.gov"
   },
   "todayForecast": {
-    "generatedAt": "2026-06-26T16:10:22.857855+00:00",
-    "forecastDate": "2026-06-26T11:00:00-05:00",
-    "periodName": "Today",
+    "generatedAt": "2026-06-26T18:25:57.054868+00:00",
+    "forecastDate": "2026-06-26T13:00:00-05:00",
+    "periodName": "This Afternoon",
     "summary": "Intermittent Rain Showers",
-    "highTemperatureF": 66,
+    "highTemperatureF": 65,
     "windSpeedMph": 10,
     "windDirectionCardinal": "NE",
     "windDirectionDegrees": 45
