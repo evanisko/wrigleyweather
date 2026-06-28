@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-28T09:57:39.153711+00:00",
+  "generated_at": "2026-06-28T11:46:45.549069+00:00",
   "source": {
     "forecast_path": "data/today_forecast.json",
     "database_path": ".local.nosync/analytics.duckdb",
@@ -9,10 +9,10 @@
     ]
   },
   "forecast_input": {
-    "generatedAt": "2026-06-28T09:57:39.017036+00:00",
+    "generatedAt": "2026-06-28T11:46:45.413727+00:00",
     "forecastDate": "2026-06-28T06:00:00-05:00",
-    "periodName": "Sunday",
-    "summary": "Mostly Sunny then Slight Chance Showers And Thunderstorms",
+    "periodName": "Today",
+    "summary": "Partly Sunny then Chance Showers And Thunderstorms",
     "highTemperatureF": 74,
     "windSpeedMph": 10,
     "windDirectionCardinal": "E",
