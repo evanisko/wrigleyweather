@@ -12,11 +12,11 @@
     "providerUrl": "https://api.weather.gov"
   },
   "todayForecast": {
-    "generatedAt": "2026-06-28T02:51:11.839295+00:00",
+    "generatedAt": "2026-06-28T06:58:14.804014+00:00",
     "forecastDate": "2026-06-28T06:00:00-05:00",
     "periodName": "Sunday",
-    "summary": "Mostly Sunny",
-    "highTemperatureF": 73,
+    "summary": "Mostly Sunny then Slight Chance Showers And Thunderstorms",
+    "highTemperatureF": 74,
     "windSpeedMph": 10,
     "windDirectionCardinal": "E",
     "windDirectionDegrees": 90
