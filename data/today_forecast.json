@@ -12,10 +12,10 @@
     "providerUrl": "https://api.weather.gov"
   },
   "todayForecast": {
-    "generatedAt": "2026-06-30T18:52:22.364189+00:00",
-    "forecastDate": "2026-06-30T13:00:00-05:00",
+    "generatedAt": "2026-06-30T20:53:55.531365+00:00",
+    "forecastDate": "2026-06-30T15:00:00-05:00",
     "periodName": "This Afternoon",
-    "summary": "Mostly Sunny",
+    "summary": "Sunny",
     "highTemperatureF": 95,
     "windSpeedMph": 15,
     "windDirectionCardinal": "SW",
