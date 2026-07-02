@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-02T19:15:04.858436+00:00",
+  "generated_at": "2026-07-02T20:57:49.878142+00:00",
   "source": {
     "forecast_path": "data/today_forecast.json",
     "database_path": ".local.nosync/analytics.duckdb",
@@ -9,14 +9,14 @@
     ]
   },
   "forecast_input": {
-    "generatedAt": "2026-07-02T19:15:04.721700+00:00",
-    "forecastDate": "2026-07-02T14:00:00-05:00",
+    "generatedAt": "2026-07-02T20:57:49.740814+00:00",
+    "forecastDate": "2026-07-02T15:00:00-05:00",
     "periodName": "This Afternoon",
-    "summary": "Slight Chance Showers And Thunderstorms",
+    "summary": "Mostly Sunny",
     "highTemperatureF": 95,
     "windSpeedMph": 12,
-    "windDirectionCardinal": "SSW",
-    "windDirectionDegrees": 202
+    "windDirectionCardinal": "SW",
+    "windDirectionDegrees": 225
   },
   "criteria": {
     "temperature_f": {
@@ -28,7 +28,7 @@
       "tolerance": 5
     },
     "wind_direction_degrees": {
-      "target": 202,
+      "target": 225,
       "tolerance": 22
     }
   },
