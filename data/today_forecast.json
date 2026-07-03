@@ -12,13 +12,13 @@
     "providerUrl": "https://api.weather.gov"
   },
   "todayForecast": {
-    "generatedAt": "2026-07-03T20:57:10.704788+00:00",
-    "forecastDate": "2026-07-03T15:00:00-05:00",
+    "generatedAt": "2026-07-03T22:03:31.914220+00:00",
+    "forecastDate": "2026-07-03T17:00:00-05:00",
     "periodName": "This Afternoon",
     "summary": "Slight Chance Showers And Thunderstorms",
     "highTemperatureF": 86,
     "windSpeedMph": 5,
-    "windDirectionCardinal": "SE",
-    "windDirectionDegrees": 135
+    "windDirectionCardinal": "SSE",
+    "windDirectionDegrees": 158
   }
 }
