@@ -12,12 +12,12 @@
     "providerUrl": "https://api.weather.gov"
   },
   "todayForecast": {
-    "generatedAt": "2026-07-03T22:03:31.914220+00:00",
-    "forecastDate": "2026-07-03T17:00:00-05:00",
-    "periodName": "This Afternoon",
-    "summary": "Slight Chance Showers And Thunderstorms",
-    "highTemperatureF": 86,
-    "windSpeedMph": 5,
+    "generatedAt": "2026-07-03T23:58:50.452036+00:00",
+    "forecastDate": "2026-07-04T06:00:00-05:00",
+    "periodName": "Independence Day",
+    "summary": "Chance Showers And Thunderstorms",
+    "highTemperatureF": 82,
+    "windSpeedMph": 8,
     "windDirectionCardinal": "SSE",
     "windDirectionDegrees": 158
   }
