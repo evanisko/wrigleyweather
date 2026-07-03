@@ -12,12 +12,12 @@
     "providerUrl": "https://api.weather.gov"
   },
   "todayForecast": {
-    "generatedAt": "2026-07-03T15:04:51.798230+00:00",
-    "forecastDate": "2026-07-03T10:00:00-05:00",
-    "periodName": "Today",
-    "summary": "Mostly Sunny then Scattered Showers And Thunderstorms",
-    "highTemperatureF": 88,
-    "windSpeedMph": 8,
+    "generatedAt": "2026-07-03T17:17:48.746383+00:00",
+    "forecastDate": "2026-07-03T12:00:00-05:00",
+    "periodName": "This Afternoon",
+    "summary": "Showers And Thunderstorms",
+    "highTemperatureF": 83,
+    "windSpeedMph": 10,
     "windDirectionCardinal": "SSE",
     "windDirectionDegrees": 158
   }
