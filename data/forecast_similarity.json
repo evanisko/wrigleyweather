@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-03T09:55:17.814165+00:00",
+  "generated_at": "2026-07-03T12:04:46.165508+00:00",
   "source": {
     "forecast_path": "data/today_forecast.json",
     "database_path": ".local.nosync/analytics.duckdb",
@@ -9,9 +9,9 @@
     ]
   },
   "forecast_input": {
-    "generatedAt": "2026-07-03T09:55:17.667064+00:00",
-    "forecastDate": "2026-07-03T06:00:00-05:00",
-    "periodName": "Friday",
+    "generatedAt": "2026-07-03T12:04:46.026574+00:00",
+    "forecastDate": "2026-07-03T07:00:00-05:00",
+    "periodName": "Today",
     "summary": "Showers And Thunderstorms Likely",
     "highTemperatureF": 87,
     "windSpeedMph": 8,
