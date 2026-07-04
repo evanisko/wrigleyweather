@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-03T23:58:50.597393+00:00",
+  "generated_at": "2026-07-04T03:30:40.691856+00:00",
   "source": {
     "forecast_path": "data/today_forecast.json",
     "database_path": ".local.nosync/analytics.duckdb",
@@ -9,7 +9,7 @@
     ]
   },
   "forecast_input": {
-    "generatedAt": "2026-07-03T23:58:50.452036+00:00",
+    "generatedAt": "2026-07-04T03:30:40.561781+00:00",
     "forecastDate": "2026-07-04T06:00:00-05:00",
     "periodName": "Independence Day",
     "summary": "Chance Showers And Thunderstorms",
