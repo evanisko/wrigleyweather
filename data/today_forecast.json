@@ -12,13 +12,13 @@
     "providerUrl": "https://api.weather.gov"
   },
   "todayForecast": {
-    "generatedAt": "2026-07-05T02:44:37.485089+00:00",
+    "generatedAt": "2026-07-05T06:34:53.040478+00:00",
     "forecastDate": "2026-07-05T06:00:00-05:00",
     "periodName": "Sunday",
-    "summary": "Slight Chance Showers And Thunderstorms then Chance Showers And Thunderstorms",
+    "summary": "Areas Of Fog",
     "highTemperatureF": 73,
-    "windSpeedMph": 10,
-    "windDirectionCardinal": "NNE",
-    "windDirectionDegrees": 22
+    "windSpeedMph": 12,
+    "windDirectionCardinal": "N",
+    "windDirectionDegrees": 0
   }
 }
