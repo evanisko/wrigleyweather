@@ -12,9 +12,9 @@
     "providerUrl": "https://api.weather.gov"
   },
   "todayForecast": {
-    "generatedAt": "2026-07-05T09:37:48.897288+00:00",
+    "generatedAt": "2026-07-05T11:25:37.359870+00:00",
     "forecastDate": "2026-07-05T06:00:00-05:00",
-    "periodName": "Sunday",
+    "periodName": "Today",
     "summary": "Areas Of Fog",
     "highTemperatureF": 73,
     "windSpeedMph": 12,

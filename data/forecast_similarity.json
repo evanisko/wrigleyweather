@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-05T09:37:49.050945+00:00",
+  "generated_at": "2026-07-05T11:25:37.487979+00:00",
   "source": {
     "forecast_path": "data/today_forecast.json",
     "database_path": ".local.nosync/analytics.duckdb",
@@ -9,9 +9,9 @@
     ]
   },
   "forecast_input": {
-    "generatedAt": "2026-07-05T09:37:48.897288+00:00",
+    "generatedAt": "2026-07-05T11:25:37.359870+00:00",
     "forecastDate": "2026-07-05T06:00:00-05:00",
-    "periodName": "Sunday",
+    "periodName": "Today",
     "summary": "Areas Of Fog",
     "highTemperatureF": 73,
     "windSpeedMph": 12,
