@@ -12,10 +12,10 @@
     "providerUrl": "https://api.weather.gov"
   },
   "todayForecast": {
-    "generatedAt": "2026-07-04T23:56:05.775963+00:00",
+    "generatedAt": "2026-07-05T02:44:37.485089+00:00",
     "forecastDate": "2026-07-05T06:00:00-05:00",
     "periodName": "Sunday",
-    "summary": "Partly Sunny",
+    "summary": "Slight Chance Showers And Thunderstorms then Chance Showers And Thunderstorms",
     "highTemperatureF": 73,
     "windSpeedMph": 10,
     "windDirectionCardinal": "NNE",
