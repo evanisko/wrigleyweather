@@ -12,7 +12,7 @@
     "providerUrl": "https://api.weather.gov"
   },
   "todayForecast": {
-    "generatedAt": "2026-07-06T00:07:31.267852+00:00",
+    "generatedAt": "2026-07-06T05:05:22.673332+00:00",
     "forecastDate": "2026-07-06T06:00:00-05:00",
     "periodName": "Monday",
     "summary": "Sunny",
