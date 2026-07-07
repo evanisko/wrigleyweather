@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-07T10:20:49.448258+00:00",
+  "generated_at": "2026-07-07T13:13:30.993495+00:00",
   "source": {
     "forecast_path": "data/today_forecast.json",
     "database_path": ".local.nosync/analytics.duckdb",
@@ -9,9 +9,9 @@
     ]
   },
   "forecast_input": {
-    "generatedAt": "2026-07-07T10:20:49.307555+00:00",
-    "forecastDate": "2026-07-07T06:00:00-05:00",
-    "periodName": "Tuesday",
+    "generatedAt": "2026-07-07T13:13:30.844926+00:00",
+    "forecastDate": "2026-07-07T08:00:00-05:00",
+    "periodName": "Today",
     "summary": "Sunny",
     "highTemperatureF": 76,
     "windSpeedMph": 5,
