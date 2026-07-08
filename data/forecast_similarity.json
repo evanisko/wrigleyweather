@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-08T05:44:17.408606+00:00",
+  "generated_at": "2026-07-08T08:14:31.969990+00:00",
   "source": {
     "forecast_path": "data/today_forecast.json",
     "database_path": ".local.nosync/analytics.duckdb",
@@ -9,18 +9,18 @@
     ]
   },
   "forecast_input": {
-    "generatedAt": "2026-07-08T05:44:17.270006+00:00",
+    "generatedAt": "2026-07-08T08:14:31.829056+00:00",
     "forecastDate": "2026-07-08T06:00:00-05:00",
     "periodName": "Wednesday",
     "summary": "Sunny",
-    "highTemperatureF": 87,
+    "highTemperatureF": 85,
     "windSpeedMph": 8,
-    "windDirectionCardinal": "S",
-    "windDirectionDegrees": 180
+    "windDirectionCardinal": "SSW",
+    "windDirectionDegrees": 202
   },
   "criteria": {
     "temperature_f": {
-      "target": 87,
+      "target": 85,
       "tolerance": 5
     },
     "wind_speed_mph": {
@@ -28,17 +28,42 @@
       "tolerance": 5
     },
     "wind_direction_degrees": {
-      "target": 180,
+      "target": 202,
       "tolerance": 22
     }
   },
   "results": {
-    "matched_game_count": 0,
+    "matched_game_count": 2,
     "averages": {
-      "runs": null,
-      "home_runs": null,
-      "game_time_minutes": null
+      "runs": 8.5,
+      "home_runs": 3.5,
+      "game_time_minutes": 134.5
     }
   },
-  "matches": []
+  "matches": [
+    {
+      "date": "2025-07-23",
+      "historical_temperature_f": 81.1,
+      "historical_wind_speed_mph": 11.2,
+      "historical_wind_direction_degrees": 180,
+      "total_runs": 12,
+      "total_home_runs": 6,
+      "game_time_minutes": 150,
+      "temperature_delta": 3.9,
+      "wind_speed_delta": 3.2,
+      "wind_direction_delta": 22.0
+    },
+    {
+      "date": "2023-09-04",
+      "historical_temperature_f": 80.6,
+      "historical_wind_speed_mph": 12.4,
+      "historical_wind_direction_degrees": 193,
+      "total_runs": 5,
+      "total_home_runs": 1,
+      "game_time_minutes": 119,
+      "temperature_delta": 4.4,
+      "wind_speed_delta": 4.4,
+      "wind_direction_delta": 9.0
+    }
+  ]
 }
