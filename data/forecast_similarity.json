@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-08T22:13:12.583370+00:00",
+  "generated_at": "2026-07-09T00:03:58.261721+00:00",
   "source": {
     "forecast_path": "data/today_forecast.json",
     "database_path": ".local.nosync/analytics.duckdb",
@@ -9,36 +9,97 @@
     ]
   },
   "forecast_input": {
-    "generatedAt": "2026-07-08T22:13:12.446179+00:00",
-    "forecastDate": "2026-07-08T16:00:00-05:00",
-    "periodName": "This Afternoon",
-    "summary": "Sunny",
-    "highTemperatureF": 88,
-    "windSpeedMph": 10,
-    "windDirectionCardinal": "S",
-    "windDirectionDegrees": 180
+    "generatedAt": "2026-07-09T00:03:58.123400+00:00",
+    "forecastDate": "2026-07-09T06:00:00-05:00",
+    "periodName": "Thursday",
+    "summary": "Slight Chance Showers And Thunderstorms then Chance Showers And Thunderstorms",
+    "highTemperatureF": 83,
+    "windSpeedMph": 8,
+    "windDirectionCardinal": "SSW",
+    "windDirectionDegrees": 202
   },
   "criteria": {
     "temperature_f": {
-      "target": 88,
+      "target": 83,
       "tolerance": 5
     },
     "wind_speed_mph": {
-      "target": 10,
+      "target": 8,
       "tolerance": 5
     },
     "wind_direction_degrees": {
-      "target": 180,
+      "target": 202,
       "tolerance": 22
     }
   },
   "results": {
-    "matched_game_count": 0,
+    "matched_game_count": 5,
     "averages": {
-      "runs": null,
-      "home_runs": null,
-      "game_time_minutes": null
+      "runs": 10.0,
+      "home_runs": 4.6,
+      "game_time_minutes": 149.8
     }
   },
-  "matches": []
+  "matches": [
+    {
+      "date": "2025-07-23",
+      "historical_temperature_f": 81.1,
+      "historical_wind_speed_mph": 11.2,
+      "historical_wind_direction_degrees": 180,
+      "total_runs": 12,
+      "total_home_runs": 6,
+      "game_time_minutes": 150,
+      "temperature_delta": 1.9,
+      "wind_speed_delta": 3.2,
+      "wind_direction_delta": 22.0
+    },
+    {
+      "date": "2025-07-04",
+      "historical_temperature_f": 79.5,
+      "historical_wind_speed_mph": 6.9,
+      "historical_wind_direction_degrees": 209,
+      "total_runs": 14,
+      "total_home_runs": 9,
+      "game_time_minutes": 143,
+      "temperature_delta": 3.5,
+      "wind_speed_delta": 1.1,
+      "wind_direction_delta": 7.0
+    },
+    {
+      "date": "2025-06-17",
+      "historical_temperature_f": 79.2,
+      "historical_wind_speed_mph": 11.9,
+      "historical_wind_direction_degrees": 220,
+      "total_runs": 8,
+      "total_home_runs": 3,
+      "game_time_minutes": 146,
+      "temperature_delta": 3.8,
+      "wind_speed_delta": 3.9,
+      "wind_direction_delta": 18.0
+    },
+    {
+      "date": "2023-09-04",
+      "historical_temperature_f": 80.6,
+      "historical_wind_speed_mph": 12.4,
+      "historical_wind_direction_degrees": 193,
+      "total_runs": 5,
+      "total_home_runs": 1,
+      "game_time_minutes": 119,
+      "temperature_delta": 2.4,
+      "wind_speed_delta": 4.4,
+      "wind_direction_delta": 9.0
+    },
+    {
+      "date": "2021-07-23",
+      "historical_temperature_f": 78.3,
+      "historical_wind_speed_mph": 10.5,
+      "historical_wind_direction_degrees": 203,
+      "total_runs": 11,
+      "total_home_runs": 4,
+      "game_time_minutes": 191,
+      "temperature_delta": 4.7,
+      "wind_speed_delta": 2.5,
+      "wind_direction_delta": 1.0
+    }
+  ]
 }
