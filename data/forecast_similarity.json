@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-09T19:28:17.265623+00:00",
+  "generated_at": "2026-07-09T21:16:51.617663+00:00",
   "source": {
     "forecast_path": "data/today_forecast.json",
     "database_path": ".local.nosync/analytics.duckdb",
@@ -9,18 +9,18 @@
     ]
   },
   "forecast_input": {
-    "generatedAt": "2026-07-09T19:28:17.129780+00:00",
-    "forecastDate": "2026-07-09T14:00:00-05:00",
+    "generatedAt": "2026-07-09T21:16:51.476170+00:00",
+    "forecastDate": "2026-07-09T16:00:00-05:00",
     "periodName": "This Afternoon",
     "summary": "Scattered Showers And Thunderstorms",
-    "highTemperatureF": 81,
+    "highTemperatureF": 84,
     "windSpeedMph": 5,
-    "windDirectionCardinal": "SW",
-    "windDirectionDegrees": 225
+    "windDirectionCardinal": "E",
+    "windDirectionDegrees": 90
   },
   "criteria": {
     "temperature_f": {
-      "target": 81,
+      "target": 84,
       "tolerance": 5
     },
     "wind_speed_mph": {
@@ -28,42 +28,17 @@
       "tolerance": 5
     },
     "wind_direction_degrees": {
-      "target": 225,
+      "target": 90,
       "tolerance": 22
     }
   },
   "results": {
-    "matched_game_count": 2,
+    "matched_game_count": 0,
     "averages": {
-      "runs": 11.5,
-      "home_runs": 6.5,
-      "game_time_minutes": 149.0
+      "runs": null,
+      "home_runs": null,
+      "game_time_minutes": null
     }
   },
-  "matches": [
-    {
-      "date": "2025-07-04",
-      "historical_temperature_f": 79.5,
-      "historical_wind_speed_mph": 6.9,
-      "historical_wind_direction_degrees": 209,
-      "total_runs": 14,
-      "total_home_runs": 9,
-      "game_time_minutes": 143,
-      "temperature_delta": 1.5,
-      "wind_speed_delta": 1.9,
-      "wind_direction_delta": 16.0
-    },
-    {
-      "date": "2024-08-01",
-      "historical_temperature_f": 77.9,
-      "historical_wind_speed_mph": 9.9,
-      "historical_wind_direction_degrees": 217,
-      "total_runs": 9,
-      "total_home_runs": 4,
-      "game_time_minutes": 155,
-      "temperature_delta": 3.1,
-      "wind_speed_delta": 4.9,
-      "wind_direction_delta": 8.0
-    }
-  ]
+  "matches": []
 }
