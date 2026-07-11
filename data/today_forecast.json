@@ -12,7 +12,7 @@
     "providerUrl": "https://api.weather.gov"
   },
   "todayForecast": {
-    "generatedAt": "2026-07-11T07:45:09.346683+00:00",
+    "generatedAt": "2026-07-11T09:21:16.165136+00:00",
     "forecastDate": "2026-07-11T06:00:00-05:00",
     "periodName": "Saturday",
     "summary": "Mostly Sunny",
