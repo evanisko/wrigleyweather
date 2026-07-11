@@ -12,12 +12,12 @@
     "providerUrl": "https://api.weather.gov"
   },
   "todayForecast": {
-    "generatedAt": "2026-07-11T09:21:16.165136+00:00",
+    "generatedAt": "2026-07-11T10:58:40.323878+00:00",
     "forecastDate": "2026-07-11T06:00:00-05:00",
     "periodName": "Saturday",
     "summary": "Mostly Sunny",
     "highTemperatureF": 78,
-    "windSpeedMph": 10,
+    "windSpeedMph": 12,
     "windDirectionCardinal": "NE",
     "windDirectionDegrees": 45
   }
