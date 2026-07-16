@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-16T08:01:38.556101+00:00",
+  "generated_at": "2026-07-16T10:51:43.355450+00:00",
   "source": {
     "forecast_path": "data/today_forecast.json",
     "database_path": ".local.nosync/analytics.duckdb",
@@ -9,10 +9,10 @@
     ]
   },
   "forecast_input": {
-    "generatedAt": "2026-07-16T08:01:38.418778+00:00",
+    "generatedAt": "2026-07-16T10:51:43.237569+00:00",
     "forecastDate": "2026-07-16T06:00:00-05:00",
     "periodName": "Thursday",
-    "summary": "Areas Of Smoke",
+    "summary": "Smoke",
     "highTemperatureF": 81,
     "windSpeedMph": 8,
     "windDirectionCardinal": "NE",
