@@ -12,9 +12,9 @@
     "providerUrl": "https://api.weather.gov"
   },
   "todayForecast": {
-    "generatedAt": "2026-07-16T16:12:44.431923+00:00",
-    "forecastDate": "2026-07-16T11:00:00-05:00",
-    "periodName": "Today",
+    "generatedAt": "2026-07-16T18:00:43.071144+00:00",
+    "forecastDate": "2026-07-16T13:00:00-05:00",
+    "periodName": "This Afternoon",
     "summary": "Smoke",
     "highTemperatureF": 81,
     "windSpeedMph": 8,
