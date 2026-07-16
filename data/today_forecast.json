@@ -12,11 +12,11 @@
     "providerUrl": "https://api.weather.gov"
   },
   "todayForecast": {
-    "generatedAt": "2026-07-16T05:33:15.444593+00:00",
+    "generatedAt": "2026-07-16T08:01:38.418778+00:00",
     "forecastDate": "2026-07-16T06:00:00-05:00",
     "periodName": "Thursday",
     "summary": "Areas Of Smoke",
-    "highTemperatureF": 80,
+    "highTemperatureF": 81,
     "windSpeedMph": 8,
     "windDirectionCardinal": "NE",
     "windDirectionDegrees": 45
