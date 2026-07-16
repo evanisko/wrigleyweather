@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-16T18:00:43.224313+00:00",
+  "generated_at": "2026-07-16T19:57:29.851156+00:00",
   "source": {
     "forecast_path": "data/today_forecast.json",
     "database_path": ".local.nosync/analytics.duckdb",
@@ -9,12 +9,12 @@
     ]
   },
   "forecast_input": {
-    "generatedAt": "2026-07-16T18:00:43.071144+00:00",
-    "forecastDate": "2026-07-16T13:00:00-05:00",
+    "generatedAt": "2026-07-16T19:57:29.703948+00:00",
+    "forecastDate": "2026-07-16T14:00:00-05:00",
     "periodName": "This Afternoon",
     "summary": "Smoke",
     "highTemperatureF": 81,
-    "windSpeedMph": 8,
+    "windSpeedMph": 10,
     "windDirectionCardinal": "ENE",
     "windDirectionDegrees": 68
   },
@@ -24,7 +24,7 @@
       "tolerance": 5
     },
     "wind_speed_mph": {
-      "target": 8,
+      "target": 10,
       "tolerance": 5
     },
     "wind_direction_degrees": {
@@ -50,7 +50,7 @@
       "total_home_runs": 3,
       "game_time_minutes": 193,
       "temperature_delta": 2.4,
-      "wind_speed_delta": 4.0,
+      "wind_speed_delta": 2.0,
       "wind_direction_delta": 12.0
     }
   ]
