@@ -12,8 +12,8 @@
     "providerUrl": "https://api.weather.gov"
   },
   "todayForecast": {
-    "generatedAt": "2026-07-16T14:54:25.443648+00:00",
-    "forecastDate": "2026-07-16T09:00:00-05:00",
+    "generatedAt": "2026-07-16T16:12:44.431923+00:00",
+    "forecastDate": "2026-07-16T11:00:00-05:00",
     "periodName": "Today",
     "summary": "Smoke",
     "highTemperatureF": 81,
