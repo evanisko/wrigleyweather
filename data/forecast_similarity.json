@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-17T18:58:16.458365+00:00",
+  "generated_at": "2026-07-17T20:06:24.344015+00:00",
   "source": {
     "forecast_path": "data/today_forecast.json",
     "database_path": ".local.nosync/analytics.duckdb",
@@ -9,14 +9,14 @@
     ]
   },
   "forecast_input": {
-    "generatedAt": "2026-07-17T18:58:16.355927+00:00",
-    "forecastDate": "2026-07-17T13:00:00-05:00",
+    "generatedAt": "2026-07-17T20:06:24.193749+00:00",
+    "forecastDate": "2026-07-17T15:00:00-05:00",
     "periodName": "This Afternoon",
     "summary": "Patchy Smoke",
     "highTemperatureF": 88,
     "windSpeedMph": 10,
-    "windDirectionCardinal": "SSW",
-    "windDirectionDegrees": 202
+    "windDirectionCardinal": "SW",
+    "windDirectionDegrees": 225
   },
   "criteria": {
     "temperature_f": {
@@ -28,7 +28,7 @@
       "tolerance": 5
     },
     "wind_direction_degrees": {
-      "target": 202,
+      "target": 225,
       "tolerance": 22
     }
   },
@@ -51,7 +51,7 @@
       "game_time_minutes": 175,
       "temperature_delta": 2.2,
       "wind_speed_delta": 4.7,
-      "wind_direction_delta": 8.0
+      "wind_direction_delta": 15.0
     }
   ]
 }
