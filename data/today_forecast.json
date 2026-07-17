@@ -12,10 +12,10 @@
     "providerUrl": "https://api.weather.gov"
   },
   "todayForecast": {
-    "generatedAt": "2026-07-17T20:06:24.193749+00:00",
-    "forecastDate": "2026-07-17T15:00:00-05:00",
+    "generatedAt": "2026-07-17T21:44:07.582819+00:00",
+    "forecastDate": "2026-07-17T16:00:00-05:00",
     "periodName": "This Afternoon",
-    "summary": "Patchy Smoke",
+    "summary": "Chance Showers And Thunderstorms",
     "highTemperatureF": 88,
     "windSpeedMph": 10,
     "windDirectionCardinal": "SW",
