@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-17T05:35:04.100358+00:00",
+  "generated_at": "2026-07-17T07:58:19.490949+00:00",
   "source": {
     "forecast_path": "data/today_forecast.json",
     "database_path": ".local.nosync/analytics.duckdb",
@@ -9,26 +9,26 @@
     ]
   },
   "forecast_input": {
-    "generatedAt": "2026-07-17T05:35:03.941142+00:00",
+    "generatedAt": "2026-07-17T07:58:19.345835+00:00",
     "forecastDate": "2026-07-17T06:00:00-05:00",
     "periodName": "Friday",
     "summary": "Smoke",
-    "highTemperatureF": 87,
-    "windSpeedMph": 5,
-    "windDirectionCardinal": "SSE",
-    "windDirectionDegrees": 158
+    "highTemperatureF": 89,
+    "windSpeedMph": 2,
+    "windDirectionCardinal": "S",
+    "windDirectionDegrees": 180
   },
   "criteria": {
     "temperature_f": {
-      "target": 87,
+      "target": 89,
       "tolerance": 5
     },
     "wind_speed_mph": {
-      "target": 5,
+      "target": 2,
       "tolerance": 5
     },
     "wind_direction_degrees": {
-      "target": 158,
+      "target": 180,
       "tolerance": 22
     }
   },

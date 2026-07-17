@@ -12,13 +12,13 @@
     "providerUrl": "https://api.weather.gov"
   },
   "todayForecast": {
-    "generatedAt": "2026-07-17T05:35:03.941142+00:00",
+    "generatedAt": "2026-07-17T07:58:19.345835+00:00",
     "forecastDate": "2026-07-17T06:00:00-05:00",
     "periodName": "Friday",
     "summary": "Smoke",
-    "highTemperatureF": 87,
-    "windSpeedMph": 5,
-    "windDirectionCardinal": "SSE",
-    "windDirectionDegrees": 158
+    "highTemperatureF": 89,
+    "windSpeedMph": 2,
+    "windDirectionCardinal": "S",
+    "windDirectionDegrees": 180
   }
 }
