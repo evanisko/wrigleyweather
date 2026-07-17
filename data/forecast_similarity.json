@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-17T07:58:19.490949+00:00",
+  "generated_at": "2026-07-17T09:59:09.425487+00:00",
   "source": {
     "forecast_path": "data/today_forecast.json",
     "database_path": ".local.nosync/analytics.duckdb",
@@ -9,7 +9,7 @@
     ]
   },
   "forecast_input": {
-    "generatedAt": "2026-07-17T07:58:19.345835+00:00",
+    "generatedAt": "2026-07-17T09:59:09.275962+00:00",
     "forecastDate": "2026-07-17T06:00:00-05:00",
     "periodName": "Friday",
     "summary": "Smoke",
