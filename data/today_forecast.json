@@ -12,11 +12,11 @@
     "providerUrl": "https://api.weather.gov"
   },
   "todayForecast": {
-    "generatedAt": "2026-07-18T17:51:24.521844+00:00",
-    "forecastDate": "2026-07-18T12:00:00-05:00",
+    "generatedAt": "2026-07-18T18:53:34.518089+00:00",
+    "forecastDate": "2026-07-18T13:00:00-05:00",
     "periodName": "This Afternoon",
     "summary": "Showers And Thunderstorms Likely",
-    "highTemperatureF": 88,
+    "highTemperatureF": 84,
     "windSpeedMph": 15,
     "windDirectionCardinal": "N",
     "windDirectionDegrees": 0

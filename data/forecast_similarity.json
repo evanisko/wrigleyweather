@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-18T17:51:24.654996+00:00",
+  "generated_at": "2026-07-18T18:53:34.664039+00:00",
   "source": {
     "forecast_path": "data/today_forecast.json",
     "database_path": ".local.nosync/analytics.duckdb",
@@ -9,18 +9,18 @@
     ]
   },
   "forecast_input": {
-    "generatedAt": "2026-07-18T17:51:24.521844+00:00",
-    "forecastDate": "2026-07-18T12:00:00-05:00",
+    "generatedAt": "2026-07-18T18:53:34.518089+00:00",
+    "forecastDate": "2026-07-18T13:00:00-05:00",
     "periodName": "This Afternoon",
     "summary": "Showers And Thunderstorms Likely",
-    "highTemperatureF": 88,
+    "highTemperatureF": 84,
     "windSpeedMph": 15,
     "windDirectionCardinal": "N",
     "windDirectionDegrees": 0
   },
   "criteria": {
     "temperature_f": {
-      "target": 88,
+      "target": 84,
       "tolerance": 5
     },
     "wind_speed_mph": {
