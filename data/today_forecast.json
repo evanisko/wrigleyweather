@@ -12,7 +12,7 @@
     "providerUrl": "https://api.weather.gov"
   },
   "todayForecast": {
-    "generatedAt": "2026-07-17T23:45:41.868894+00:00",
+    "generatedAt": "2026-07-18T01:53:21.001610+00:00",
     "forecastDate": "2026-07-18T06:00:00-05:00",
     "periodName": "Saturday",
     "summary": "Mostly Sunny then Showers And Thunderstorms Likely",
