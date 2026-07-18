@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-18T08:46:30.346281+00:00",
+  "generated_at": "2026-07-18T10:13:25.593916+00:00",
   "source": {
     "forecast_path": "data/today_forecast.json",
     "database_path": ".local.nosync/analytics.duckdb",
@@ -9,7 +9,7 @@
     ]
   },
   "forecast_input": {
-    "generatedAt": "2026-07-18T08:46:30.202810+00:00",
+    "generatedAt": "2026-07-18T10:13:25.440149+00:00",
     "forecastDate": "2026-07-18T06:00:00-05:00",
     "periodName": "Saturday",
     "summary": "Chance Showers And Thunderstorms",
