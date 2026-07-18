@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-18T04:43:51.476117+00:00",
+  "generated_at": "2026-07-18T06:56:11.373912+00:00",
   "source": {
     "forecast_path": "data/today_forecast.json",
     "database_path": ".local.nosync/analytics.duckdb",
@@ -9,18 +9,18 @@
     ]
   },
   "forecast_input": {
-    "generatedAt": "2026-07-18T04:43:51.336039+00:00",
+    "generatedAt": "2026-07-18T06:56:11.226721+00:00",
     "forecastDate": "2026-07-18T06:00:00-05:00",
     "periodName": "Saturday",
-    "summary": "Mostly Sunny then Showers And Thunderstorms Likely",
-    "highTemperatureF": 89,
+    "summary": "Chance Showers And Thunderstorms",
+    "highTemperatureF": 88,
     "windSpeedMph": 12,
     "windDirectionCardinal": "WNW",
     "windDirectionDegrees": 292
   },
   "criteria": {
     "temperature_f": {
-      "target": 89,
+      "target": 88,
       "tolerance": 5
     },
     "wind_speed_mph": {

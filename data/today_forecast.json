@@ -12,11 +12,11 @@
     "providerUrl": "https://api.weather.gov"
   },
   "todayForecast": {
-    "generatedAt": "2026-07-18T04:43:51.336039+00:00",
+    "generatedAt": "2026-07-18T06:56:11.226721+00:00",
     "forecastDate": "2026-07-18T06:00:00-05:00",
     "periodName": "Saturday",
-    "summary": "Mostly Sunny then Showers And Thunderstorms Likely",
-    "highTemperatureF": 89,
+    "summary": "Chance Showers And Thunderstorms",
+    "highTemperatureF": 88,
     "windSpeedMph": 12,
     "windDirectionCardinal": "WNW",
     "windDirectionDegrees": 292
