@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-18T20:01:38.723345+00:00",
+  "generated_at": "2026-07-18T21:43:15.143826+00:00",
   "source": {
     "forecast_path": "data/today_forecast.json",
     "database_path": ".local.nosync/analytics.duckdb",
@@ -9,10 +9,10 @@
     ]
   },
   "forecast_input": {
-    "generatedAt": "2026-07-18T20:01:38.574748+00:00",
-    "forecastDate": "2026-07-18T15:00:00-05:00",
+    "generatedAt": "2026-07-18T21:43:15.000221+00:00",
+    "forecastDate": "2026-07-18T16:00:00-05:00",
     "periodName": "This Afternoon",
-    "summary": "Chance Showers And Thunderstorms",
+    "summary": "Patchy Smoke",
     "highTemperatureF": 84,
     "windSpeedMph": 15,
     "windDirectionCardinal": "NNE",
