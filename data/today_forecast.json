@@ -12,9 +12,9 @@
     "providerUrl": "https://api.weather.gov"
   },
   "todayForecast": {
-    "generatedAt": "2026-07-19T10:21:21.189915+00:00",
+    "generatedAt": "2026-07-19T11:51:02.437480+00:00",
     "forecastDate": "2026-07-19T06:00:00-05:00",
-    "periodName": "Sunday",
+    "periodName": "Today",
     "summary": "Smoke",
     "highTemperatureF": 75,
     "windSpeedMph": 8,
