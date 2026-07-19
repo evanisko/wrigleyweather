@@ -12,8 +12,8 @@
     "providerUrl": "https://api.weather.gov"
   },
   "todayForecast": {
-    "generatedAt": "2026-07-19T18:57:26.912484+00:00",
-    "forecastDate": "2026-07-19T13:00:00-05:00",
+    "generatedAt": "2026-07-19T20:05:11.889456+00:00",
+    "forecastDate": "2026-07-19T15:00:00-05:00",
     "periodName": "This Afternoon",
     "summary": "Patchy Smoke",
     "highTemperatureF": 75,
