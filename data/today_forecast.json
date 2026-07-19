@@ -12,12 +12,12 @@
     "providerUrl": "https://api.weather.gov"
   },
   "todayForecast": {
-    "generatedAt": "2026-07-19T11:51:02.437480+00:00",
-    "forecastDate": "2026-07-19T06:00:00-05:00",
+    "generatedAt": "2026-07-19T13:02:10.292689+00:00",
+    "forecastDate": "2026-07-19T08:00:00-05:00",
     "periodName": "Today",
-    "summary": "Smoke",
+    "summary": "Patchy Smoke",
     "highTemperatureF": 75,
-    "windSpeedMph": 8,
+    "windSpeedMph": 5,
     "windDirectionCardinal": "NE",
     "windDirectionDegrees": 45
   }
