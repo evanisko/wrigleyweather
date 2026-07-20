@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-20T12:11:32.921988+00:00",
+  "generated_at": "2026-07-20T15:05:15.719845+00:00",
   "source": {
     "forecast_path": "data/today_forecast.json",
     "database_path": ".local.nosync/analytics.duckdb",
@@ -9,8 +9,8 @@
     ]
   },
   "forecast_input": {
-    "generatedAt": "2026-07-20T12:11:32.789466+00:00",
-    "forecastDate": "2026-07-20T07:00:00-05:00",
+    "generatedAt": "2026-07-20T15:05:15.566766+00:00",
+    "forecastDate": "2026-07-20T10:00:00-05:00",
     "periodName": "Today",
     "summary": "Smoke",
     "highTemperatureF": 84,
