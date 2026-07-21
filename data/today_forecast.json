@@ -12,13 +12,13 @@
     "providerUrl": "https://api.weather.gov"
   },
   "todayForecast": {
-    "generatedAt": "2026-07-21T11:01:21.838071+00:00",
-    "forecastDate": "2026-07-21T06:00:00-05:00",
+    "generatedAt": "2026-07-21T13:23:54.650582+00:00",
+    "forecastDate": "2026-07-21T08:00:00-05:00",
     "periodName": "Today",
-    "summary": "Scattered Showers And Thunderstorms",
+    "summary": "Isolated Rain Showers",
     "highTemperatureF": 86,
     "windSpeedMph": 15,
-    "windDirectionCardinal": "WNW",
-    "windDirectionDegrees": 292
+    "windDirectionCardinal": "NW",
+    "windDirectionDegrees": 315
   }
 }

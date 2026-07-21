@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-21T11:01:21.990888+00:00",
+  "generated_at": "2026-07-21T13:23:54.795528+00:00",
   "source": {
     "forecast_path": "data/today_forecast.json",
     "database_path": ".local.nosync/analytics.duckdb",
@@ -9,14 +9,14 @@
     ]
   },
   "forecast_input": {
-    "generatedAt": "2026-07-21T11:01:21.838071+00:00",
-    "forecastDate": "2026-07-21T06:00:00-05:00",
+    "generatedAt": "2026-07-21T13:23:54.650582+00:00",
+    "forecastDate": "2026-07-21T08:00:00-05:00",
     "periodName": "Today",
-    "summary": "Scattered Showers And Thunderstorms",
+    "summary": "Isolated Rain Showers",
     "highTemperatureF": 86,
     "windSpeedMph": 15,
-    "windDirectionCardinal": "WNW",
-    "windDirectionDegrees": 292
+    "windDirectionCardinal": "NW",
+    "windDirectionDegrees": 315
   },
   "criteria": {
     "temperature_f": {
@@ -28,7 +28,7 @@
       "tolerance": 5
     },
     "wind_direction_degrees": {
-      "target": 292,
+      "target": 315,
       "tolerance": 22
     }
   },
