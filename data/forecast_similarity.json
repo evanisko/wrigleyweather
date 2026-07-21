@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-21T13:23:54.795528+00:00",
+  "generated_at": "2026-07-21T15:38:03.179698+00:00",
   "source": {
     "forecast_path": "data/today_forecast.json",
     "database_path": ".local.nosync/analytics.duckdb",
@@ -9,10 +9,10 @@
     ]
   },
   "forecast_input": {
-    "generatedAt": "2026-07-21T13:23:54.650582+00:00",
-    "forecastDate": "2026-07-21T08:00:00-05:00",
+    "generatedAt": "2026-07-21T15:38:03.022061+00:00",
+    "forecastDate": "2026-07-21T10:00:00-05:00",
     "periodName": "Today",
-    "summary": "Isolated Rain Showers",
+    "summary": "Mostly Sunny then Isolated Rain Showers",
     "highTemperatureF": 86,
     "windSpeedMph": 15,
     "windDirectionCardinal": "NW",
