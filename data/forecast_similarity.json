@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-25T16:02:36.447639+00:00",
+  "generated_at": "2026-07-25T17:53:25.588021+00:00",
   "source": {
     "forecast_path": "data/today_forecast.json",
     "database_path": ".local.nosync/analytics.duckdb",
@@ -9,10 +9,10 @@
     ]
   },
   "forecast_input": {
-    "generatedAt": "2026-07-25T16:02:36.308985+00:00",
-    "forecastDate": "2026-07-25T11:00:00-05:00",
-    "periodName": "Today",
-    "summary": "Mostly Cloudy",
+    "generatedAt": "2026-07-25T17:53:25.473546+00:00",
+    "forecastDate": "2026-07-25T12:00:00-05:00",
+    "periodName": "This Afternoon",
+    "summary": "Slight Chance Drizzle",
     "highTemperatureF": 78,
     "windSpeedMph": 10,
     "windDirectionCardinal": "SSW",
