@@ -12,13 +12,13 @@
     "providerUrl": "https://api.weather.gov"
   },
   "todayForecast": {
-    "generatedAt": "2026-07-25T18:58:06.594901+00:00",
-    "forecastDate": "2026-07-25T13:00:00-05:00",
+    "generatedAt": "2026-07-25T20:11:31.540523+00:00",
+    "forecastDate": "2026-07-25T15:00:00-05:00",
     "periodName": "This Afternoon",
-    "summary": "Slight Chance Drizzle",
+    "summary": "Cloudy",
     "highTemperatureF": 78,
     "windSpeedMph": 10,
-    "windDirectionCardinal": "SSW",
-    "windDirectionDegrees": 202
+    "windDirectionCardinal": "SW",
+    "windDirectionDegrees": 225
   }
 }
