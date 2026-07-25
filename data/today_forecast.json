@@ -12,11 +12,11 @@
     "providerUrl": "https://api.weather.gov"
   },
   "todayForecast": {
-    "generatedAt": "2026-07-25T02:04:32.069046+00:00",
+    "generatedAt": "2026-07-25T05:37:42.950921+00:00",
     "forecastDate": "2026-07-25T06:00:00-05:00",
     "periodName": "Saturday",
-    "summary": "Mostly Sunny",
-    "highTemperatureF": 81,
+    "summary": "Mostly Cloudy",
+    "highTemperatureF": 78,
     "windSpeedMph": 8,
     "windDirectionCardinal": "SSW",
     "windDirectionDegrees": 202
