@@ -12,9 +12,9 @@
     "providerUrl": "https://api.weather.gov"
   },
   "todayForecast": {
-    "generatedAt": "2026-07-26T10:38:59.600867+00:00",
+    "generatedAt": "2026-07-26T11:57:32.784873+00:00",
     "forecastDate": "2026-07-26T06:00:00-05:00",
-    "periodName": "Sunday",
+    "periodName": "Today",
     "summary": "Partly Sunny",
     "highTemperatureF": 88,
     "windSpeedMph": 8,
