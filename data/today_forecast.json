@@ -12,7 +12,7 @@
     "providerUrl": "https://api.weather.gov"
   },
   "todayForecast": {
-    "generatedAt": "2026-07-27T02:22:35.822339+00:00",
+    "generatedAt": "2026-07-27T06:21:50.857133+00:00",
     "forecastDate": "2026-07-27T06:00:00-05:00",
     "periodName": "Monday",
     "summary": "Chance Showers And Thunderstorms",
