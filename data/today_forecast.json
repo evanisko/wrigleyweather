@@ -12,13 +12,13 @@
     "providerUrl": "https://api.weather.gov"
   },
   "todayForecast": {
-    "generatedAt": "2026-07-27T06:21:50.857133+00:00",
+    "generatedAt": "2026-07-27T10:35:30.744118+00:00",
     "forecastDate": "2026-07-27T06:00:00-05:00",
     "periodName": "Monday",
-    "summary": "Chance Showers And Thunderstorms",
-    "highTemperatureF": 86,
+    "summary": "Chance Showers And Thunderstorms then Showers And Thunderstorms Likely",
+    "highTemperatureF": 88,
     "windSpeedMph": 12,
-    "windDirectionCardinal": "SSW",
-    "windDirectionDegrees": 202
+    "windDirectionCardinal": "SW",
+    "windDirectionDegrees": 225
   }
 }
