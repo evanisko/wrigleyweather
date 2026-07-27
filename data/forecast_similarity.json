@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-27T16:11:04.180507+00:00",
+  "generated_at": "2026-07-27T18:20:05.080102+00:00",
   "source": {
     "forecast_path": "data/today_forecast.json",
     "database_path": ".local.nosync/analytics.duckdb",
@@ -9,14 +9,14 @@
     ]
   },
   "forecast_input": {
-    "generatedAt": "2026-07-27T16:11:04.035241+00:00",
-    "forecastDate": "2026-07-27T11:00:00-05:00",
-    "periodName": "Today",
+    "generatedAt": "2026-07-27T18:20:04.943007+00:00",
+    "forecastDate": "2026-07-27T13:00:00-05:00",
+    "periodName": "This Afternoon",
     "summary": "Chance Showers And Thunderstorms",
     "highTemperatureF": 88,
     "windSpeedMph": 12,
-    "windDirectionCardinal": "SW",
-    "windDirectionDegrees": 225
+    "windDirectionCardinal": "SSW",
+    "windDirectionDegrees": 202
   },
   "criteria": {
     "temperature_f": {
@@ -28,7 +28,7 @@
       "tolerance": 5
     },
     "wind_direction_degrees": {
-      "target": 225,
+      "target": 202,
       "tolerance": 22
     }
   },
@@ -51,7 +51,7 @@
       "game_time_minutes": 172,
       "temperature_delta": 3.6,
       "wind_speed_delta": 3.2,
-      "wind_direction_delta": 20.0
+      "wind_direction_delta": 3.0
     },
     {
       "date": "2025-06-22",
@@ -63,7 +63,7 @@
       "game_time_minutes": 175,
       "temperature_delta": 2.2,
       "wind_speed_delta": 2.7,
-      "wind_direction_delta": 15.0
+      "wind_direction_delta": 8.0
     }
   ]
 }
