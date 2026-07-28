@@ -12,10 +12,10 @@
     "providerUrl": "https://api.weather.gov"
   },
   "todayForecast": {
-    "generatedAt": "2026-07-28T08:22:39.968268+00:00",
+    "generatedAt": "2026-07-28T11:11:04.953445+00:00",
     "forecastDate": "2026-07-28T06:00:00-05:00",
-    "periodName": "Tuesday",
-    "summary": "Partly Sunny",
+    "periodName": "Today",
+    "summary": "Patchy Drizzle then Partly Sunny",
     "highTemperatureF": 72,
     "windSpeedMph": 18,
     "windDirectionCardinal": "N",
