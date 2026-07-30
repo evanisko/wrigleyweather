@@ -12,13 +12,13 @@
     "providerUrl": "https://api.weather.gov"
   },
   "todayForecast": {
-    "generatedAt": "2026-07-30T22:13:23.595756+00:00",
-    "forecastDate": "2026-07-30T17:00:00-05:00",
-    "periodName": "This Afternoon",
-    "summary": "Mostly Sunny",
-    "highTemperatureF": 79,
-    "windSpeedMph": 5,
-    "windDirectionCardinal": "ESE",
-    "windDirectionDegrees": 112
+    "generatedAt": "2026-07-30T23:57:25.697947+00:00",
+    "forecastDate": "2026-07-31T06:00:00-05:00",
+    "periodName": "Friday",
+    "summary": "Mostly Cloudy then Chance Rain Showers",
+    "highTemperatureF": 78,
+    "windSpeedMph": 8,
+    "windDirectionCardinal": "SE",
+    "windDirectionDegrees": 135
   }
 }
