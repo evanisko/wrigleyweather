@@ -12,8 +12,8 @@
     "providerUrl": "https://api.weather.gov"
   },
   "todayForecast": {
-    "generatedAt": "2026-07-31T20:57:37.753001+00:00",
-    "forecastDate": "2026-07-31T15:00:00-05:00",
+    "generatedAt": "2026-07-31T22:05:12.896067+00:00",
+    "forecastDate": "2026-07-31T17:00:00-05:00",
     "periodName": "This Afternoon",
     "summary": "Rain Showers",
     "highTemperatureF": 78,
