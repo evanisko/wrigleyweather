@@ -12,7 +12,7 @@
     "providerUrl": "https://api.weather.gov"
   },
   "todayForecast": {
-    "generatedAt": "2026-07-30T23:57:25.697947+00:00",
+    "generatedAt": "2026-07-31T02:46:04.990614+00:00",
     "forecastDate": "2026-07-31T06:00:00-05:00",
     "periodName": "Friday",
     "summary": "Mostly Cloudy then Chance Rain Showers",
