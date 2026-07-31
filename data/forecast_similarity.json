@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-31T11:53:49.226817+00:00",
+  "generated_at": "2026-07-31T13:48:58.749236+00:00",
   "source": {
     "forecast_path": "data/today_forecast.json",
     "database_path": ".local.nosync/analytics.duckdb",
@@ -9,8 +9,8 @@
     ]
   },
   "forecast_input": {
-    "generatedAt": "2026-07-31T11:53:49.083154+00:00",
-    "forecastDate": "2026-07-31T06:00:00-05:00",
+    "generatedAt": "2026-07-31T13:48:58.630928+00:00",
+    "forecastDate": "2026-07-31T08:00:00-05:00",
     "periodName": "Today",
     "summary": "Mostly Cloudy then Rain Showers Likely",
     "highTemperatureF": 83,
