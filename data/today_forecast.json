@@ -12,12 +12,12 @@
     "providerUrl": "https://api.weather.gov"
   },
   "todayForecast": {
-    "generatedAt": "2026-07-31T13:48:58.630928+00:00",
-    "forecastDate": "2026-07-31T08:00:00-05:00",
+    "generatedAt": "2026-07-31T15:58:17.700990+00:00",
+    "forecastDate": "2026-07-31T10:00:00-05:00",
     "periodName": "Today",
-    "summary": "Mostly Cloudy then Rain Showers Likely",
-    "highTemperatureF": 83,
-    "windSpeedMph": 10,
+    "summary": "Cloudy then Rain Showers",
+    "highTemperatureF": 77,
+    "windSpeedMph": 12,
     "windDirectionCardinal": "SSE",
     "windDirectionDegrees": 158
   }
