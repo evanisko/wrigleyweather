@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-01T05:48:59.471758+00:00",
+  "generated_at": "2026-08-01T08:09:25.843478+00:00",
   "source": {
     "forecast_path": "data/today_forecast.json",
     "database_path": ".local.nosync/analytics.duckdb",
@@ -9,18 +9,18 @@
     ]
   },
   "forecast_input": {
-    "generatedAt": "2026-08-01T05:48:59.332167+00:00",
+    "generatedAt": "2026-08-01T08:09:25.519889+00:00",
     "forecastDate": "2026-08-01T06:00:00-05:00",
     "periodName": "Saturday",
     "summary": "Showers And Thunderstorms",
-    "highTemperatureF": 70,
+    "highTemperatureF": 72,
     "windSpeedMph": 22,
     "windDirectionCardinal": "ENE",
     "windDirectionDegrees": 68
   },
   "criteria": {
     "temperature_f": {
-      "target": 70,
+      "target": 72,
       "tolerance": 5
     },
     "wind_speed_mph": {
