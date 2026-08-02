@@ -12,10 +12,10 @@
     "providerUrl": "https://api.weather.gov"
   },
   "todayForecast": {
-    "generatedAt": "2026-08-02T11:56:40.608146+00:00",
-    "forecastDate": "2026-08-02T06:00:00-05:00",
+    "generatedAt": "2026-08-02T13:15:20.587595+00:00",
+    "forecastDate": "2026-08-02T08:00:00-05:00",
     "periodName": "Today",
-    "summary": "Mostly Cloudy",
+    "summary": "Partly Sunny",
     "highTemperatureF": 73,
     "windSpeedMph": 20,
     "windDirectionCardinal": "N",
