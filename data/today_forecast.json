@@ -12,7 +12,7 @@
     "providerUrl": "https://api.weather.gov"
   },
   "todayForecast": {
-    "generatedAt": "2026-08-02T08:11:11.547770+00:00",
+    "generatedAt": "2026-08-02T10:28:17.365904+00:00",
     "forecastDate": "2026-08-02T06:00:00-05:00",
     "periodName": "Sunday",
     "summary": "Mostly Cloudy",
