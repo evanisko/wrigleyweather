@@ -12,8 +12,8 @@
     "providerUrl": "https://api.weather.gov"
   },
   "todayForecast": {
-    "generatedAt": "2026-08-05T11:14:41.084865+00:00",
-    "forecastDate": "2026-08-05T06:00:00-05:00",
+    "generatedAt": "2026-08-05T13:52:01.736694+00:00",
+    "forecastDate": "2026-08-05T08:00:00-05:00",
     "periodName": "Today",
     "summary": "Chance Showers And Thunderstorms",
     "highTemperatureF": 80,
