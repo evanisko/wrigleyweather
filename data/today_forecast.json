@@ -12,7 +12,7 @@
     "providerUrl": "https://api.weather.gov"
   },
   "todayForecast": {
-    "generatedAt": "2026-08-04T23:58:51.487595+00:00",
+    "generatedAt": "2026-08-05T02:48:01.080750+00:00",
     "forecastDate": "2026-08-05T06:00:00-05:00",
     "periodName": "Wednesday",
     "summary": "Showers And Thunderstorms",
