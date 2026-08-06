@@ -12,10 +12,10 @@
     "providerUrl": "https://api.weather.gov"
   },
   "todayForecast": {
-    "generatedAt": "2026-08-06T01:58:27.564190+00:00",
+    "generatedAt": "2026-08-06T05:19:29.161970+00:00",
     "forecastDate": "2026-08-06T06:00:00-05:00",
     "periodName": "Thursday",
-    "summary": "Slight Chance Rain Showers then Mostly Cloudy",
+    "summary": "Chance Showers And Thunderstorms",
     "highTemperatureF": 75,
     "windSpeedMph": 5,
     "windDirectionCardinal": "SSE",
