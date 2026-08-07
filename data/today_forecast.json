@@ -12,9 +12,9 @@
     "providerUrl": "https://api.weather.gov"
   },
   "todayForecast": {
-    "generatedAt": "2026-08-07T10:45:30.767353+00:00",
+    "generatedAt": "2026-08-07T11:39:37.533817+00:00",
     "forecastDate": "2026-08-07T06:00:00-05:00",
-    "periodName": "Friday",
+    "periodName": "Today",
     "summary": "Mostly Sunny",
     "highTemperatureF": 84,
     "windSpeedMph": 8,
