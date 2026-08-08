@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-08T12:33:53.939069+00:00",
+  "generatedAt": "2026-08-08T13:39:59.829847+00:00",
   "location": {
     "name": "Wrigley Field",
     "city": "Chicago, IL",
@@ -14,24 +14,24 @@
     "observationStationId": "KMDW"
   },
   "current": {
-    "updatedAt": "2026-08-08T12:15:00+00:00",
+    "updatedAt": "2026-08-08T13:20:00+00:00",
     "summary": "Mostly Clear",
     "temperatureF": 73,
     "feelsLikeF": 74,
     "heatIndexF": 74,
     "windChillF": 74,
-    "humidityPercent": 73,
-    "rainChancePercent": 8,
+    "humidityPercent": 78,
+    "rainChancePercent": 4,
     "comfort": "Excellent",
     "wind": {
-      "speedMph": 7,
-      "directionCardinal": "W",
-      "label": "7 mph W"
+      "speedMph": 10,
+      "directionCardinal": "NW",
+      "label": "10 mph NW"
     }
   },
   "forecast": [
     {
-      "date": "2026-08-08T07:00:00-05:00",
+      "date": "2026-08-08T08:00:00-05:00",
       "label": "Sat",
       "summary": "Mostly Sunny",
       "highF": 78,
