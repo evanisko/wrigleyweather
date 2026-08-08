@@ -12,7 +12,7 @@
     "providerUrl": "https://api.weather.gov"
   },
   "todayForecast": {
-    "generatedAt": "2026-08-08T04:49:30.440166+00:00",
+    "generatedAt": "2026-08-08T05:36:58.415664+00:00",
     "forecastDate": "2026-08-08T06:00:00-05:00",
     "periodName": "Saturday",
     "summary": "Mostly Sunny",
