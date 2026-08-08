@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-08T15:22:30.504717+00:00",
+  "generated_at": "2026-08-08T16:24:31.400742+00:00",
   "source": {
     "forecast_path": "data/today_forecast.json",
     "database_path": ".local.nosync/analytics.duckdb",
@@ -9,8 +9,8 @@
     ]
   },
   "forecast_input": {
-    "generatedAt": "2026-08-08T15:22:30.360151+00:00",
-    "forecastDate": "2026-08-08T10:00:00-05:00",
+    "generatedAt": "2026-08-08T16:24:31.264145+00:00",
+    "forecastDate": "2026-08-08T11:00:00-05:00",
     "periodName": "Today",
     "summary": "Sunny",
     "highTemperatureF": 79,
