@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-08T10:24:33.508699+00:00",
+  "generated_at": "2026-08-08T11:21:45.966647+00:00",
   "source": {
     "forecast_path": "data/today_forecast.json",
     "database_path": ".local.nosync/analytics.duckdb",
@@ -9,7 +9,7 @@
     ]
   },
   "forecast_input": {
-    "generatedAt": "2026-08-08T10:24:33.270290+00:00",
+    "generatedAt": "2026-08-08T11:21:45.823618+00:00",
     "forecastDate": "2026-08-08T06:00:00-05:00",
     "periodName": "Saturday",
     "summary": "Mostly Sunny",
