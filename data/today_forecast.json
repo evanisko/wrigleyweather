@@ -12,7 +12,7 @@
     "providerUrl": "https://api.weather.gov"
   },
   "todayForecast": {
-    "generatedAt": "2026-08-09T01:11:58.097354+00:00",
+    "generatedAt": "2026-08-09T03:27:26.169358+00:00",
     "forecastDate": "2026-08-09T06:00:00-05:00",
     "periodName": "Sunday",
     "summary": "Chance Showers And Thunderstorms",
