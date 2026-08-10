@@ -12,7 +12,7 @@
     "providerUrl": "https://api.weather.gov"
   },
   "todayForecast": {
-    "generatedAt": "2026-08-10T15:53:46.039397+00:00",
+    "generatedAt": "2026-08-10T16:46:37.952872+00:00",
     "forecastDate": "2026-08-10T10:00:00-05:00",
     "periodName": "Today",
     "summary": "Slight Chance Rain Showers then Chance Showers And Thunderstorms",
