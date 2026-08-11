@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-11T19:57:24.085730+00:00",
+  "generated_at": "2026-08-11T20:41:56.623072+00:00",
   "source": {
     "forecast_path": "data/today_forecast.json",
     "database_path": ".local.nosync/analytics.duckdb",
@@ -9,14 +9,14 @@
     ]
   },
   "forecast_input": {
-    "generatedAt": "2026-08-11T19:57:23.782971+00:00",
-    "forecastDate": "2026-08-11T14:00:00-05:00",
+    "generatedAt": "2026-08-11T20:41:56.473032+00:00",
+    "forecastDate": "2026-08-11T15:00:00-05:00",
     "periodName": "This Afternoon",
-    "summary": "Chance Showers And Thunderstorms",
+    "summary": "Mostly Cloudy",
     "highTemperatureF": 79,
     "windSpeedMph": 5,
-    "windDirectionCardinal": "ESE",
-    "windDirectionDegrees": 112
+    "windDirectionCardinal": "SE",
+    "windDirectionDegrees": 135
   },
   "criteria": {
     "temperature_f": {
@@ -28,19 +28,43 @@
       "tolerance": 5
     },
     "wind_direction_degrees": {
-      "target": 112,
+      "target": 135,
       "tolerance": 22
     }
   },
   "results": {
-    "matched_game_count": 1,
+    "matched_game_count": 3,
     "averages": {
-      "runs": 8.0,
-      "home_runs": 6.0,
-      "game_time_minutes": 175.0
+      "runs": 4.67,
+      "home_runs": 2.33,
+      "game_time_minutes": 162.67
     }
   },
   "matches": [
+    {
+      "date": "2025-08-15",
+      "historical_temperature_f": 77.7,
+      "historical_wind_speed_mph": 9.9,
+      "historical_wind_direction_degrees": 135,
+      "total_runs": 5,
+      "total_home_runs": 1,
+      "game_time_minutes": 149,
+      "temperature_delta": 1.3,
+      "wind_speed_delta": 4.9,
+      "wind_direction_delta": 0.0
+    },
+    {
+      "date": "2025-07-03",
+      "historical_temperature_f": 79.7,
+      "historical_wind_speed_mph": 8.8,
+      "historical_wind_direction_degrees": 136,
+      "total_runs": 1,
+      "total_home_runs": 0,
+      "game_time_minutes": 164,
+      "temperature_delta": 0.7,
+      "wind_speed_delta": 3.8,
+      "wind_direction_delta": 1.0
+    },
     {
       "date": "2021-08-20",
       "historical_temperature_f": 76.5,
@@ -51,7 +75,7 @@
       "game_time_minutes": 175,
       "temperature_delta": 2.5,
       "wind_speed_delta": 4.7,
-      "wind_direction_delta": 1.0
+      "wind_direction_delta": 22.0
     }
   ]
 }
