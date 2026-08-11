@@ -12,10 +12,10 @@
     "providerUrl": "https://api.weather.gov"
   },
   "todayForecast": {
-    "generatedAt": "2026-08-11T17:53:05.058348+00:00",
-    "forecastDate": "2026-08-11T12:00:00-05:00",
+    "generatedAt": "2026-08-11T18:53:15.834623+00:00",
+    "forecastDate": "2026-08-11T13:00:00-05:00",
     "periodName": "This Afternoon",
-    "summary": "Showers And Thunderstorms",
+    "summary": "Chance Showers And Thunderstorms",
     "highTemperatureF": 79,
     "windSpeedMph": 5,
     "windDirectionCardinal": "ESE",
