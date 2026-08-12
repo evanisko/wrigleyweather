@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-12T07:14:27.018023+00:00",
+  "generated_at": "2026-08-12T09:05:44.601261+00:00",
   "source": {
     "forecast_path": "data/today_forecast.json",
     "database_path": ".local.nosync/analytics.duckdb",
@@ -9,7 +9,7 @@
     ]
   },
   "forecast_input": {
-    "generatedAt": "2026-08-12T07:14:26.871269+00:00",
+    "generatedAt": "2026-08-12T09:05:44.449783+00:00",
     "forecastDate": "2026-08-12T06:00:00-05:00",
     "periodName": "Wednesday",
     "summary": "Patchy Fog",
