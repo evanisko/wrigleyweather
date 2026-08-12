@@ -12,7 +12,7 @@
     "providerUrl": "https://api.weather.gov"
   },
   "todayForecast": {
-    "generatedAt": "2026-08-12T09:05:44.449783+00:00",
+    "generatedAt": "2026-08-12T10:55:08.456728+00:00",
     "forecastDate": "2026-08-12T06:00:00-05:00",
     "periodName": "Wednesday",
     "summary": "Patchy Fog",
