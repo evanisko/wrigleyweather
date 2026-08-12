@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-12T21:38:01.052912+00:00",
+  "generated_at": "2026-08-12T22:33:13.774039+00:00",
   "source": {
     "forecast_path": "data/today_forecast.json",
     "database_path": ".local.nosync/analytics.duckdb",
@@ -9,14 +9,14 @@
     ]
   },
   "forecast_input": {
-    "generatedAt": "2026-08-12T21:38:00.916205+00:00",
-    "forecastDate": "2026-08-12T16:00:00-05:00",
+    "generatedAt": "2026-08-12T22:33:13.612767+00:00",
+    "forecastDate": "2026-08-12T17:00:00-05:00",
     "periodName": "This Afternoon",
     "summary": "Partly Sunny",
     "highTemperatureF": 81,
     "windSpeedMph": 5,
-    "windDirectionCardinal": "WNW",
-    "windDirectionDegrees": 292
+    "windDirectionCardinal": "NW",
+    "windDirectionDegrees": 315
   },
   "criteria": {
     "temperature_f": {
@@ -28,7 +28,7 @@
       "tolerance": 5
     },
     "wind_direction_degrees": {
-      "target": 292,
+      "target": 315,
       "tolerance": 22
     }
   },
