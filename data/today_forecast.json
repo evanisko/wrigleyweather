@@ -12,7 +12,7 @@
     "providerUrl": "https://api.weather.gov"
   },
   "todayForecast": {
-    "generatedAt": "2026-08-12T04:00:12.006406+00:00",
+    "generatedAt": "2026-08-12T05:41:31.874441+00:00",
     "forecastDate": "2026-08-12T06:00:00-05:00",
     "periodName": "Wednesday",
     "summary": "Patchy Fog then Chance Showers And Thunderstorms",
