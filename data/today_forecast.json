@@ -12,7 +12,7 @@
     "providerUrl": "https://api.weather.gov"
   },
   "todayForecast": {
-    "generatedAt": "2026-08-12T15:53:22.329184+00:00",
+    "generatedAt": "2026-08-12T16:51:12.235308+00:00",
     "forecastDate": "2026-08-12T10:00:00-05:00",
     "periodName": "Today",
     "summary": "Showers And Thunderstorms Likely",
