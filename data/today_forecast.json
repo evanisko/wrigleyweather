@@ -12,13 +12,13 @@
     "providerUrl": "https://api.weather.gov"
   },
   "todayForecast": {
-    "generatedAt": "2026-08-12T05:41:31.874441+00:00",
+    "generatedAt": "2026-08-12T07:14:26.871269+00:00",
     "forecastDate": "2026-08-12T06:00:00-05:00",
     "periodName": "Wednesday",
-    "summary": "Patchy Fog then Chance Showers And Thunderstorms",
-    "highTemperatureF": 80,
-    "windSpeedMph": 5,
-    "windDirectionCardinal": "SE",
-    "windDirectionDegrees": 135
+    "summary": "Patchy Fog",
+    "highTemperatureF": 78,
+    "windSpeedMph": 8,
+    "windDirectionCardinal": "SSW",
+    "windDirectionDegrees": 202
   }
 }
