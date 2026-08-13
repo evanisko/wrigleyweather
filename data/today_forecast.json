@@ -12,13 +12,13 @@
     "providerUrl": "https://api.weather.gov"
   },
   "todayForecast": {
-    "generatedAt": "2026-08-13T17:52:15.223045+00:00",
-    "forecastDate": "2026-08-13T12:00:00-05:00",
+    "generatedAt": "2026-08-13T18:53:45.364447+00:00",
+    "forecastDate": "2026-08-13T13:00:00-05:00",
     "periodName": "This Afternoon",
-    "summary": "Showers And Thunderstorms Likely",
+    "summary": "Showers And Thunderstorms",
     "highTemperatureF": 76,
     "windSpeedMph": 8,
-    "windDirectionCardinal": "E",
-    "windDirectionDegrees": 90
+    "windDirectionCardinal": "ENE",
+    "windDirectionDegrees": 68
   }
 }
