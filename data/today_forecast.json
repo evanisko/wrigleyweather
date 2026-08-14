@@ -12,8 +12,8 @@
     "providerUrl": "https://api.weather.gov"
   },
   "todayForecast": {
-    "generatedAt": "2026-08-14T18:43:25.631721+00:00",
-    "forecastDate": "2026-08-14T13:00:00-05:00",
+    "generatedAt": "2026-08-14T19:43:07.196555+00:00",
+    "forecastDate": "2026-08-14T14:00:00-05:00",
     "periodName": "This Afternoon",
     "summary": "Slight Chance Rain Showers",
     "highTemperatureF": 77,
