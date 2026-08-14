@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-14T14:11:37.936398+00:00",
+  "generated_at": "2026-08-14T15:43:47.958669+00:00",
   "source": {
     "forecast_path": "data/today_forecast.json",
     "database_path": ".local.nosync/analytics.duckdb",
@@ -9,8 +9,8 @@
     ]
   },
   "forecast_input": {
-    "generatedAt": "2026-08-14T14:11:37.792134+00:00",
-    "forecastDate": "2026-08-14T09:00:00-05:00",
+    "generatedAt": "2026-08-14T15:43:47.805744+00:00",
+    "forecastDate": "2026-08-14T10:00:00-05:00",
     "periodName": "Today",
     "summary": "Isolated Rain Showers",
     "highTemperatureF": 77,
