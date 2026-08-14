@@ -12,10 +12,10 @@
     "providerUrl": "https://api.weather.gov"
   },
   "todayForecast": {
-    "generatedAt": "2026-08-14T16:43:10.150762+00:00",
-    "forecastDate": "2026-08-14T11:00:00-05:00",
-    "periodName": "Today",
-    "summary": "Partly Sunny then Isolated Rain Showers",
+    "generatedAt": "2026-08-14T17:46:00.162945+00:00",
+    "forecastDate": "2026-08-14T12:00:00-05:00",
+    "periodName": "This Afternoon",
+    "summary": "Isolated Rain Showers",
     "highTemperatureF": 77,
     "windSpeedMph": 10,
     "windDirectionCardinal": "NE",
