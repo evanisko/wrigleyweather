@@ -12,11 +12,11 @@
     "providerUrl": "https://api.weather.gov"
   },
   "todayForecast": {
-    "generatedAt": "2026-08-14T06:07:59.703819+00:00",
+    "generatedAt": "2026-08-14T08:08:51.556793+00:00",
     "forecastDate": "2026-08-14T06:00:00-05:00",
     "periodName": "Friday",
-    "summary": "Chance Showers And Thunderstorms",
-    "highTemperatureF": 76,
+    "summary": "Slight Chance Showers And Thunderstorms",
+    "highTemperatureF": 75,
     "windSpeedMph": 10,
     "windDirectionCardinal": "ENE",
     "windDirectionDegrees": 68
