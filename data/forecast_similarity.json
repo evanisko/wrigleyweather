@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-15T13:24:46.685921+00:00",
+  "generated_at": "2026-08-15T14:15:22.121831+00:00",
   "source": {
     "forecast_path": "data/today_forecast.json",
     "database_path": ".local.nosync/analytics.duckdb",
@@ -9,8 +9,8 @@
     ]
   },
   "forecast_input": {
-    "generatedAt": "2026-08-15T13:24:46.536913+00:00",
-    "forecastDate": "2026-08-15T08:00:00-05:00",
+    "generatedAt": "2026-08-15T14:15:21.982927+00:00",
+    "forecastDate": "2026-08-15T09:00:00-05:00",
     "periodName": "Today",
     "summary": "Rain Showers Likely",
     "highTemperatureF": 79,
