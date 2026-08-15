@@ -12,8 +12,8 @@
     "providerUrl": "https://api.weather.gov"
   },
   "todayForecast": {
-    "generatedAt": "2026-08-15T14:15:21.982927+00:00",
-    "forecastDate": "2026-08-15T09:00:00-05:00",
+    "generatedAt": "2026-08-15T15:13:28.582886+00:00",
+    "forecastDate": "2026-08-15T10:00:00-05:00",
     "periodName": "Today",
     "summary": "Rain Showers Likely",
     "highTemperatureF": 79,
