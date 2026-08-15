@@ -12,10 +12,10 @@
     "providerUrl": "https://api.weather.gov"
   },
   "todayForecast": {
-    "generatedAt": "2026-08-15T12:23:34.237515+00:00",
-    "forecastDate": "2026-08-15T07:00:00-05:00",
+    "generatedAt": "2026-08-15T13:24:46.536913+00:00",
+    "forecastDate": "2026-08-15T08:00:00-05:00",
     "periodName": "Today",
-    "summary": "Chance Rain Showers",
+    "summary": "Rain Showers Likely",
     "highTemperatureF": 79,
     "windSpeedMph": 8,
     "windDirectionCardinal": "SSE",
