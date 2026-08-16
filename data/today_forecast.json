@@ -12,9 +12,9 @@
     "providerUrl": "https://api.weather.gov"
   },
   "todayForecast": {
-    "generatedAt": "2026-08-16T10:16:09.674217+00:00",
+    "generatedAt": "2026-08-16T11:14:06.912540+00:00",
     "forecastDate": "2026-08-16T06:00:00-05:00",
-    "periodName": "Sunday",
+    "periodName": "Today",
     "summary": "Chance Rain Showers then Slight Chance Showers And Thunderstorms",
     "highTemperatureF": 81,
     "windSpeedMph": 8,
