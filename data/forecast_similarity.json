@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-16T08:20:16.896135+00:00",
+  "generated_at": "2026-08-16T09:20:09.188011+00:00",
   "source": {
     "forecast_path": "data/today_forecast.json",
     "database_path": ".local.nosync/analytics.duckdb",
@@ -9,10 +9,10 @@
     ]
   },
   "forecast_input": {
-    "generatedAt": "2026-08-16T08:20:16.758829+00:00",
+    "generatedAt": "2026-08-16T09:20:09.058003+00:00",
     "forecastDate": "2026-08-16T06:00:00-05:00",
     "periodName": "Sunday",
-    "summary": "Chance Showers And Thunderstorms then Slight Chance Showers And Thunderstorms",
+    "summary": "Chance Rain Showers then Slight Chance Showers And Thunderstorms",
     "highTemperatureF": 81,
     "windSpeedMph": 8,
     "windDirectionCardinal": "W",
