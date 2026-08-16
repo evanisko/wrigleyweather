@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-16T00:55:01.809737+00:00",
+  "generated_at": "2026-08-16T02:18:20.519316+00:00",
   "source": {
     "forecast_path": "data/today_forecast.json",
     "database_path": ".local.nosync/analytics.duckdb",
@@ -9,18 +9,18 @@
     ]
   },
   "forecast_input": {
-    "generatedAt": "2026-08-16T00:55:01.698097+00:00",
+    "generatedAt": "2026-08-16T02:18:20.381046+00:00",
     "forecastDate": "2026-08-16T06:00:00-05:00",
     "periodName": "Sunday",
     "summary": "Chance Showers And Thunderstorms",
-    "highTemperatureF": 85,
+    "highTemperatureF": 81,
     "windSpeedMph": 8,
-    "windDirectionCardinal": "WNW",
-    "windDirectionDegrees": 292
+    "windDirectionCardinal": "W",
+    "windDirectionDegrees": 270
   },
   "criteria": {
     "temperature_f": {
-      "target": 85,
+      "target": 81,
       "tolerance": 5
     },
     "wind_speed_mph": {
@@ -28,17 +28,42 @@
       "tolerance": 5
     },
     "wind_direction_degrees": {
-      "target": 292,
+      "target": 270,
       "tolerance": 22
     }
   },
   "results": {
-    "matched_game_count": 0,
+    "matched_game_count": 2,
     "averages": {
-      "runs": null,
-      "home_runs": null,
-      "game_time_minutes": null
+      "runs": 10.0,
+      "home_runs": 2.0,
+      "game_time_minutes": 183.5
     }
   },
-  "matches": []
+  "matches": [
+    {
+      "date": "2025-07-06",
+      "historical_temperature_f": 76.6,
+      "historical_wind_speed_mph": 12.0,
+      "historical_wind_direction_degrees": 282,
+      "total_runs": 11,
+      "total_home_runs": 1,
+      "game_time_minutes": 190,
+      "temperature_delta": 4.4,
+      "wind_speed_delta": 4.0,
+      "wind_direction_delta": 12.0
+    },
+    {
+      "date": "2025-07-02",
+      "historical_temperature_f": 79.0,
+      "historical_wind_speed_mph": 5.7,
+      "historical_wind_direction_degrees": 252,
+      "total_runs": 9,
+      "total_home_runs": 3,
+      "game_time_minutes": 177,
+      "temperature_delta": 2.0,
+      "wind_speed_delta": 2.3,
+      "wind_direction_delta": 18.0
+    }
+  ]
 }
