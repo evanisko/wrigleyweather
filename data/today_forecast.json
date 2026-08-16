@@ -12,8 +12,8 @@
     "providerUrl": "https://api.weather.gov"
   },
   "todayForecast": {
-    "generatedAt": "2026-08-16T17:13:39.227741+00:00",
-    "forecastDate": "2026-08-16T12:00:00-05:00",
+    "generatedAt": "2026-08-16T18:18:27.097865+00:00",
+    "forecastDate": "2026-08-16T13:00:00-05:00",
     "periodName": "This Afternoon",
     "summary": "Scattered Showers And Thunderstorms",
     "highTemperatureF": 81,
