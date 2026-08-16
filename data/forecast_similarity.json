@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-16T11:14:07.047857+00:00",
+  "generated_at": "2026-08-16T12:25:22.384368+00:00",
   "source": {
     "forecast_path": "data/today_forecast.json",
     "database_path": ".local.nosync/analytics.duckdb",
@@ -9,12 +9,12 @@
     ]
   },
   "forecast_input": {
-    "generatedAt": "2026-08-16T11:14:06.912540+00:00",
-    "forecastDate": "2026-08-16T06:00:00-05:00",
+    "generatedAt": "2026-08-16T12:25:22.242888+00:00",
+    "forecastDate": "2026-08-16T07:00:00-05:00",
     "periodName": "Today",
     "summary": "Chance Rain Showers then Slight Chance Showers And Thunderstorms",
     "highTemperatureF": 81,
-    "windSpeedMph": 8,
+    "windSpeedMph": 10,
     "windDirectionCardinal": "W",
     "windDirectionDegrees": 270
   },
@@ -24,7 +24,7 @@
       "tolerance": 5
     },
     "wind_speed_mph": {
-      "target": 8,
+      "target": 10,
       "tolerance": 5
     },
     "wind_direction_degrees": {
@@ -50,7 +50,7 @@
       "total_home_runs": 1,
       "game_time_minutes": 190,
       "temperature_delta": 4.4,
-      "wind_speed_delta": 4.0,
+      "wind_speed_delta": 2.0,
       "wind_direction_delta": 12.0
     },
     {
@@ -62,7 +62,7 @@
       "total_home_runs": 3,
       "game_time_minutes": 177,
       "temperature_delta": 2.0,
-      "wind_speed_delta": 2.3,
+      "wind_speed_delta": 4.3,
       "wind_direction_delta": 18.0
     }
   ]
