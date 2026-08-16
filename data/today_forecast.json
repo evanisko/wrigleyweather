@@ -12,11 +12,11 @@
     "providerUrl": "https://api.weather.gov"
   },
   "todayForecast": {
-    "generatedAt": "2026-08-16T18:18:27.097865+00:00",
-    "forecastDate": "2026-08-16T13:00:00-05:00",
+    "generatedAt": "2026-08-16T19:16:02.143984+00:00",
+    "forecastDate": "2026-08-16T14:00:00-05:00",
     "periodName": "This Afternoon",
     "summary": "Scattered Showers And Thunderstorms",
-    "highTemperatureF": 81,
+    "highTemperatureF": 85,
     "windSpeedMph": 10,
     "windDirectionCardinal": "WNW",
     "windDirectionDegrees": 292
