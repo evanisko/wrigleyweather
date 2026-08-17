@@ -12,8 +12,8 @@
     "providerUrl": "https://api.weather.gov"
   },
   "todayForecast": {
-    "generatedAt": "2026-08-17T18:28:02.025452+00:00",
-    "forecastDate": "2026-08-17T12:00:00-05:00",
+    "generatedAt": "2026-08-17T19:21:58.259752+00:00",
+    "forecastDate": "2026-08-17T14:00:00-05:00",
     "periodName": "This Afternoon",
     "summary": "Isolated Rain Showers",
     "highTemperatureF": 75,
