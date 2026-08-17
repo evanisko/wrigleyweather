@@ -12,7 +12,7 @@
     "providerUrl": "https://api.weather.gov"
   },
   "todayForecast": {
-    "generatedAt": "2026-08-16T23:13:16.036507+00:00",
+    "generatedAt": "2026-08-17T00:53:20.444463+00:00",
     "forecastDate": "2026-08-17T06:00:00-05:00",
     "periodName": "Monday",
     "summary": "Mostly Sunny",
