@@ -12,10 +12,10 @@
     "providerUrl": "https://api.weather.gov"
   },
   "todayForecast": {
-    "generatedAt": "2026-08-17T06:39:50.121977+00:00",
+    "generatedAt": "2026-08-17T07:46:06.368157+00:00",
     "forecastDate": "2026-08-17T06:00:00-05:00",
     "periodName": "Monday",
-    "summary": "Partly Sunny",
+    "summary": "Slight Chance Rain Showers",
     "highTemperatureF": 74,
     "windSpeedMph": 8,
     "windDirectionCardinal": "NNE",

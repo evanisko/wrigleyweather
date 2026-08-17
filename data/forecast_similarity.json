@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-17T06:39:50.255755+00:00",
+  "generated_at": "2026-08-17T07:46:06.898426+00:00",
   "source": {
     "forecast_path": "data/today_forecast.json",
     "database_path": ".local.nosync/analytics.duckdb",
@@ -9,10 +9,10 @@
     ]
   },
   "forecast_input": {
-    "generatedAt": "2026-08-17T06:39:50.121977+00:00",
+    "generatedAt": "2026-08-17T07:46:06.368157+00:00",
     "forecastDate": "2026-08-17T06:00:00-05:00",
     "periodName": "Monday",
-    "summary": "Partly Sunny",
+    "summary": "Slight Chance Rain Showers",
     "highTemperatureF": 74,
     "windSpeedMph": 8,
     "windDirectionCardinal": "NNE",
