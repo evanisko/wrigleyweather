@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-17T09:33:51.124283+00:00",
+  "generated_at": "2026-08-17T10:25:09.717376+00:00",
   "source": {
     "forecast_path": "data/today_forecast.json",
     "database_path": ".local.nosync/analytics.duckdb",
@@ -9,7 +9,7 @@
     ]
   },
   "forecast_input": {
-    "generatedAt": "2026-08-17T09:33:50.980431+00:00",
+    "generatedAt": "2026-08-17T10:25:09.554739+00:00",
     "forecastDate": "2026-08-17T06:00:00-05:00",
     "periodName": "Monday",
     "summary": "Slight Chance Rain Showers",
