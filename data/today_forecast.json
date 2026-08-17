@@ -12,11 +12,11 @@
     "providerUrl": "https://api.weather.gov"
   },
   "todayForecast": {
-    "generatedAt": "2026-08-17T15:18:47.894933+00:00",
-    "forecastDate": "2026-08-17T10:00:00-05:00",
+    "generatedAt": "2026-08-17T16:19:23.385347+00:00",
+    "forecastDate": "2026-08-17T11:00:00-05:00",
     "periodName": "Today",
     "summary": "Isolated Rain Showers",
-    "highTemperatureF": 74,
+    "highTemperatureF": 75,
     "windSpeedMph": 8,
     "windDirectionCardinal": "NE",
     "windDirectionDegrees": 45
