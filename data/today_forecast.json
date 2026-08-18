@@ -12,8 +12,8 @@
     "providerUrl": "https://api.weather.gov"
   },
   "todayForecast": {
-    "generatedAt": "2026-08-18T14:25:55.978894+00:00",
-    "forecastDate": "2026-08-18T08:00:00-05:00",
+    "generatedAt": "2026-08-18T15:24:07.245647+00:00",
+    "forecastDate": "2026-08-18T10:00:00-05:00",
     "periodName": "Today",
     "summary": "Partly Sunny then Chance Showers And Thunderstorms",
     "highTemperatureF": 80,
