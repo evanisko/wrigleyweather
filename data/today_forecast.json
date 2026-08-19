@@ -12,7 +12,7 @@
     "providerUrl": "https://api.weather.gov"
   },
   "todayForecast": {
-    "generatedAt": "2026-08-19T02:14:32.647332+00:00",
+    "generatedAt": "2026-08-19T03:39:57.159345+00:00",
     "forecastDate": "2026-08-19T06:00:00-05:00",
     "periodName": "Wednesday",
     "summary": "Partly Sunny then Slight Chance Showers And Thunderstorms",
