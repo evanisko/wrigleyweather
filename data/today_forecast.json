@@ -12,7 +12,7 @@
     "providerUrl": "https://api.weather.gov"
   },
   "todayForecast": {
-    "generatedAt": "2026-08-19T16:22:51.302061+00:00",
+    "generatedAt": "2026-08-19T17:20:17.707556+00:00",
     "forecastDate": "2026-08-19T11:00:00-05:00",
     "periodName": "Today",
     "summary": "Partly Sunny",
