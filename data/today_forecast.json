@@ -12,10 +12,10 @@
     "providerUrl": "https://api.weather.gov"
   },
   "todayForecast": {
-    "generatedAt": "2026-08-19T21:18:58.594884+00:00",
-    "forecastDate": "2026-08-19T16:00:00-05:00",
+    "generatedAt": "2026-08-19T22:17:22.582308+00:00",
+    "forecastDate": "2026-08-19T17:00:00-05:00",
     "periodName": "This Afternoon",
-    "summary": "Mostly Sunny",
+    "summary": "Slight Chance Rain Showers",
     "highTemperatureF": 75,
     "windSpeedMph": 10,
     "windDirectionCardinal": "NE",
