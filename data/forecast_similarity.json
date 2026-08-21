@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-21T14:27:16.121942+00:00",
+  "generated_at": "2026-08-21T15:25:44.461848+00:00",
   "source": {
     "forecast_path": "data/today_forecast.json",
     "database_path": ".local.nosync/analytics.duckdb",
@@ -9,8 +9,8 @@
     ]
   },
   "forecast_input": {
-    "generatedAt": "2026-08-21T14:27:15.984975+00:00",
-    "forecastDate": "2026-08-21T09:00:00-05:00",
+    "generatedAt": "2026-08-21T15:25:44.346071+00:00",
+    "forecastDate": "2026-08-21T10:00:00-05:00",
     "periodName": "Today",
     "summary": "Chance Showers And Thunderstorms",
     "highTemperatureF": 78,
