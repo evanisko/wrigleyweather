@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-21T16:24:04.990447+00:00",
+  "generated_at": "2026-08-21T17:21:34.374813+00:00",
   "source": {
     "forecast_path": "data/today_forecast.json",
     "database_path": ".local.nosync/analytics.duckdb",
@@ -9,9 +9,9 @@
     ]
   },
   "forecast_input": {
-    "generatedAt": "2026-08-21T16:24:04.847653+00:00",
-    "forecastDate": "2026-08-21T11:00:00-05:00",
-    "periodName": "Today",
+    "generatedAt": "2026-08-21T17:21:34.233131+00:00",
+    "forecastDate": "2026-08-21T12:00:00-05:00",
+    "periodName": "This Afternoon",
     "summary": "Showers And Thunderstorms Likely",
     "highTemperatureF": 81,
     "windSpeedMph": 8,
