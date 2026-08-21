@@ -12,8 +12,8 @@
     "providerUrl": "https://api.weather.gov"
   },
   "todayForecast": {
-    "generatedAt": "2026-08-21T21:16:52.239846+00:00",
-    "forecastDate": "2026-08-21T16:00:00-05:00",
+    "generatedAt": "2026-08-21T22:16:29.727080+00:00",
+    "forecastDate": "2026-08-21T17:00:00-05:00",
     "periodName": "This Afternoon",
     "summary": "Chance Showers And Thunderstorms",
     "highTemperatureF": 80,
