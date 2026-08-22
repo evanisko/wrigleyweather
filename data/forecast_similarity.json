@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-22T14:14:28.567548+00:00",
+  "generated_at": "2026-08-22T15:13:31.922396+00:00",
   "source": {
     "forecast_path": "data/today_forecast.json",
     "database_path": ".local.nosync/analytics.duckdb",
@@ -9,8 +9,8 @@
     ]
   },
   "forecast_input": {
-    "generatedAt": "2026-08-22T14:14:28.454611+00:00",
-    "forecastDate": "2026-08-22T08:00:00-05:00",
+    "generatedAt": "2026-08-22T15:13:31.762658+00:00",
+    "forecastDate": "2026-08-22T10:00:00-05:00",
     "periodName": "Today",
     "summary": "Mostly Sunny then Slight Chance Showers And Thunderstorms",
     "highTemperatureF": 77,
