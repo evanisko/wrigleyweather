@@ -12,13 +12,13 @@
     "providerUrl": "https://api.weather.gov"
   },
   "todayForecast": {
-    "generatedAt": "2026-08-24T13:44:07.118039+00:00",
-    "forecastDate": "2026-08-24T07:00:00-05:00",
+    "generatedAt": "2026-08-24T14:34:51.014196+00:00",
+    "forecastDate": "2026-08-24T09:00:00-05:00",
     "periodName": "Today",
     "summary": "Sunny",
     "highTemperatureF": 73,
     "windSpeedMph": 8,
-    "windDirectionCardinal": "N",
-    "windDirectionDegrees": 0
+    "windDirectionCardinal": "NNE",
+    "windDirectionDegrees": 22
   }
 }
