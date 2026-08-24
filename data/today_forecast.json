@@ -12,8 +12,8 @@
     "providerUrl": "https://api.weather.gov"
   },
   "todayForecast": {
-    "generatedAt": "2026-08-24T11:20:32.764636+00:00",
-    "forecastDate": "2026-08-24T06:00:00-05:00",
+    "generatedAt": "2026-08-24T12:35:10.553771+00:00",
+    "forecastDate": "2026-08-24T07:00:00-05:00",
     "periodName": "Today",
     "summary": "Sunny",
     "highTemperatureF": 73,
