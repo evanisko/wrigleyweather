@@ -12,7 +12,7 @@
     "providerUrl": "https://api.weather.gov"
   },
   "todayForecast": {
-    "generatedAt": "2026-08-25T20:20:25.543747+00:00",
+    "generatedAt": "2026-08-25T21:20:19.575669+00:00",
     "forecastDate": "2026-08-25T15:00:00-05:00",
     "periodName": "This Afternoon",
     "summary": "Sunny",
