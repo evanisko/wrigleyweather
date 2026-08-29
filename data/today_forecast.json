@@ -12,9 +12,9 @@
     "providerUrl": "https://api.weather.gov"
   },
   "todayForecast": {
-    "generatedAt": "2026-08-29T09:53:50.665831+00:00",
-    "forecastDate": "2026-08-29T06:00:00-05:00",
-    "periodName": "Saturday",
+    "generatedAt": "2026-08-29T14:52:57.601360+00:00",
+    "forecastDate": "2026-08-29T09:00:00-05:00",
+    "periodName": "Today",
     "summary": "Partly Sunny then Slight Chance Rain Showers",
     "highTemperatureF": 80,
     "windSpeedMph": 10,
