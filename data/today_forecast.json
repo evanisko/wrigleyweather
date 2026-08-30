@@ -12,12 +12,12 @@
     "providerUrl": "https://api.weather.gov"
   },
   "todayForecast": {
-    "generatedAt": "2026-08-30T03:00:29.832759+00:00",
+    "generatedAt": "2026-08-30T09:38:34.729569+00:00",
     "forecastDate": "2026-08-30T06:00:00-05:00",
     "periodName": "Sunday",
-    "summary": "Chance Showers And Thunderstorms then Slight Chance Showers And Thunderstorms",
-    "highTemperatureF": 86,
-    "windSpeedMph": 18,
+    "summary": "Chance Showers And Thunderstorms",
+    "highTemperatureF": 84,
+    "windSpeedMph": 12,
     "windDirectionCardinal": "SSW",
     "windDirectionDegrees": 202
   }
