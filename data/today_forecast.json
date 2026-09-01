@@ -12,12 +12,12 @@
     "providerUrl": "https://api.weather.gov"
   },
   "todayForecast": {
-    "generatedAt": "2026-08-31T20:33:59.388884+00:00",
-    "forecastDate": "2026-08-31T15:00:00-05:00",
-    "periodName": "This Afternoon",
-    "summary": "Scattered Showers And Thunderstorms",
-    "highTemperatureF": 87,
-    "windSpeedMph": 15,
+    "generatedAt": "2026-09-01T05:57:30.536392+00:00",
+    "forecastDate": "2026-09-01T06:00:00-05:00",
+    "periodName": "Tuesday",
+    "summary": "Isolated Rain Showers then Slight Chance Showers And Thunderstorms",
+    "highTemperatureF": 90,
+    "windSpeedMph": 10,
     "windDirectionCardinal": "SW",
     "windDirectionDegrees": 225
   }
