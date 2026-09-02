@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-01T22:17:33.156334+00:00",
+  "generated_at": "2026-09-02T00:44:56.673047+00:00",
   "source": {
     "forecast_path": "data/today_forecast.json",
     "database_path": ".local.nosync/analytics.duckdb",
@@ -9,26 +9,26 @@
     ]
   },
   "forecast_input": {
-    "generatedAt": "2026-09-01T22:17:33.055757+00:00",
-    "forecastDate": "2026-09-01T17:00:00-05:00",
-    "periodName": "This Afternoon",
-    "summary": "Isolated Showers And Thunderstorms",
-    "highTemperatureF": 92,
-    "windSpeedMph": 10,
-    "windDirectionCardinal": "WSW",
-    "windDirectionDegrees": 248
+    "generatedAt": "2026-09-02T00:44:56.532930+00:00",
+    "forecastDate": "2026-09-02T06:00:00-05:00",
+    "periodName": "Wednesday",
+    "summary": "Mostly Sunny",
+    "highTemperatureF": 91,
+    "windSpeedMph": 12,
+    "windDirectionCardinal": "SW",
+    "windDirectionDegrees": 225
   },
   "criteria": {
     "temperature_f": {
-      "target": 92,
+      "target": 91,
       "tolerance": 5
     },
     "wind_speed_mph": {
-      "target": 10,
+      "target": 12,
       "tolerance": 5
     },
     "wind_direction_degrees": {
-      "target": 248,
+      "target": 225,
       "tolerance": 22
     }
   },
