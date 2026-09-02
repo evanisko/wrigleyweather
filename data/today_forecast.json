@@ -12,12 +12,12 @@
     "providerUrl": "https://api.weather.gov"
   },
   "todayForecast": {
-    "generatedAt": "2026-09-02T05:20:07.366136+00:00",
+    "generatedAt": "2026-09-02T10:22:44.821032+00:00",
     "forecastDate": "2026-09-02T06:00:00-05:00",
     "periodName": "Wednesday",
-    "summary": "Mostly Sunny",
+    "summary": "Sunny",
     "highTemperatureF": 91,
-    "windSpeedMph": 12,
+    "windSpeedMph": 10,
     "windDirectionCardinal": "SW",
     "windDirectionDegrees": 225
   }
