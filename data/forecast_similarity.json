@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-03T12:27:40.488424+00:00",
+  "generated_at": "2026-09-03T16:49:48.244740+00:00",
   "source": {
     "forecast_path": "data/today_forecast.json",
     "database_path": ".local.nosync/analytics.duckdb",
@@ -9,26 +9,26 @@
     ]
   },
   "forecast_input": {
-    "generatedAt": "2026-09-03T12:27:40.349635+00:00",
-    "forecastDate": "2026-09-03T07:00:00-05:00",
+    "generatedAt": "2026-09-03T16:49:48.123621+00:00",
+    "forecastDate": "2026-09-03T11:00:00-05:00",
     "periodName": "Today",
     "summary": "Mostly Sunny then Chance Showers And Thunderstorms",
-    "highTemperatureF": 92,
-    "windSpeedMph": 8,
-    "windDirectionCardinal": "WNW",
-    "windDirectionDegrees": 292
+    "highTemperatureF": 86,
+    "windSpeedMph": 12,
+    "windDirectionCardinal": "ENE",
+    "windDirectionDegrees": 68
   },
   "criteria": {
     "temperature_f": {
-      "target": 92,
+      "target": 86,
       "tolerance": 5
     },
     "wind_speed_mph": {
-      "target": 8,
+      "target": 12,
       "tolerance": 5
     },
     "wind_direction_degrees": {
-      "target": 292,
+      "target": 68,
       "tolerance": 22
     }
   },
