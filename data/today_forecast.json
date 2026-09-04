@@ -12,13 +12,13 @@
     "providerUrl": "https://api.weather.gov"
   },
   "todayForecast": {
-    "generatedAt": "2026-09-04T05:20:37.828417+00:00",
+    "generatedAt": "2026-09-04T10:20:39.810819+00:00",
     "forecastDate": "2026-09-04T06:00:00-05:00",
     "periodName": "Friday",
-    "summary": "Chance Showers And Thunderstorms then Mostly Sunny",
-    "highTemperatureF": 88,
-    "windSpeedMph": 5,
-    "windDirectionCardinal": "S",
-    "windDirectionDegrees": 180
+    "summary": "Slight Chance Showers And Thunderstorms then Mostly Sunny",
+    "highTemperatureF": 93,
+    "windSpeedMph": 8,
+    "windDirectionCardinal": "SW",
+    "windDirectionDegrees": 225
   }
 }
