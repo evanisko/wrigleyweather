@@ -12,13 +12,13 @@
     "providerUrl": "https://api.weather.gov"
   },
   "todayForecast": {
-    "generatedAt": "2026-09-05T00:32:38.369417+00:00",
+    "generatedAt": "2026-09-05T05:09:45.540798+00:00",
     "forecastDate": "2026-09-05T06:00:00-05:00",
     "periodName": "Saturday",
     "summary": "Patchy Fog then Partly Sunny",
     "highTemperatureF": 79,
     "windSpeedMph": 10,
-    "windDirectionCardinal": "NNE",
-    "windDirectionDegrees": 22
+    "windDirectionCardinal": "N",
+    "windDirectionDegrees": 0
   }
 }
