@@ -12,13 +12,13 @@
     "providerUrl": "https://api.weather.gov"
   },
   "todayForecast": {
-    "generatedAt": "2026-09-07T17:01:42.695087+00:00",
-    "forecastDate": "2026-09-07T12:00:00-05:00",
+    "generatedAt": "2026-09-07T20:59:22.549236+00:00",
+    "forecastDate": "2026-09-07T15:00:00-05:00",
     "periodName": "Labor Day",
     "summary": "Sunny",
     "highTemperatureF": 75,
-    "windSpeedMph": 8,
-    "windDirectionCardinal": "E",
-    "windDirectionDegrees": 90
+    "windSpeedMph": 10,
+    "windDirectionCardinal": "ENE",
+    "windDirectionDegrees": 68
   }
 }
