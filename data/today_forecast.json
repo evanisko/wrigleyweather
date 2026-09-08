@@ -12,12 +12,12 @@
     "providerUrl": "https://api.weather.gov"
   },
   "todayForecast": {
-    "generatedAt": "2026-09-07T23:21:37.725680+00:00",
+    "generatedAt": "2026-09-08T02:32:32.273608+00:00",
     "forecastDate": "2026-09-08T06:00:00-05:00",
     "periodName": "Tuesday",
     "summary": "Partly Sunny",
     "highTemperatureF": 82,
-    "windSpeedMph": 8,
+    "windSpeedMph": 10,
     "windDirectionCardinal": "SSE",
     "windDirectionDegrees": 158
   }
