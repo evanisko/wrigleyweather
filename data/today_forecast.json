@@ -12,10 +12,10 @@
     "providerUrl": "https://api.weather.gov"
   },
   "todayForecast": {
-    "generatedAt": "2026-09-09T14:57:45.972022+00:00",
-    "forecastDate": "2026-09-09T09:00:00-05:00",
-    "periodName": "Today",
-    "summary": "Rain Showers",
+    "generatedAt": "2026-09-09T18:20:08.707160+00:00",
+    "forecastDate": "2026-09-09T13:00:00-05:00",
+    "periodName": "This Afternoon",
+    "summary": "Mostly Cloudy",
     "highTemperatureF": 78,
     "windSpeedMph": 10,
     "windDirectionCardinal": "WSW",
