@@ -12,11 +12,11 @@
     "providerUrl": "https://api.weather.gov"
   },
   "todayForecast": {
-    "generatedAt": "2026-09-09T10:35:03.448799+00:00",
-    "forecastDate": "2026-09-09T06:00:00-05:00",
-    "periodName": "Wednesday",
+    "generatedAt": "2026-09-09T14:57:45.972022+00:00",
+    "forecastDate": "2026-09-09T09:00:00-05:00",
+    "periodName": "Today",
     "summary": "Rain Showers",
-    "highTemperatureF": 76,
+    "highTemperatureF": 78,
     "windSpeedMph": 10,
     "windDirectionCardinal": "WSW",
     "windDirectionDegrees": 248
