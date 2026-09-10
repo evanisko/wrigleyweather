@@ -12,13 +12,13 @@
     "providerUrl": "https://api.weather.gov"
   },
   "todayForecast": {
-    "generatedAt": "2026-09-10T12:36:08.799432+00:00",
-    "forecastDate": "2026-09-10T07:00:00-05:00",
+    "generatedAt": "2026-09-10T16:50:06.106339+00:00",
+    "forecastDate": "2026-09-10T11:00:00-05:00",
     "periodName": "Today",
-    "summary": "Mostly Cloudy",
+    "summary": "Partly Sunny",
     "highTemperatureF": 76,
     "windSpeedMph": 8,
-    "windDirectionCardinal": "NNE",
-    "windDirectionDegrees": 22
+    "windDirectionCardinal": "NE",
+    "windDirectionDegrees": 45
   }
 }
