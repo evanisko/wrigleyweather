@@ -12,7 +12,7 @@
     "providerUrl": "https://api.weather.gov"
   },
   "todayForecast": {
-    "generatedAt": "2026-09-13T05:33:18.011034+00:00",
+    "generatedAt": "2026-09-13T10:54:58.973569+00:00",
     "forecastDate": "2026-09-13T06:00:00-05:00",
     "periodName": "Sunday",
     "summary": "Partly Sunny then Scattered Rain Showers",

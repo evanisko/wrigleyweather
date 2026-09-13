@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-13T05:33:18.148252+00:00",
+  "generated_at": "2026-09-13T10:54:59.102884+00:00",
   "source": {
     "forecast_path": "data/today_forecast.json",
     "database_path": ".local.nosync/analytics.duckdb",
@@ -9,7 +9,7 @@
     ]
   },
   "forecast_input": {
-    "generatedAt": "2026-09-13T05:33:18.011034+00:00",
+    "generatedAt": "2026-09-13T10:54:58.973569+00:00",
     "forecastDate": "2026-09-13T06:00:00-05:00",
     "periodName": "Sunday",
     "summary": "Partly Sunny then Scattered Rain Showers",
