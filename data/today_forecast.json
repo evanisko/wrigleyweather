@@ -12,8 +12,8 @@
     "providerUrl": "https://api.weather.gov"
   },
   "todayForecast": {
-    "generatedAt": "2026-09-13T17:49:38.793554+00:00",
-    "forecastDate": "2026-09-13T12:00:00-05:00",
+    "generatedAt": "2026-09-13T20:06:57.735496+00:00",
+    "forecastDate": "2026-09-13T15:00:00-05:00",
     "periodName": "This Afternoon",
     "summary": "Chance Rain Showers",
     "highTemperatureF": 70,
