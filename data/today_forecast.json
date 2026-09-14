@@ -12,9 +12,9 @@
     "providerUrl": "https://api.weather.gov"
   },
   "todayForecast": {
-    "generatedAt": "2026-09-14T05:38:30.346976+00:00",
+    "generatedAt": "2026-09-14T11:28:00.118247+00:00",
     "forecastDate": "2026-09-14T06:00:00-05:00",
-    "periodName": "Monday",
+    "periodName": "Today",
     "summary": "Mostly Sunny",
     "highTemperatureF": 72,
     "windSpeedMph": 10,
