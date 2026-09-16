@@ -12,13 +12,13 @@
     "providerUrl": "https://api.weather.gov"
   },
   "todayForecast": {
-    "generatedAt": "2026-09-15T22:37:19.392296+00:00",
-    "forecastDate": "2026-09-15T17:00:00-05:00",
-    "periodName": "This Afternoon",
+    "generatedAt": "2026-09-16T00:57:25.929890+00:00",
+    "forecastDate": "2026-09-16T06:00:00-05:00",
+    "periodName": "Wednesday",
     "summary": "Chance Showers And Thunderstorms",
-    "highTemperatureF": 80,
-    "windSpeedMph": 5,
-    "windDirectionCardinal": "W",
-    "windDirectionDegrees": 270
+    "highTemperatureF": 72,
+    "windSpeedMph": 10,
+    "windDirectionCardinal": "NE",
+    "windDirectionDegrees": 45
   }
 }
