@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-16T15:15:55.374469+00:00",
+  "generated_at": "2026-09-16T19:17:09.814759+00:00",
   "source": {
     "forecast_path": "data/today_forecast.json",
     "database_path": ".local.nosync/analytics.duckdb",
@@ -9,9 +9,9 @@
     ]
   },
   "forecast_input": {
-    "generatedAt": "2026-09-16T15:15:55.223623+00:00",
-    "forecastDate": "2026-09-16T10:00:00-05:00",
-    "periodName": "Today",
+    "generatedAt": "2026-09-16T19:17:09.594878+00:00",
+    "forecastDate": "2026-09-16T14:00:00-05:00",
+    "periodName": "This Afternoon",
     "summary": "Scattered Rain Showers",
     "highTemperatureF": 70,
     "windSpeedMph": 10,
