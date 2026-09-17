@@ -12,13 +12,13 @@
     "providerUrl": "https://api.weather.gov"
   },
   "todayForecast": {
-    "generatedAt": "2026-09-17T20:49:56.158463+00:00",
-    "forecastDate": "2026-09-17T15:00:00-05:00",
-    "periodName": "This Afternoon",
-    "summary": "Patchy Drizzle",
-    "highTemperatureF": 74,
-    "windSpeedMph": 8,
-    "windDirectionCardinal": "N",
-    "windDirectionDegrees": 0
+    "generatedAt": "2026-09-17T23:18:33.164230+00:00",
+    "forecastDate": "2026-09-18T06:00:00-05:00",
+    "periodName": "Friday",
+    "summary": "Partly Sunny",
+    "highTemperatureF": 70,
+    "windSpeedMph": 15,
+    "windDirectionCardinal": "ENE",
+    "windDirectionDegrees": 68
   }
 }
