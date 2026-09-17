@@ -12,11 +12,11 @@
     "providerUrl": "https://api.weather.gov"
   },
   "todayForecast": {
-    "generatedAt": "2026-09-17T01:00:41.232689+00:00",
+    "generatedAt": "2026-09-17T07:00:21.329667+00:00",
     "forecastDate": "2026-09-17T06:00:00-05:00",
     "periodName": "Thursday",
-    "summary": "Chance Showers And Thunderstorms",
-    "highTemperatureF": 72,
+    "summary": "Showers And Thunderstorms Likely then Mostly Cloudy",
+    "highTemperatureF": 73,
     "windSpeedMph": 8,
     "windDirectionCardinal": "N",
     "windDirectionDegrees": 0
