@@ -12,7 +12,7 @@
     "providerUrl": "https://api.weather.gov"
   },
   "todayForecast": {
-    "generatedAt": "2026-09-18T02:40:34.232846+00:00",
+    "generatedAt": "2026-09-18T07:51:21.514002+00:00",
     "forecastDate": "2026-09-18T06:00:00-05:00",
     "periodName": "Friday",
     "summary": "Partly Sunny",
