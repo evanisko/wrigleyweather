@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-20T20:08:47.878007+00:00",
+  "generated_at": "2026-09-20T22:52:22.808647+00:00",
   "source": {
     "forecast_path": "data/today_forecast.json",
     "database_path": ".local.nosync/analytics.duckdb",
@@ -9,8 +9,8 @@
     ]
   },
   "forecast_input": {
-    "generatedAt": "2026-09-20T20:08:47.743137+00:00",
-    "forecastDate": "2026-09-20T15:00:00-05:00",
+    "generatedAt": "2026-09-20T22:52:22.692611+00:00",
+    "forecastDate": "2026-09-20T17:00:00-05:00",
     "periodName": "This Afternoon",
     "summary": "Rain Showers",
     "highTemperatureF": 67,
