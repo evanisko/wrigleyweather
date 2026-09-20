@@ -12,10 +12,10 @@
     "providerUrl": "https://api.weather.gov"
   },
   "todayForecast": {
-    "generatedAt": "2026-09-20T00:32:47.527596+00:00",
+    "generatedAt": "2026-09-20T05:36:18.545680+00:00",
     "forecastDate": "2026-09-20T06:00:00-05:00",
     "periodName": "Sunday",
-    "summary": "Showers And Thunderstorms",
+    "summary": "Areas Of Fog",
     "highTemperatureF": 67,
     "windSpeedMph": 20,
     "windDirectionCardinal": "NNE",
