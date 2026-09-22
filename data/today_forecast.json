@@ -12,10 +12,10 @@
     "providerUrl": "https://api.weather.gov"
   },
   "todayForecast": {
-    "generatedAt": "2026-09-22T10:45:34.501255+00:00",
-    "forecastDate": "2026-09-22T06:00:00-05:00",
-    "periodName": "Tuesday",
-    "summary": "Slight Chance Rain Showers",
+    "generatedAt": "2026-09-22T15:20:05.498010+00:00",
+    "forecastDate": "2026-09-22T10:00:00-05:00",
+    "periodName": "Today",
+    "summary": "Mostly Cloudy then Slight Chance Rain Showers",
     "highTemperatureF": 64,
     "windSpeedMph": 15,
     "windDirectionCardinal": "NE",
