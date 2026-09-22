@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-22T19:28:22.574406+00:00",
+  "generated_at": "2026-09-22T22:37:08.030904+00:00",
   "source": {
     "forecast_path": "data/today_forecast.json",
     "database_path": ".local.nosync/analytics.duckdb",
@@ -9,10 +9,10 @@
     ]
   },
   "forecast_input": {
-    "generatedAt": "2026-09-22T19:28:22.425246+00:00",
-    "forecastDate": "2026-09-22T14:00:00-05:00",
+    "generatedAt": "2026-09-22T22:37:07.885862+00:00",
+    "forecastDate": "2026-09-22T17:00:00-05:00",
     "periodName": "This Afternoon",
-    "summary": "Slight Chance Rain Showers",
+    "summary": "Cloudy",
     "highTemperatureF": 62,
     "windSpeedMph": 15,
     "windDirectionCardinal": "NE",
