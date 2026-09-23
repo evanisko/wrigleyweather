@@ -12,9 +12,9 @@
     "providerUrl": "https://api.weather.gov"
   },
   "todayForecast": {
-    "generatedAt": "2026-09-23T07:08:38.897578+00:00",
-    "forecastDate": "2026-09-23T06:00:00-05:00",
-    "periodName": "Wednesday",
+    "generatedAt": "2026-09-23T13:13:08.947797+00:00",
+    "forecastDate": "2026-09-23T08:00:00-05:00",
+    "periodName": "Today",
     "summary": "Cloudy",
     "highTemperatureF": 65,
     "windSpeedMph": 15,
