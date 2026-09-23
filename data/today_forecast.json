@@ -12,10 +12,10 @@
     "providerUrl": "https://api.weather.gov"
   },
   "todayForecast": {
-    "generatedAt": "2026-09-23T18:08:37.414211+00:00",
-    "forecastDate": "2026-09-23T13:00:00-05:00",
+    "generatedAt": "2026-09-23T21:56:52.942909+00:00",
+    "forecastDate": "2026-09-23T16:00:00-05:00",
     "periodName": "This Afternoon",
-    "summary": "Mostly Cloudy",
+    "summary": "Chance Rain Showers",
     "highTemperatureF": 63,
     "windSpeedMph": 15,
     "windDirectionCardinal": "NE",
