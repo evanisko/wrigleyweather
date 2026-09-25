@@ -12,13 +12,13 @@
     "providerUrl": "https://api.weather.gov"
   },
   "todayForecast": {
-    "generatedAt": "2026-09-25T12:37:30.284257+00:00",
-    "forecastDate": "2026-09-25T07:00:00-05:00",
-    "periodName": "Today",
-    "summary": "Occasional Rain Showers then Mostly Cloudy",
+    "generatedAt": "2026-09-25T17:42:31.314851+00:00",
+    "forecastDate": "2026-09-25T12:00:00-05:00",
+    "periodName": "This Afternoon",
+    "summary": "Mostly Cloudy",
     "highTemperatureF": 65,
     "windSpeedMph": 5,
-    "windDirectionCardinal": "E",
-    "windDirectionDegrees": 90
+    "windDirectionCardinal": "ENE",
+    "windDirectionDegrees": 68
   }
 }
