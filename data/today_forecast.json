@@ -12,9 +12,9 @@
     "providerUrl": "https://api.weather.gov"
   },
   "todayForecast": {
-    "generatedAt": "2026-09-25T06:58:26.482985+00:00",
-    "forecastDate": "2026-09-25T06:00:00-05:00",
-    "periodName": "Friday",
+    "generatedAt": "2026-09-25T12:37:30.284257+00:00",
+    "forecastDate": "2026-09-25T07:00:00-05:00",
+    "periodName": "Today",
     "summary": "Occasional Rain Showers then Mostly Cloudy",
     "highTemperatureF": 65,
     "windSpeedMph": 5,
