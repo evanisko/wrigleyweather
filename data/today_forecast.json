@@ -12,13 +12,13 @@
     "providerUrl": "https://api.weather.gov"
   },
   "todayForecast": {
-    "generatedAt": "2026-09-28T06:13:57.868328+00:00",
-    "forecastDate": "2026-09-28T06:00:00-05:00",
-    "periodName": "Monday",
-    "summary": "Patchy Fog then Mostly Sunny",
-    "highTemperatureF": 67,
+    "generatedAt": "2026-09-28T14:50:29.747080+00:00",
+    "forecastDate": "2026-09-28T09:00:00-05:00",
+    "periodName": "Today",
+    "summary": "Mostly Sunny",
+    "highTemperatureF": 68,
     "windSpeedMph": 5,
-    "windDirectionCardinal": "N",
-    "windDirectionDegrees": 0
+    "windDirectionCardinal": "NNE",
+    "windDirectionDegrees": 22
   }
 }
