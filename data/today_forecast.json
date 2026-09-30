@@ -12,7 +12,7 @@
     "providerUrl": "https://api.weather.gov"
   },
   "todayForecast": {
-    "generatedAt": "2026-09-29T23:20:20.733793+00:00",
+    "generatedAt": "2026-09-30T03:29:31.072597+00:00",
     "forecastDate": "2026-09-30T06:00:00-05:00",
     "periodName": "Wednesday",
     "summary": "Rain Showers",
