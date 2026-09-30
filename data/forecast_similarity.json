@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30T03:29:31.213053+00:00",
+  "generated_at": "2026-09-30T10:11:47.008045+00:00",
   "source": {
     "forecast_path": "data/today_forecast.json",
     "database_path": ".local.nosync/analytics.duckdb",
@@ -9,10 +9,10 @@
     ]
   },
   "forecast_input": {
-    "generatedAt": "2026-09-30T03:29:31.072597+00:00",
+    "generatedAt": "2026-09-30T10:11:46.861679+00:00",
     "forecastDate": "2026-09-30T06:00:00-05:00",
     "periodName": "Wednesday",
-    "summary": "Rain Showers",
+    "summary": "Showers And Thunderstorms",
     "highTemperatureF": 67,
     "windSpeedMph": 12,
     "windDirectionCardinal": "SSW",
