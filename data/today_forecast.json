@@ -12,13 +12,13 @@
     "providerUrl": "https://api.weather.gov"
   },
   "todayForecast": {
-    "generatedAt": "2026-10-01T14:59:34.026610+00:00",
-    "forecastDate": "2026-10-01T09:00:00-05:00",
-    "periodName": "Today",
-    "summary": "Showers And Thunderstorms",
-    "highTemperatureF": 70,
-    "windSpeedMph": 12,
-    "windDirectionCardinal": "WSW",
-    "windDirectionDegrees": 248
+    "generatedAt": "2026-10-01T20:14:43.258958+00:00",
+    "forecastDate": "2026-10-01T15:00:00-05:00",
+    "periodName": "This Afternoon",
+    "summary": "Heavy Rain",
+    "highTemperatureF": 72,
+    "windSpeedMph": 10,
+    "windDirectionCardinal": "NW",
+    "windDirectionDegrees": 315
   }
 }
