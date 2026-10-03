@@ -12,8 +12,8 @@
     "providerUrl": "https://api.weather.gov"
   },
   "todayForecast": {
-    "generatedAt": "2026-10-03T19:40:13.456933+00:00",
-    "forecastDate": "2026-10-03T14:00:00-05:00",
+    "generatedAt": "2026-10-03T22:35:45.431446+00:00",
+    "forecastDate": "2026-10-03T17:00:00-05:00",
     "periodName": "This Afternoon",
     "summary": "Sunny",
     "highTemperatureF": 65,
