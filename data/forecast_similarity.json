@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T16:56:41.621181+00:00",
+  "generated_at": "2026-10-03T19:40:13.601314+00:00",
   "source": {
     "forecast_path": "data/today_forecast.json",
     "database_path": ".local.nosync/analytics.duckdb",
@@ -9,9 +9,9 @@
     ]
   },
   "forecast_input": {
-    "generatedAt": "2026-10-03T16:56:41.470051+00:00",
-    "forecastDate": "2026-10-03T11:00:00-05:00",
-    "periodName": "Today",
+    "generatedAt": "2026-10-03T19:40:13.456933+00:00",
+    "forecastDate": "2026-10-03T14:00:00-05:00",
+    "periodName": "This Afternoon",
     "summary": "Sunny",
     "highTemperatureF": 65,
     "windSpeedMph": 10,
