@@ -12,9 +12,9 @@
     "providerUrl": "https://api.weather.gov"
   },
   "todayForecast": {
-    "generatedAt": "2026-10-03T07:25:46.525122+00:00",
-    "forecastDate": "2026-10-03T06:00:00-05:00",
-    "periodName": "Saturday",
+    "generatedAt": "2026-10-03T12:56:02.197616+00:00",
+    "forecastDate": "2026-10-03T07:00:00-05:00",
+    "periodName": "Today",
     "summary": "Sunny",
     "highTemperatureF": 65,
     "windSpeedMph": 10,
