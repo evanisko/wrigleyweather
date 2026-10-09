@@ -12,9 +12,9 @@
     "providerUrl": "https://api.weather.gov"
   },
   "todayForecast": {
-    "generatedAt": "2026-10-09T08:18:03.728387+00:00",
-    "forecastDate": "2026-10-09T06:00:00-05:00",
-    "periodName": "Friday",
+    "generatedAt": "2026-10-09T15:43:18.606106+00:00",
+    "forecastDate": "2026-10-09T10:00:00-05:00",
+    "periodName": "Today",
     "summary": "Mostly Cloudy then Slight Chance Showers And Thunderstorms",
     "highTemperatureF": 68,
     "windSpeedMph": 8,
