@@ -12,13 +12,13 @@
     "providerUrl": "https://api.weather.gov"
   },
   "todayForecast": {
-    "generatedAt": "2026-10-11T19:50:37.732511+00:00",
-    "forecastDate": "2026-10-11T14:00:00-05:00",
-    "periodName": "This Afternoon",
-    "summary": "Sunny",
-    "highTemperatureF": 71,
-    "windSpeedMph": 5,
-    "windDirectionCardinal": "SE",
-    "windDirectionDegrees": 135
+    "generatedAt": "2026-10-11T23:21:40.945766+00:00",
+    "forecastDate": "2026-10-12T06:00:00-05:00",
+    "periodName": "Columbus Day",
+    "summary": "Mostly Sunny",
+    "highTemperatureF": 83,
+    "windSpeedMph": 12,
+    "windDirectionCardinal": "SSW",
+    "windDirectionDegrees": 202
   }
 }
