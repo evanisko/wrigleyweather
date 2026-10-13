@@ -12,12 +12,12 @@
     "providerUrl": "https://api.weather.gov"
   },
   "todayForecast": {
-    "generatedAt": "2026-10-12T20:43:41.179764+00:00",
-    "forecastDate": "2026-10-12T15:00:00-05:00",
-    "periodName": "Columbus Day",
-    "summary": "Mostly Sunny",
-    "highTemperatureF": 84,
-    "windSpeedMph": 15,
+    "generatedAt": "2026-10-13T02:20:53.336201+00:00",
+    "forecastDate": "2026-10-13T06:00:00-05:00",
+    "periodName": "Tuesday",
+    "summary": "Sunny",
+    "highTemperatureF": 79,
+    "windSpeedMph": 10,
     "windDirectionCardinal": "SW",
     "windDirectionDegrees": 225
   }
