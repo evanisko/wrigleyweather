@@ -12,11 +12,11 @@
     "providerUrl": "https://api.weather.gov"
   },
   "todayForecast": {
-    "generatedAt": "2026-10-14T06:58:40.109605+00:00",
-    "forecastDate": "2026-10-14T06:00:00-05:00",
-    "periodName": "Wednesday",
-    "summary": "Slight Chance Showers And Thunderstorms",
-    "highTemperatureF": 62,
+    "generatedAt": "2026-10-14T12:42:41.008505+00:00",
+    "forecastDate": "2026-10-14T07:00:00-05:00",
+    "periodName": "Today",
+    "summary": "Isolated Rain Showers then Mostly Cloudy",
+    "highTemperatureF": 64,
     "windSpeedMph": 12,
     "windDirectionCardinal": "NNE",
     "windDirectionDegrees": 22
