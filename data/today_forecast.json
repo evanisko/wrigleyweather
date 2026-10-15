@@ -12,13 +12,13 @@
     "providerUrl": "https://api.weather.gov"
   },
   "todayForecast": {
-    "generatedAt": "2026-10-15T10:41:21.963989+00:00",
-    "forecastDate": "2026-10-15T06:00:00-05:00",
-    "periodName": "Thursday",
+    "generatedAt": "2026-10-15T15:26:21.965900+00:00",
+    "forecastDate": "2026-10-15T10:00:00-05:00",
+    "periodName": "Today",
     "summary": "Rain Showers",
     "highTemperatureF": 62,
     "windSpeedMph": 12,
-    "windDirectionCardinal": "ESE",
-    "windDirectionDegrees": 112
+    "windDirectionCardinal": "SE",
+    "windDirectionDegrees": 135
   }
 }
