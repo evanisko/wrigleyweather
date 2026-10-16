@@ -12,13 +12,13 @@
     "providerUrl": "https://api.weather.gov"
   },
   "todayForecast": {
-    "generatedAt": "2026-10-16T15:05:56.039236+00:00",
-    "forecastDate": "2026-10-16T10:00:00-05:00",
-    "periodName": "Today",
+    "generatedAt": "2026-10-16T19:11:29.110915+00:00",
+    "forecastDate": "2026-10-16T14:00:00-05:00",
+    "periodName": "This Afternoon",
     "summary": "Scattered Rain Showers",
     "highTemperatureF": 54,
-    "windSpeedMph": 22,
-    "windDirectionCardinal": "NW",
-    "windDirectionDegrees": 315
+    "windSpeedMph": 28,
+    "windDirectionCardinal": "NNW",
+    "windDirectionDegrees": 338
   }
 }
