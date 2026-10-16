@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-15T22:49:47.821332+00:00",
+  "generated_at": "2026-10-16T00:56:17.281229+00:00",
   "source": {
     "forecast_path": "data/today_forecast.json",
     "database_path": ".local.nosync/analytics.duckdb",
@@ -9,121 +9,36 @@
     ]
   },
   "forecast_input": {
-    "generatedAt": "2026-10-15T22:49:47.713513+00:00",
-    "forecastDate": "2026-10-15T17:00:00-05:00",
-    "periodName": "This Afternoon",
-    "summary": "Showers And Thunderstorms",
-    "highTemperatureF": 63,
-    "windSpeedMph": 10,
-    "windDirectionCardinal": "SSE",
-    "windDirectionDegrees": 158
+    "generatedAt": "2026-10-16T00:56:17.158283+00:00",
+    "forecastDate": "2026-10-16T06:00:00-05:00",
+    "periodName": "Friday",
+    "summary": "Mostly Cloudy then Rain Showers Likely",
+    "highTemperatureF": 55,
+    "windSpeedMph": 25,
+    "windDirectionCardinal": "NW",
+    "windDirectionDegrees": 315
   },
   "criteria": {
     "temperature_f": {
-      "target": 63,
+      "target": 55,
       "tolerance": 5
     },
     "wind_speed_mph": {
-      "target": 10,
+      "target": 25,
       "tolerance": 5
     },
     "wind_direction_degrees": {
-      "target": 158,
+      "target": 315,
       "tolerance": 22
     }
   },
   "results": {
-    "matched_game_count": 7,
+    "matched_game_count": 0,
     "averages": {
-      "runs": 9.14,
-      "home_runs": 1.71,
-      "game_time_minutes": 165.43
+      "runs": null,
+      "home_runs": null,
+      "game_time_minutes": null
     }
   },
-  "matches": [
-    {
-      "date": "2025-04-23",
-      "historical_temperature_f": 59.2,
-      "historical_wind_speed_mph": 10.3,
-      "historical_wind_direction_degrees": 157,
-      "total_runs": 13,
-      "total_home_runs": 3,
-      "game_time_minutes": 160,
-      "temperature_delta": 3.8,
-      "wind_speed_delta": 0.3,
-      "wind_direction_delta": 1.0
-    },
-    {
-      "date": "2024-07-19",
-      "historical_temperature_f": 67.6,
-      "historical_wind_speed_mph": 13.4,
-      "historical_wind_direction_degrees": 153,
-      "total_runs": 7,
-      "total_home_runs": 0,
-      "game_time_minutes": 174,
-      "temperature_delta": 4.6,
-      "wind_speed_delta": 3.4,
-      "wind_direction_delta": 5.0
-    },
-    {
-      "date": "2024-06-01",
-      "historical_temperature_f": 63.3,
-      "historical_wind_speed_mph": 14.8,
-      "historical_wind_direction_degrees": 161,
-      "total_runs": 12,
-      "total_home_runs": 2,
-      "game_time_minutes": 166,
-      "temperature_delta": 0.3,
-      "wind_speed_delta": 4.8,
-      "wind_direction_delta": 3.0
-    },
-    {
-      "date": "2024-05-18",
-      "historical_temperature_f": 67.6,
-      "historical_wind_speed_mph": 11.9,
-      "historical_wind_direction_degrees": 171,
-      "total_runs": 1,
-      "total_home_runs": 0,
-      "game_time_minutes": 130,
-      "temperature_delta": 4.6,
-      "wind_speed_delta": 1.9,
-      "wind_direction_delta": 13.0
-    },
-    {
-      "date": "2023-09-20",
-      "historical_temperature_f": 68.0,
-      "historical_wind_speed_mph": 12.3,
-      "historical_wind_direction_degrees": 174,
-      "total_runs": 20,
-      "total_home_runs": 5,
-      "game_time_minutes": 178,
-      "temperature_delta": 5.0,
-      "wind_speed_delta": 2.3,
-      "wind_direction_delta": 16.0
-    },
-    {
-      "date": "2023-08-18",
-      "historical_temperature_f": 66.2,
-      "historical_wind_speed_mph": 12.7,
-      "historical_wind_direction_degrees": 159,
-      "total_runs": 7,
-      "total_home_runs": 1,
-      "game_time_minutes": 163,
-      "temperature_delta": 3.2,
-      "wind_speed_delta": 2.7,
-      "wind_direction_delta": 1.0
-    },
-    {
-      "date": "2020-09-20",
-      "historical_temperature_f": 59.9,
-      "historical_wind_speed_mph": 13.9,
-      "historical_wind_direction_degrees": 145,
-      "total_runs": 4,
-      "total_home_runs": 1,
-      "game_time_minutes": 187,
-      "temperature_delta": 3.1,
-      "wind_speed_delta": 3.9,
-      "wind_direction_delta": 13.0
-    }
-  ]
+  "matches": []
 }
