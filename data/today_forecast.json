@@ -12,9 +12,9 @@
     "providerUrl": "https://api.weather.gov"
   },
   "todayForecast": {
-    "generatedAt": "2026-10-19T05:34:55.094387+00:00",
+    "generatedAt": "2026-10-19T11:48:26.619450+00:00",
     "forecastDate": "2026-10-19T06:00:00-05:00",
-    "periodName": "Monday",
+    "periodName": "Today",
     "summary": "Sunny",
     "highTemperatureF": 65,
     "windSpeedMph": 5,
