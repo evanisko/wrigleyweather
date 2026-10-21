@@ -12,12 +12,12 @@
     "providerUrl": "https://api.weather.gov"
   },
   "todayForecast": {
-    "generatedAt": "2026-10-21T05:37:47.677323+00:00",
+    "generatedAt": "2026-10-21T10:59:00.417512+00:00",
     "forecastDate": "2026-10-21T06:00:00-05:00",
     "periodName": "Wednesday",
     "summary": "Patchy Fog then Sunny",
-    "highTemperatureF": 66,
-    "windSpeedMph": 2,
+    "highTemperatureF": 69,
+    "windSpeedMph": 5,
     "windDirectionCardinal": "S",
     "windDirectionDegrees": 180
   }
