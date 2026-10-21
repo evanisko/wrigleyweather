@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-21T00:18:48.739229+00:00",
+  "generated_at": "2026-10-21T05:37:47.853175+00:00",
   "source": {
     "forecast_path": "data/today_forecast.json",
     "database_path": ".local.nosync/analytics.duckdb",
@@ -9,7 +9,7 @@
     ]
   },
   "forecast_input": {
-    "generatedAt": "2026-10-21T00:18:48.592773+00:00",
+    "generatedAt": "2026-10-21T05:37:47.677323+00:00",
     "forecastDate": "2026-10-21T06:00:00-05:00",
     "periodName": "Wednesday",
     "summary": "Patchy Fog then Sunny",
