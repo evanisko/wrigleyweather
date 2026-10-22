@@ -12,13 +12,13 @@
     "providerUrl": "https://api.weather.gov"
   },
   "todayForecast": {
-    "generatedAt": "2026-10-21T22:57:32.895386+00:00",
-    "forecastDate": "2026-10-21T17:00:00-05:00",
-    "periodName": "This Afternoon",
+    "generatedAt": "2026-10-22T01:16:07.146245+00:00",
+    "forecastDate": "2026-10-22T06:00:00-05:00",
+    "periodName": "Thursday",
     "summary": "Sunny",
-    "highTemperatureF": 70,
-    "windSpeedMph": 5,
-    "windDirectionCardinal": "SE",
-    "windDirectionDegrees": 135
+    "highTemperatureF": 65,
+    "windSpeedMph": 2,
+    "windDirectionCardinal": "NNE",
+    "windDirectionDegrees": 22
   }
 }
