@@ -12,7 +12,7 @@
     "providerUrl": "https://api.weather.gov"
   },
   "todayForecast": {
-    "generatedAt": "2026-10-23T00:19:36.942873+00:00",
+    "generatedAt": "2026-10-23T05:38:53.078307+00:00",
     "forecastDate": "2026-10-23T06:00:00-05:00",
     "periodName": "Friday",
     "summary": "Sunny",
