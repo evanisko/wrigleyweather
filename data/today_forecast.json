@@ -12,10 +12,10 @@
     "providerUrl": "https://api.weather.gov"
   },
   "todayForecast": {
-    "generatedAt": "2026-10-27T00:09:38.983866+00:00",
+    "generatedAt": "2026-10-27T05:51:18.864704+00:00",
     "forecastDate": "2026-10-27T06:00:00-05:00",
     "periodName": "Tuesday",
-    "summary": "Partly Sunny",
+    "summary": "Mostly Cloudy",
     "highTemperatureF": 64,
     "windSpeedMph": 8,
     "windDirectionCardinal": "SE",

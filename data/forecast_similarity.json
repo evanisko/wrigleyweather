@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-27T00:09:39.180550+00:00",
+  "generated_at": "2026-10-27T05:51:19.344484+00:00",
   "source": {
     "forecast_path": "data/today_forecast.json",
     "database_path": ".local.nosync/analytics.duckdb",
@@ -9,10 +9,10 @@
     ]
   },
   "forecast_input": {
-    "generatedAt": "2026-10-27T00:09:38.983866+00:00",
+    "generatedAt": "2026-10-27T05:51:18.864704+00:00",
     "forecastDate": "2026-10-27T06:00:00-05:00",
     "periodName": "Tuesday",
-    "summary": "Partly Sunny",
+    "summary": "Mostly Cloudy",
     "highTemperatureF": 64,
     "windSpeedMph": 8,
     "windDirectionCardinal": "SE",
