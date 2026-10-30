@@ -12,11 +12,11 @@
     "providerUrl": "https://api.weather.gov"
   },
   "todayForecast": {
-    "generatedAt": "2026-10-30T09:25:11.451406+00:00",
-    "forecastDate": "2026-10-30T06:00:00-05:00",
-    "periodName": "Friday",
-    "summary": "Partly Sunny",
-    "highTemperatureF": 59,
+    "generatedAt": "2026-10-30T16:25:49.615041+00:00",
+    "forecastDate": "2026-10-30T11:00:00-05:00",
+    "periodName": "Today",
+    "summary": "Mostly Cloudy then Scattered Rain Showers",
+    "highTemperatureF": 58,
     "windSpeedMph": 10,
     "windDirectionCardinal": "ENE",
     "windDirectionDegrees": 68
