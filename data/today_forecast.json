@@ -12,11 +12,11 @@
     "providerUrl": "https://api.weather.gov"
   },
   "todayForecast": {
-    "generatedAt": "2026-10-31T01:20:04.449200+00:00",
+    "generatedAt": "2026-10-31T07:52:12.274117+00:00",
     "forecastDate": "2026-10-31T06:00:00-05:00",
     "periodName": "Saturday",
-    "summary": "Chance Rain Showers",
-    "highTemperatureF": 62,
+    "summary": "Scattered Rain Showers",
+    "highTemperatureF": 61,
     "windSpeedMph": 10,
     "windDirectionCardinal": "SE",
     "windDirectionDegrees": 135
