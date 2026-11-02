@@ -12,12 +12,12 @@
     "providerUrl": "https://api.weather.gov"
   },
   "todayForecast": {
-    "generatedAt": "2026-11-02T07:03:10.236690+00:00",
-    "forecastDate": "2026-11-02T06:00:00-06:00",
-    "periodName": "Monday",
-    "summary": "Patchy Drizzle",
-    "highTemperatureF": 62,
-    "windSpeedMph": 12,
+    "generatedAt": "2026-11-02T17:39:58.857272+00:00",
+    "forecastDate": "2026-11-02T11:00:00-06:00",
+    "periodName": "Today",
+    "summary": "Cloudy then Patchy Drizzle",
+    "highTemperatureF": 60,
+    "windSpeedMph": 15,
     "windDirectionCardinal": "SSE",
     "windDirectionDegrees": 158
   }
