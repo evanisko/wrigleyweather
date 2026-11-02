@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-02T00:07:03.568286+00:00",
+  "generated_at": "2026-11-02T07:03:10.413311+00:00",
   "source": {
     "forecast_path": "data/today_forecast.json",
     "database_path": ".local.nosync/analytics.duckdb",
@@ -9,10 +9,10 @@
     ]
   },
   "forecast_input": {
-    "generatedAt": "2026-11-02T00:07:03.274117+00:00",
+    "generatedAt": "2026-11-02T07:03:10.236690+00:00",
     "forecastDate": "2026-11-02T06:00:00-06:00",
     "periodName": "Monday",
-    "summary": "Chance Rain Showers",
+    "summary": "Patchy Drizzle",
     "highTemperatureF": 62,
     "windSpeedMph": 12,
     "windDirectionCardinal": "SSE",
