@@ -12,12 +12,12 @@
     "providerUrl": "https://api.weather.gov"
   },
   "todayForecast": {
-    "generatedAt": "2026-11-03T00:18:51.729624+00:00",
+    "generatedAt": "2026-11-03T07:27:24.579378+00:00",
     "forecastDate": "2026-11-03T06:00:00-06:00",
     "periodName": "Tuesday",
     "summary": "Mostly Cloudy then Chance Rain Showers",
-    "highTemperatureF": 68,
-    "windSpeedMph": 20,
+    "highTemperatureF": 70,
+    "windSpeedMph": 22,
     "windDirectionCardinal": "S",
     "windDirectionDegrees": 180
   }
