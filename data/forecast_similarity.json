@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-04T08:26:30.745917+00:00",
+  "generated_at": "2026-11-04T16:44:18.787855+00:00",
   "source": {
     "forecast_path": "data/today_forecast.json",
     "database_path": ".local.nosync/analytics.duckdb",
@@ -9,14 +9,14 @@
     ]
   },
   "forecast_input": {
-    "generatedAt": "2026-11-04T08:26:30.559196+00:00",
-    "forecastDate": "2026-11-04T06:00:00-06:00",
-    "periodName": "Wednesday",
-    "summary": "Chance Rain Showers",
+    "generatedAt": "2026-11-04T16:44:18.622555+00:00",
+    "forecastDate": "2026-11-04T10:00:00-06:00",
+    "periodName": "Today",
+    "summary": "Slight Chance Drizzle then Slight Chance Rain Showers",
     "highTemperatureF": 64,
     "windSpeedMph": 15,
-    "windDirectionCardinal": "SSW",
-    "windDirectionDegrees": 202
+    "windDirectionCardinal": "SW",
+    "windDirectionDegrees": 225
   },
   "criteria": {
     "temperature_f": {
@@ -28,16 +28,16 @@
       "tolerance": 5
     },
     "wind_direction_degrees": {
-      "target": 202,
+      "target": 225,
       "tolerance": 22
     }
   },
   "results": {
-    "matched_game_count": 9,
+    "matched_game_count": 7,
     "averages": {
-      "runs": 9.11,
-      "home_runs": 3.33,
-      "game_time_minutes": 183.44
+      "runs": 11.57,
+      "home_runs": 4.0,
+      "game_time_minutes": 185.57
     }
   },
   "matches": [
@@ -51,30 +51,18 @@
       "game_time_minutes": 189,
       "temperature_delta": 3.8,
       "wind_speed_delta": 2.6,
-      "wind_direction_delta": 6.0
+      "wind_direction_delta": 17.0
     },
     {
-      "date": "2024-05-16",
-      "historical_temperature_f": 61.0,
-      "historical_wind_speed_mph": 15.1,
-      "historical_wind_direction_degrees": 197,
-      "total_runs": 9,
-      "total_home_runs": 3,
-      "game_time_minutes": 147,
-      "temperature_delta": 3.0,
-      "wind_speed_delta": 0.1,
-      "wind_direction_delta": 5.0
-    },
-    {
-      "date": "2022-05-19",
-      "historical_temperature_f": 67.8,
-      "historical_wind_speed_mph": 19.5,
-      "historical_wind_direction_degrees": 195,
-      "total_runs": 4,
-      "total_home_runs": 1,
-      "game_time_minutes": 190,
-      "temperature_delta": 3.8,
-      "wind_speed_delta": 4.5,
+      "date": "2023-04-11",
+      "historical_temperature_f": 60.8,
+      "historical_wind_speed_mph": 16.8,
+      "historical_wind_direction_degrees": 232,
+      "total_runs": 23,
+      "total_home_runs": 4,
+      "game_time_minutes": 182,
+      "temperature_delta": 3.2,
+      "wind_speed_delta": 1.8,
       "wind_direction_delta": 7.0
     },
     {
@@ -87,7 +75,7 @@
       "game_time_minutes": 216,
       "temperature_delta": 3.3,
       "wind_speed_delta": 4.1,
-      "wind_direction_delta": 18.0
+      "wind_direction_delta": 5.0
     },
     {
       "date": "2021-09-10",
@@ -99,7 +87,7 @@
       "game_time_minutes": 184,
       "temperature_delta": 4.7,
       "wind_speed_delta": 2.8,
-      "wind_direction_delta": 1.0
+      "wind_direction_delta": 22.0
     },
     {
       "date": "2021-05-31",
@@ -111,7 +99,7 @@
       "game_time_minutes": 173,
       "temperature_delta": 2.1,
       "wind_speed_delta": 0.7,
-      "wind_direction_delta": 6.0
+      "wind_direction_delta": 17.0
     },
     {
       "date": "2021-04-06",
@@ -123,7 +111,7 @@
       "game_time_minutes": 186,
       "temperature_delta": 3.1,
       "wind_speed_delta": 2.0,
-      "wind_direction_delta": 5.0
+      "wind_direction_delta": 18.0
     },
     {
       "date": "2021-04-05",
@@ -135,19 +123,7 @@
       "game_time_minutes": 169,
       "temperature_delta": 0.9,
       "wind_speed_delta": 0.1,
-      "wind_direction_delta": 11.0
-    },
-    {
-      "date": "2020-09-15",
-      "historical_temperature_f": 67.1,
-      "historical_wind_speed_mph": 13.1,
-      "historical_wind_direction_degrees": 191,
-      "total_runs": 11,
-      "total_home_runs": 2,
-      "game_time_minutes": 197,
-      "temperature_delta": 3.1,
-      "wind_speed_delta": 1.9,
-      "wind_direction_delta": 11.0
+      "wind_direction_delta": 12.0
     }
   ]
 }

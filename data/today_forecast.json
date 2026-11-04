@@ -12,13 +12,13 @@
     "providerUrl": "https://api.weather.gov"
   },
   "todayForecast": {
-    "generatedAt": "2026-11-04T08:26:30.559196+00:00",
-    "forecastDate": "2026-11-04T06:00:00-06:00",
-    "periodName": "Wednesday",
-    "summary": "Chance Rain Showers",
+    "generatedAt": "2026-11-04T16:44:18.622555+00:00",
+    "forecastDate": "2026-11-04T10:00:00-06:00",
+    "periodName": "Today",
+    "summary": "Slight Chance Drizzle then Slight Chance Rain Showers",
     "highTemperatureF": 64,
     "windSpeedMph": 15,
-    "windDirectionCardinal": "SSW",
-    "windDirectionDegrees": 202
+    "windDirectionCardinal": "SW",
+    "windDirectionDegrees": 225
   }
 }
