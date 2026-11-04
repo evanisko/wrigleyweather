@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-04T01:48:17.723311+00:00",
+  "generated_at": "2026-11-04T08:26:30.745917+00:00",
   "source": {
     "forecast_path": "data/today_forecast.json",
     "database_path": ".local.nosync/analytics.duckdb",
@@ -9,10 +9,10 @@
     ]
   },
   "forecast_input": {
-    "generatedAt": "2026-11-04T01:48:17.577853+00:00",
+    "generatedAt": "2026-11-04T08:26:30.559196+00:00",
     "forecastDate": "2026-11-04T06:00:00-06:00",
     "periodName": "Wednesday",
-    "summary": "Rain Showers Likely",
+    "summary": "Chance Rain Showers",
     "highTemperatureF": 64,
     "windSpeedMph": 15,
     "windDirectionCardinal": "SSW",
