@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-05T03:00:31.371048+00:00",
+  "generated_at": "2026-11-05T11:45:18.931916+00:00",
   "source": {
     "forecast_path": "data/today_forecast.json",
     "database_path": ".local.nosync/analytics.duckdb",
@@ -9,18 +9,18 @@
     ]
   },
   "forecast_input": {
-    "generatedAt": "2026-11-05T03:00:31.133173+00:00",
+    "generatedAt": "2026-11-05T11:45:18.753705+00:00",
     "forecastDate": "2026-11-05T06:00:00-06:00",
     "periodName": "Thursday",
-    "summary": "Chance Rain Showers",
-    "highTemperatureF": 53,
+    "summary": "Patchy Drizzle",
+    "highTemperatureF": 52,
     "windSpeedMph": 12,
-    "windDirectionCardinal": "WSW",
-    "windDirectionDegrees": 248
+    "windDirectionCardinal": "W",
+    "windDirectionDegrees": 270
   },
   "criteria": {
     "temperature_f": {
-      "target": 53,
+      "target": 52,
       "tolerance": 5
     },
     "wind_speed_mph": {
@@ -28,7 +28,7 @@
       "tolerance": 5
     },
     "wind_direction_degrees": {
-      "target": 248,
+      "target": 270,
       "tolerance": 22
     }
   },
