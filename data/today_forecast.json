@@ -12,9 +12,9 @@
     "providerUrl": "https://api.weather.gov"
   },
   "todayForecast": {
-    "generatedAt": "2026-11-07T08:07:20.596773+00:00",
-    "forecastDate": "2026-11-07T06:00:00-06:00",
-    "periodName": "Saturday",
+    "generatedAt": "2026-11-07T15:18:48.173156+00:00",
+    "forecastDate": "2026-11-07T09:00:00-06:00",
+    "periodName": "Today",
     "summary": "Mostly Sunny",
     "highTemperatureF": 51,
     "windSpeedMph": 8,
