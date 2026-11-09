@@ -12,12 +12,12 @@
     "providerUrl": "https://api.weather.gov"
   },
   "todayForecast": {
-    "generatedAt": "2026-11-08T20:55:53.418865+00:00",
-    "forecastDate": "2026-11-08T14:00:00-06:00",
-    "periodName": "This Afternoon",
-    "summary": "Sunny",
+    "generatedAt": "2026-11-09T00:27:04.509142+00:00",
+    "forecastDate": "2026-11-09T06:00:00-06:00",
+    "periodName": "Monday",
+    "summary": "Mostly Sunny",
     "highTemperatureF": 58,
-    "windSpeedMph": 15,
+    "windSpeedMph": 8,
     "windDirectionCardinal": "W",
     "windDirectionDegrees": 270
   }
