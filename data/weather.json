@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-10T01:49:46.551209+00:00",
+  "generatedAt": "2026-11-10T09:03:16.258527+00:00",
   "location": {
     "name": "Wrigley Field",
     "city": "Chicago, IL",
@@ -14,7 +14,7 @@
     "observationStationId": "KMDW"
   },
   "current": {
-    "updatedAt": "2026-11-10T01:20:00+00:00",
+    "updatedAt": "2026-11-10T08:15:00+00:00",
     "summary": "Mostly Clear",
     "temperatureF": 52,
     "feelsLikeF": 52,
@@ -24,9 +24,9 @@
     "rainChancePercent": 0,
     "comfort": "Excellent",
     "wind": {
-      "speedMph": 7,
-      "directionCardinal": "SW",
-      "label": "7 mph SW"
+      "speedMph": 9,
+      "directionCardinal": "W",
+      "label": "9 mph W"
     }
   },
   "forecast": [
@@ -34,22 +34,22 @@
       "date": "2026-11-10T06:00:00-06:00",
       "label": "Tue",
       "summary": "Sunny",
-      "highF": 60,
+      "highF": 59,
       "lowF": 44
     },
     {
       "date": "2026-11-11T06:00:00-06:00",
       "label": "Wed",
-      "summary": "Chance Rain",
+      "summary": "Chance Rain Showers",
       "highF": 54,
-      "lowF": 43
+      "lowF": 41
     },
     {
       "date": "2026-11-12T06:00:00-06:00",
       "label": "Thu",
-      "summary": "Rain Likely",
+      "summary": "Rain Showers Likely",
       "highF": 46,
-      "lowF": 36
+      "lowF": 34
     }
   ]
 }
