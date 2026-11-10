@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-09T18:06:31.728940+00:00",
+  "generated_at": "2026-11-10T01:49:46.855262+00:00",
   "source": {
     "forecast_path": "data/today_forecast.json",
     "database_path": ".local.nosync/analytics.duckdb",
@@ -9,26 +9,26 @@
     ]
   },
   "forecast_input": {
-    "generatedAt": "2026-11-09T18:06:31.579087+00:00",
-    "forecastDate": "2026-11-09T12:00:00-06:00",
-    "periodName": "This Afternoon",
-    "summary": "Partly Sunny",
-    "highTemperatureF": 59,
-    "windSpeedMph": 8,
-    "windDirectionCardinal": "SW",
-    "windDirectionDegrees": 225
+    "generatedAt": "2026-11-10T01:49:46.738324+00:00",
+    "forecastDate": "2026-11-10T06:00:00-06:00",
+    "periodName": "Tuesday",
+    "summary": "Sunny",
+    "highTemperatureF": 60,
+    "windSpeedMph": 2,
+    "windDirectionCardinal": "WNW",
+    "windDirectionDegrees": 292
   },
   "criteria": {
     "temperature_f": {
-      "target": 59,
+      "target": 60,
       "tolerance": 5
     },
     "wind_speed_mph": {
-      "target": 8,
+      "target": 2,
       "tolerance": 5
     },
     "wind_direction_degrees": {
-      "target": 225,
+      "target": 292,
       "tolerance": 22
     }
   },
