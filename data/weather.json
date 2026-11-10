@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-10T17:24:21.591526+00:00",
+  "generatedAt": "2026-11-10T22:42:51.436850+00:00",
   "location": {
     "name": "Wrigley Field",
     "city": "Chicago, IL",
@@ -14,42 +14,42 @@
     "observationStationId": "KMDW"
   },
   "current": {
-    "updatedAt": "2026-11-10T15:53:00+00:00",
-    "summary": "Mostly Clear",
-    "temperatureF": null,
-    "feelsLikeF": null,
-    "heatIndexF": null,
-    "windChillF": null,
-    "humidityPercent": null,
+    "updatedAt": "2026-11-10T22:20:00+00:00",
+    "summary": "Sunny",
+    "temperatureF": 61,
+    "feelsLikeF": 61,
+    "heatIndexF": 61,
+    "windChillF": 61,
+    "humidityPercent": 59,
     "rainChancePercent": 0,
-    "comfort": "Fair",
+    "comfort": "Excellent",
     "wind": {
-      "speedMph": null,
-      "directionCardinal": "Variable",
-      "label": "Calm Variable"
+      "speedMph": 6,
+      "directionCardinal": "SE",
+      "label": "6 mph SE"
     }
   },
   "forecast": [
     {
-      "date": "2026-11-10T11:00:00-06:00",
+      "date": "2026-11-10T16:00:00-06:00",
       "label": "Tue",
       "summary": "Sunny",
-      "highF": 59,
-      "lowF": 44
+      "highF": 63,
+      "lowF": 46
     },
     {
       "date": "2026-11-11T06:00:00-06:00",
       "label": "Wed",
-      "summary": "Chance Rain Showers",
+      "summary": "Scattered Rain Showers",
       "highF": 54,
-      "lowF": 41
+      "lowF": 38
     },
     {
       "date": "2026-11-12T06:00:00-06:00",
       "label": "Thu",
-      "summary": "Rain Showers Likely",
+      "summary": "Chance Rain Showers",
       "highF": 46,
-      "lowF": 34
+      "lowF": 35
     }
   ]
 }
