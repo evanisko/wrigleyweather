@@ -12,9 +12,9 @@
     "providerUrl": "https://api.weather.gov"
   },
   "todayForecast": {
-    "generatedAt": "2026-11-12T17:49:53.996285+00:00",
-    "forecastDate": "2026-11-12T11:00:00-06:00",
-    "periodName": "Today",
+    "generatedAt": "2026-11-12T23:03:35.491080+00:00",
+    "forecastDate": "2026-11-12T17:00:00-06:00",
+    "periodName": "This Afternoon",
     "summary": "Rain",
     "highTemperatureF": 44,
     "windSpeedMph": 30,
