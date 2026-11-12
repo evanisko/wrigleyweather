@@ -12,13 +12,13 @@
     "providerUrl": "https://api.weather.gov"
   },
   "todayForecast": {
-    "generatedAt": "2026-11-11T18:16:03.190172+00:00",
-    "forecastDate": "2026-11-11T12:00:00-06:00",
-    "periodName": "Veterans Day",
-    "summary": "Rain Likely",
-    "highTemperatureF": 55,
-    "windSpeedMph": 12,
-    "windDirectionCardinal": "NE",
-    "windDirectionDegrees": 45
+    "generatedAt": "2026-11-12T01:13:10.043010+00:00",
+    "forecastDate": "2026-11-12T06:00:00-06:00",
+    "periodName": "Thursday",
+    "summary": "Rain",
+    "highTemperatureF": 46,
+    "windSpeedMph": 22,
+    "windDirectionCardinal": "N",
+    "windDirectionDegrees": 0
   }
 }
