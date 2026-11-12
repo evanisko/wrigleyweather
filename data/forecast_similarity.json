@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-12T09:04:36.752699+00:00",
+  "generated_at": "2026-11-12T17:49:54.182320+00:00",
   "source": {
     "forecast_path": "data/today_forecast.json",
     "database_path": ".local.nosync/analytics.duckdb",
@@ -9,14 +9,14 @@
     ]
   },
   "forecast_input": {
-    "generatedAt": "2026-11-12T09:04:36.576265+00:00",
-    "forecastDate": "2026-11-12T06:00:00-06:00",
-    "periodName": "Thursday",
-    "summary": "Rain Showers",
+    "generatedAt": "2026-11-12T17:49:53.996285+00:00",
+    "forecastDate": "2026-11-12T11:00:00-06:00",
+    "periodName": "Today",
+    "summary": "Rain",
     "highTemperatureF": 44,
-    "windSpeedMph": 25,
-    "windDirectionCardinal": "N",
-    "windDirectionDegrees": 0
+    "windSpeedMph": 30,
+    "windDirectionCardinal": "NNW",
+    "windDirectionDegrees": 338
   },
   "criteria": {
     "temperature_f": {
@@ -24,46 +24,21 @@
       "tolerance": 5
     },
     "wind_speed_mph": {
-      "target": 25,
+      "target": 30,
       "tolerance": 5
     },
     "wind_direction_degrees": {
-      "target": 0,
+      "target": 338,
       "tolerance": 22
     }
   },
   "results": {
-    "matched_game_count": 2,
+    "matched_game_count": 0,
     "averages": {
-      "runs": 5.5,
-      "home_runs": 2.5,
-      "game_time_minutes": 183.0
+      "runs": null,
+      "home_runs": null,
+      "game_time_minutes": null
     }
   },
-  "matches": [
-    {
-      "date": "2022-05-04",
-      "historical_temperature_f": 43.0,
-      "historical_wind_speed_mph": 22.2,
-      "historical_wind_direction_degrees": 12,
-      "total_runs": 7,
-      "total_home_runs": 4,
-      "game_time_minutes": 185,
-      "temperature_delta": 1.0,
-      "wind_speed_delta": 2.8,
-      "wind_direction_delta": 12.0
-    },
-    {
-      "date": "2022-05-03",
-      "historical_temperature_f": 44.8,
-      "historical_wind_speed_mph": 26.0,
-      "historical_wind_direction_degrees": 19,
-      "total_runs": 4,
-      "total_home_runs": 1,
-      "game_time_minutes": 181,
-      "temperature_delta": 0.8,
-      "wind_speed_delta": 1.0,
-      "wind_direction_delta": 19.0
-    }
-  ]
+  "matches": []
 }
