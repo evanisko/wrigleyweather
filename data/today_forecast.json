@@ -12,9 +12,9 @@
     "providerUrl": "https://api.weather.gov"
   },
   "todayForecast": {
-    "generatedAt": "2026-11-13T04:35:09.085292+00:00",
+    "generatedAt": "2026-11-13T12:45:47.683088+00:00",
     "forecastDate": "2026-11-13T06:00:00-06:00",
-    "periodName": "Friday",
+    "periodName": "Today",
     "summary": "Rain And Snow",
     "highTemperatureF": 41,
     "windSpeedMph": 18,
