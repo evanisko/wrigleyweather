@@ -12,12 +12,12 @@
     "providerUrl": "https://api.weather.gov"
   },
   "todayForecast": {
-    "generatedAt": "2026-11-13T20:13:04.434936+00:00",
-    "forecastDate": "2026-11-13T14:00:00-06:00",
-    "periodName": "This Afternoon",
-    "summary": "Scattered Rain Showers",
-    "highTemperatureF": 42,
-    "windSpeedMph": 20,
+    "generatedAt": "2026-11-14T01:09:41.956526+00:00",
+    "forecastDate": "2026-11-14T06:00:00-06:00",
+    "periodName": "Saturday",
+    "summary": "Sunny",
+    "highTemperatureF": 46,
+    "windSpeedMph": 10,
     "windDirectionCardinal": "NNW",
     "windDirectionDegrees": 338
   }
