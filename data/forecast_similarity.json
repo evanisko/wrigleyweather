@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-15T07:26:00.264242+00:00",
+  "generated_at": "2026-11-15T15:10:41.954413+00:00",
   "source": {
     "forecast_path": "data/today_forecast.json",
     "database_path": ".local.nosync/analytics.duckdb",
@@ -9,14 +9,14 @@
     ]
   },
   "forecast_input": {
-    "generatedAt": "2026-11-15T07:26:00.095959+00:00",
-    "forecastDate": "2026-11-15T06:00:00-06:00",
-    "periodName": "Sunday",
+    "generatedAt": "2026-11-15T15:10:41.816323+00:00",
+    "forecastDate": "2026-11-15T09:00:00-06:00",
+    "periodName": "Today",
     "summary": "Sunny",
     "highTemperatureF": 49,
     "windSpeedMph": 5,
-    "windDirectionCardinal": "N",
-    "windDirectionDegrees": 0
+    "windDirectionCardinal": "NNE",
+    "windDirectionDegrees": 22
   },
   "criteria": {
     "temperature_f": {
@@ -28,7 +28,7 @@
       "tolerance": 5
     },
     "wind_direction_degrees": {
-      "target": 0,
+      "target": 22,
       "tolerance": 22
     }
   },
@@ -51,7 +51,7 @@
       "game_time_minutes": 140,
       "temperature_delta": 4.4,
       "wind_speed_delta": 3.1,
-      "wind_direction_delta": 8.0
+      "wind_direction_delta": 14.0
     },
     {
       "date": "2025-05-26",
@@ -63,7 +63,7 @@
       "game_time_minutes": 146,
       "temperature_delta": 2.6,
       "wind_speed_delta": 4.5,
-      "wind_direction_delta": 13.0
+      "wind_direction_delta": 9.0
     },
     {
       "date": "2025-05-18",
@@ -75,7 +75,7 @@
       "game_time_minutes": 158,
       "temperature_delta": 3.3,
       "wind_speed_delta": 4.0,
-      "wind_direction_delta": 19.0
+      "wind_direction_delta": 3.0
     }
   ]
 }
