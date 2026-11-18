@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-18T01:31:40.624649+00:00",
+  "generated_at": "2026-11-18T09:36:49.349010+00:00",
   "source": {
     "forecast_path": "data/today_forecast.json",
     "database_path": ".local.nosync/analytics.duckdb",
@@ -9,22 +9,22 @@
     ]
   },
   "forecast_input": {
-    "generatedAt": "2026-11-18T01:31:40.443709+00:00",
+    "generatedAt": "2026-11-18T09:36:49.119358+00:00",
     "forecastDate": "2026-11-18T06:00:00-06:00",
     "periodName": "Wednesday",
     "summary": "Mostly Sunny",
-    "highTemperatureF": 60,
-    "windSpeedMph": 12,
+    "highTemperatureF": 59,
+    "windSpeedMph": 15,
     "windDirectionCardinal": "SSW",
     "windDirectionDegrees": 202
   },
   "criteria": {
     "temperature_f": {
-      "target": 60,
+      "target": 59,
       "tolerance": 5
     },
     "wind_speed_mph": {
-      "target": 12,
+      "target": 15,
       "tolerance": 5
     },
     "wind_direction_degrees": {
@@ -33,11 +33,11 @@
     }
   },
   "results": {
-    "matched_game_count": 3,
+    "matched_game_count": 4,
     "averages": {
-      "runs": 8.67,
-      "home_runs": 4.33,
-      "game_time_minutes": 163.0
+      "runs": 7.75,
+      "home_runs": 3.5,
+      "game_time_minutes": 161.75
     }
   },
   "matches": [
@@ -49,9 +49,21 @@
       "total_runs": 9,
       "total_home_runs": 3,
       "game_time_minutes": 147,
-      "temperature_delta": 1.0,
-      "wind_speed_delta": 3.1,
+      "temperature_delta": 2.0,
+      "wind_speed_delta": 0.1,
       "wind_direction_delta": 5.0
+    },
+    {
+      "date": "2023-04-10",
+      "historical_temperature_f": 54.3,
+      "historical_wind_speed_mph": 12.6,
+      "historical_wind_direction_degrees": 184,
+      "total_runs": 5,
+      "total_home_runs": 1,
+      "game_time_minutes": 158,
+      "temperature_delta": 4.7,
+      "wind_speed_delta": 2.4,
+      "wind_direction_delta": 18.0
     },
     {
       "date": "2021-05-31",
@@ -61,8 +73,8 @@
       "total_runs": 9,
       "total_home_runs": 6,
       "game_time_minutes": 173,
-      "temperature_delta": 1.9,
-      "wind_speed_delta": 2.3,
+      "temperature_delta": 2.9,
+      "wind_speed_delta": 0.7,
       "wind_direction_delta": 6.0
     },
     {
@@ -73,8 +85,8 @@
       "total_runs": 8,
       "total_home_runs": 4,
       "game_time_minutes": 169,
-      "temperature_delta": 3.1,
-      "wind_speed_delta": 3.1,
+      "temperature_delta": 4.1,
+      "wind_speed_delta": 0.1,
       "wind_direction_delta": 11.0
     }
   ]
