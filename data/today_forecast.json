@@ -12,11 +12,11 @@
     "providerUrl": "https://api.weather.gov"
   },
   "todayForecast": {
-    "generatedAt": "2026-11-19T00:54:00.302950+00:00",
+    "generatedAt": "2026-11-19T08:16:25.399643+00:00",
     "forecastDate": "2026-11-19T06:00:00-06:00",
     "periodName": "Thursday",
     "summary": "Mostly Sunny",
-    "highTemperatureF": 63,
+    "highTemperatureF": 64,
     "windSpeedMph": 12,
     "windDirectionCardinal": "SW",
     "windDirectionDegrees": 225
