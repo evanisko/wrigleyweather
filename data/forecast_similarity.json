@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-19T08:16:25.600331+00:00",
+  "generated_at": "2026-11-19T17:53:30.703509+00:00",
   "source": {
     "forecast_path": "data/today_forecast.json",
     "database_path": ".local.nosync/analytics.duckdb",
@@ -9,10 +9,10 @@
     ]
   },
   "forecast_input": {
-    "generatedAt": "2026-11-19T08:16:25.399643+00:00",
-    "forecastDate": "2026-11-19T06:00:00-06:00",
-    "periodName": "Thursday",
-    "summary": "Mostly Sunny",
+    "generatedAt": "2026-11-19T17:53:30.563106+00:00",
+    "forecastDate": "2026-11-19T11:00:00-06:00",
+    "periodName": "Today",
+    "summary": "Sunny",
     "highTemperatureF": 64,
     "windSpeedMph": 12,
     "windDirectionCardinal": "SW",
