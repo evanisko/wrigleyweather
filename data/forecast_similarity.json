@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-22T12:58:58.486646+00:00",
+  "generated_at": "2026-11-22T20:12:31.448004+00:00",
   "source": {
     "forecast_path": "data/today_forecast.json",
     "database_path": ".local.nosync/analytics.duckdb",
@@ -9,14 +9,14 @@
     ]
   },
   "forecast_input": {
-    "generatedAt": "2026-11-22T12:58:58.361653+00:00",
-    "forecastDate": "2026-11-22T06:00:00-06:00",
-    "periodName": "Today",
-    "summary": "Rain",
+    "generatedAt": "2026-11-22T20:12:31.341496+00:00",
+    "forecastDate": "2026-11-22T14:00:00-06:00",
+    "periodName": "This Afternoon",
+    "summary": "Mostly Cloudy",
     "highTemperatureF": 56,
-    "windSpeedMph": 18,
-    "windDirectionCardinal": "WSW",
-    "windDirectionDegrees": 248
+    "windSpeedMph": 20,
+    "windDirectionCardinal": "NW",
+    "windDirectionDegrees": 315
   },
   "criteria": {
     "temperature_f": {
@@ -24,94 +24,46 @@
       "tolerance": 5
     },
     "wind_speed_mph": {
-      "target": 18,
+      "target": 20,
       "tolerance": 5
     },
     "wind_direction_degrees": {
-      "target": 248,
+      "target": 315,
       "tolerance": 22
     }
   },
   "results": {
-    "matched_game_count": 6,
+    "matched_game_count": 2,
     "averages": {
-      "runs": 12.5,
-      "home_runs": 3.33,
-      "game_time_minutes": 180.33
+      "runs": 8.5,
+      "home_runs": 2.5,
+      "game_time_minutes": 148.0
     }
   },
   "matches": [
     {
-      "date": "2025-05-17",
+      "date": "2023-06-13",
       "historical_temperature_f": 60.4,
-      "historical_wind_speed_mph": 17.6,
-      "historical_wind_direction_degrees": 269,
-      "total_runs": 10,
-      "total_home_runs": 3,
-      "game_time_minutes": 171,
+      "historical_wind_speed_mph": 20.4,
+      "historical_wind_direction_degrees": 294,
+      "total_runs": 14,
+      "total_home_runs": 4,
+      "game_time_minutes": 161,
       "temperature_delta": 4.4,
       "wind_speed_delta": 0.4,
       "wind_direction_delta": 21.0
     },
     {
-      "date": "2024-04-23",
-      "historical_temperature_f": 55.6,
-      "historical_wind_speed_mph": 20.1,
-      "historical_wind_direction_degrees": 229,
-      "total_runs": 9,
-      "total_home_runs": 4,
-      "game_time_minutes": 157,
-      "temperature_delta": 0.4,
-      "wind_speed_delta": 2.1,
-      "wind_direction_delta": 19.0
-    },
-    {
-      "date": "2023-04-21",
-      "historical_temperature_f": 51.1,
-      "historical_wind_speed_mph": 18.0,
-      "historical_wind_direction_degrees": 248,
-      "total_runs": 13,
-      "total_home_runs": 4,
-      "game_time_minutes": 159,
-      "temperature_delta": 4.9,
-      "wind_speed_delta": 0.0,
-      "wind_direction_delta": 0.0
-    },
-    {
-      "date": "2023-04-11",
-      "historical_temperature_f": 60.8,
-      "historical_wind_speed_mph": 16.8,
-      "historical_wind_direction_degrees": 232,
-      "total_runs": 23,
-      "total_home_runs": 4,
-      "game_time_minutes": 182,
-      "temperature_delta": 4.8,
-      "wind_speed_delta": 1.2,
-      "wind_direction_delta": 16.0
-    },
-    {
-      "date": "2022-04-21",
-      "historical_temperature_f": 55.8,
-      "historical_wind_speed_mph": 20.5,
-      "historical_wind_direction_degrees": 248,
-      "total_runs": 7,
+      "date": "2022-09-27",
+      "historical_temperature_f": 52.9,
+      "historical_wind_speed_mph": 17.5,
+      "historical_wind_direction_degrees": 321,
+      "total_runs": 3,
       "total_home_runs": 1,
-      "game_time_minutes": 215,
-      "temperature_delta": 0.2,
+      "game_time_minutes": 135,
+      "temperature_delta": 3.1,
       "wind_speed_delta": 2.5,
-      "wind_direction_delta": 0.0
-    },
-    {
-      "date": "2021-09-25",
-      "historical_temperature_f": 59.7,
-      "historical_wind_speed_mph": 15.1,
-      "historical_wind_direction_degrees": 270,
-      "total_runs": 13,
-      "total_home_runs": 4,
-      "game_time_minutes": 198,
-      "temperature_delta": 3.7,
-      "wind_speed_delta": 2.9,
-      "wind_direction_delta": 22.0
+      "wind_direction_delta": 6.0
     }
   ]
 }
