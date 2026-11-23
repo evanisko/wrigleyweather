@@ -12,11 +12,11 @@
     "providerUrl": "https://api.weather.gov"
   },
   "todayForecast": {
-    "generatedAt": "2026-11-23T10:07:16.887828+00:00",
-    "forecastDate": "2026-11-23T06:00:00-06:00",
-    "periodName": "Monday",
-    "summary": "Mostly Sunny",
-    "highTemperatureF": 42,
+    "generatedAt": "2026-11-23T22:22:35.180840+00:00",
+    "forecastDate": "2026-11-23T16:00:00-06:00",
+    "periodName": "This Afternoon",
+    "summary": "Partly Sunny",
+    "highTemperatureF": 43,
     "windSpeedMph": 15,
     "windDirectionCardinal": "NW",
     "windDirectionDegrees": 315
