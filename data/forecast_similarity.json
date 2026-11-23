@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-23T01:18:42.138728+00:00",
+  "generated_at": "2026-11-23T10:07:17.029679+00:00",
   "source": {
     "forecast_path": "data/today_forecast.json",
     "database_path": ".local.nosync/analytics.duckdb",
@@ -9,18 +9,18 @@
     ]
   },
   "forecast_input": {
-    "generatedAt": "2026-11-23T01:18:41.978689+00:00",
+    "generatedAt": "2026-11-23T10:07:16.887828+00:00",
     "forecastDate": "2026-11-23T06:00:00-06:00",
     "periodName": "Monday",
     "summary": "Mostly Sunny",
-    "highTemperatureF": 43,
+    "highTemperatureF": 42,
     "windSpeedMph": 15,
     "windDirectionCardinal": "NW",
     "windDirectionDegrees": 315
   },
   "criteria": {
     "temperature_f": {
-      "target": 43,
+      "target": 42,
       "tolerance": 5
     },
     "wind_speed_mph": {
@@ -49,7 +49,7 @@
       "total_runs": 11,
       "total_home_runs": 2,
       "game_time_minutes": 189,
-      "temperature_delta": 3.8,
+      "temperature_delta": 2.8,
       "wind_speed_delta": 1.7,
       "wind_direction_delta": 19.0
     }
