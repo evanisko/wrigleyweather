@@ -12,13 +12,13 @@
     "providerUrl": "https://api.weather.gov"
   },
   "todayForecast": {
-    "generatedAt": "2026-11-24T06:39:40.128685+00:00",
-    "forecastDate": "2026-11-24T06:00:00-06:00",
-    "periodName": "Tuesday",
-    "summary": "Slight Chance Snow then Partly Sunny",
-    "highTemperatureF": 41,
+    "generatedAt": "2026-11-24T18:32:38.007169+00:00",
+    "forecastDate": "2026-11-24T12:00:00-06:00",
+    "periodName": "This Afternoon",
+    "summary": "Slight Chance Rain And Snow Showers",
+    "highTemperatureF": 40,
     "windSpeedMph": 8,
-    "windDirectionCardinal": "NE",
-    "windDirectionDegrees": 45
+    "windDirectionCardinal": "E",
+    "windDirectionDegrees": 90
   }
 }
