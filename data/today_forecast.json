@@ -12,13 +12,13 @@
     "providerUrl": "https://api.weather.gov"
   },
   "todayForecast": {
-    "generatedAt": "2026-11-24T18:32:38.007169+00:00",
-    "forecastDate": "2026-11-24T12:00:00-06:00",
-    "periodName": "This Afternoon",
-    "summary": "Slight Chance Rain And Snow Showers",
-    "highTemperatureF": 40,
-    "windSpeedMph": 8,
-    "windDirectionCardinal": "E",
-    "windDirectionDegrees": 90
+    "generatedAt": "2026-11-25T02:53:06.788509+00:00",
+    "forecastDate": "2026-11-25T06:00:00-06:00",
+    "periodName": "Wednesday",
+    "summary": "Mostly Cloudy",
+    "highTemperatureF": 46,
+    "windSpeedMph": 12,
+    "windDirectionCardinal": "ENE",
+    "windDirectionDegrees": 68
   }
 }
