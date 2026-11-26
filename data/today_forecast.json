@@ -12,13 +12,13 @@
     "providerUrl": "https://api.weather.gov"
   },
   "todayForecast": {
-    "generatedAt": "2026-11-25T21:15:54.467721+00:00",
-    "forecastDate": "2026-11-25T15:00:00-06:00",
-    "periodName": "This Afternoon",
-    "summary": "Cloudy",
-    "highTemperatureF": 42,
-    "windSpeedMph": 20,
-    "windDirectionCardinal": "ENE",
-    "windDirectionDegrees": 68
+    "generatedAt": "2026-11-26T03:52:44.013328+00:00",
+    "forecastDate": "2026-11-26T06:00:00-06:00",
+    "periodName": "Thanksgiving Day",
+    "summary": "Cloudy then Scattered Rain Showers",
+    "highTemperatureF": 46,
+    "windSpeedMph": 28,
+    "windDirectionCardinal": "NE",
+    "windDirectionDegrees": 45
   }
 }
