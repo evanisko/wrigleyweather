@@ -12,11 +12,11 @@
     "providerUrl": "https://api.weather.gov"
   },
   "todayForecast": {
-    "generatedAt": "2026-11-28T05:51:48.456448+00:00",
-    "forecastDate": "2026-11-28T06:00:00-06:00",
-    "periodName": "Saturday",
-    "summary": "Mostly Sunny",
-    "highTemperatureF": 51,
+    "generatedAt": "2026-11-28T14:53:41.716452+00:00",
+    "forecastDate": "2026-11-28T08:00:00-06:00",
+    "periodName": "Today",
+    "summary": "Slight Chance Rain Showers then Sunny",
+    "highTemperatureF": 52,
     "windSpeedMph": 12,
     "windDirectionCardinal": "SW",
     "windDirectionDegrees": 225
